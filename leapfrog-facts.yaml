@@ -7,6 +7,12 @@
 #
 # Updated: 2026-05-19 by command@claude-code — Option C merge (declarative format +
 # path-qualified slugs + strongest facts from project-editorial + project-knowledge)
+# Checked: 2026-09-06 by project-editorial (Track-B Phase 5 homepage sweep). Every
+# path-qualified slug re-verified against the working tree. One was stale:
+# `architecture/doorman-protocol` — the article now lives in the `ai` category
+# ("How AI Is Used and Contained"), so the path is `ai/doorman-protocol`. A redirect
+# covers the old URL, so the panel link was not broken, but the config named a path
+# that no longer exists. The other seven resolve unchanged.
 
 facts:
   - text: "ToteboxOS is built on seL4 — the only widely-deployed operating-system kernel with a complete machine-checked formal proof of functional correctness, auditable by any customer."
@@ -22,7 +28,7 @@ facts:
     link_slug: infrastructure/worm-ledger-design
 
   - text: "Every inference call passes through a single logged boundary, making the platform the only AI-adjacent system where every call can be replayed in full from the cryptographic audit ledger."
-    link_slug: architecture/doorman-protocol
+    link_slug: ai/doorman-protocol
 
   - text: "Every operational interaction on a PointSav deployment generates training signal that compounds across the platform without any tenant surrendering ownership of their data."
     link_slug: substrate/compounding-substrate

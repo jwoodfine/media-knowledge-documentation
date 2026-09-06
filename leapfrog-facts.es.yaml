@@ -10,6 +10,12 @@
 # Creado: 2026-05-20 por project-editorial@claude-code
 # Adaptación estratégica de leapfrog-facts.yaml para audiencias de
 # América Latina y España.
+# Revisado: 2026-09-06 por project-editorial (barrido de portada, fase 5 de Track-B).
+# Se verificaron todas las rutas contra el árbol de trabajo. Una estaba obsoleta:
+# `architecture/doorman-protocol` — el artículo ahora reside en la categoría `ai`
+# ("Cómo se usa y se contiene la IA"), por lo que la ruta es `ai/doorman-protocol`.
+# Una redirección cubría la URL antigua, así que el enlace del panel no estaba roto,
+# pero la configuración nombraba una ruta inexistente. Las otras siete no cambian.
 
 facts:
   - text: "ToteboxOS está construido sobre seL4, el único núcleo de sistema operativo desplegado ampliamente que cuenta con una demostración matemática completa y verificada en máquina de su corrección funcional — auditable por cualquier cliente."
@@ -25,7 +31,7 @@ facts:
     link_slug: infrastructure/worm-ledger-design
 
   - text: "Cada llamada de inferencia atraviesa un único límite registrado, haciendo de esta plataforma el único sistema relacionado con IA donde cada llamada puede reproducirse en su totalidad desde el registro de auditoría criptográfico."
-    link_slug: architecture/doorman-protocol
+    link_slug: ai/doorman-protocol
 
   - text: "Cada interacción operativa en un despliegue PointSav genera señal de entrenamiento que se acumula en toda la plataforma, sin que ningún inquilino ceda la propiedad de sus datos."
     link_slug: substrate/compounding-substrate

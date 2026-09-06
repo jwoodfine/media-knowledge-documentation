@@ -1,3 +1,12 @@
+# featured-topic.yaml — pin file for documentation.pointsav.com home page.
+# Engine reads on each request; absent → suppress featured panel.
+# Every entry must name a path that resolves to a LIVE article.
+#
+# Checked 2026-09-06 by project-editorial (Track-B Phase 5 homepage sweep): all 12
+# candidates and the live pin re-verified against the working tree. One candidate was
+# stale — `architecture/doorman-protocol`, now `ai/doorman-protocol` since the article
+# moved into the "How AI Is Used and Contained" category. Corrected below.
+
 slug: architecture/economic-model
 since: 2026-05-17
 note: "The platform has no Enterprise tier — not as a positioning choice, but because the regulated SMB segment that hyperscalers cannot reach economically is the entire point."
@@ -11,7 +20,7 @@ candidates:
   - substrate/knowledge-commons
   - substrate/capability-ledger-substrate
   - architecture/economic-model
-  - architecture/doorman-protocol
+  - ai/doorman-protocol
   - architecture/three-ring-architecture
   - architecture/leapfrog-2030-architecture
   - infrastructure/worm-ledger-design
