@@ -31,7 +31,7 @@ La metodología aborda el paso de selección de sitio: dado un requisito de desp
 
 **Características del tránsito de red.** La latencia hacia los usuarios primarios del cliente y hacia el punto de acceso del espacio de trabajo PointSav se mide en el momento de la selección de candidatos. Las instalaciones se puntúan por tiempo de ida y vuelta, diversidad de proveedores de tránsito, y disponibilidad de una ruta de emparejamiento BGP compatible con WireGuard.
 
-**Compatibilidad de infraestructura.** El perfil de energía y refrigeración de la instalación se compara con la clase de nodo que se va a colocar. Los nodos [[totebox-os|ToteboxOS]] requieren perfiles de energía modestos y siempre activos; los niveles de inferencia con GPU requieren mayor energía de pico y refrigeración activa.
+**Compatibilidad de infraestructura.** El perfil de energía y refrigeración de la instalación se compara con la clase de nodo que se va a colocar. Los nodos [[totebox-os|Totebox OS]] requieren perfiles de energía modestos y siempre activos; los niveles de inferencia con GPU requieren mayor energía de pico y refrigeración activa.
 
 **Estructura de costos.** Las tarifas mensuales de co-ubicación, los cargos de interconexión y los compromisos de ancho de banda se normalizan a un costo total de propiedad durante un horizonte de 36 meses.
 

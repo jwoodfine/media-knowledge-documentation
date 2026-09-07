@@ -36,7 +36,7 @@ Source License (FSL-1.1-ALv2), which converts to Apache-2.0 after its delay peri
 The `app-orchestration-*` family — the commercial inference-routing and federation
 core — is fully proprietary, never converting to either open license.
 
-<strong>Community</strong> is the free tier: one [[totebox-os|ToteboxOS]] archive and
+<strong>Community</strong> is the free tier: one [[totebox-os|Totebox OS]] archive and
 one [[os-console|ConsoleOS]] terminal, both AGPL, with local model inference as an
 optional component. Community is the adoption funnel — it generates contributors and
 surfaces edge cases — and [[pointsav-overview|PointSav]] earns no revenue from it.

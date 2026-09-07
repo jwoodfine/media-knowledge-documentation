@@ -102,7 +102,7 @@ OrchestrationOS – Command Centre,Centro de Comando de OrchestrationOS,"The cen
 OrchestrationOS – Data Engine,Motor de Datos de OrchestrationOS,"The data processing and storage component of OrchestrationOS, responsible for managing large datasets and providing data analytics capabilities.",os-orchestration Data Engine,code
 OrchestrationOS – GIS Engine,Motor GIS de OrchestrationOS,"A component of OrchestrationOS that provides Geospatial Information System (GIS) capabilities, including mapping, spatial analysis, and data visualization.",os-orchestration GIS Engine,code
 OrchestrationOS – IoT Connect,,,,
-OrchestrationOS,SO de Orquestación,"The stateless logic and compute layer. Holds no data. Connects ConsoleOS terminals to one or more ToteboxOS archives and provides extended compute capacity for BIM rendering, GIS spatial analysis, SLM inference, and data warehouse operations. Required for multi-archive use cases — the monetisation boundary between free and proprietary tiers.",os-orchestration,code
+OrchestrationOS,SO de Orquestación,"The stateless logic and compute layer. Holds no data. Connects ConsoleOS terminals to one or more Totebox OS archives and provides extended compute capacity for BIM rendering, GIS spatial analysis, SLM inference, and data warehouse operations. Required for multi-archive use cases — the monetisation boundary between free and proprietary tiers.",os-orchestration,code
 IoT Connect,,,,
 IoT Devices,Dispositivos de IoT,"Physical devices that connect to the internet to collect and share data. In the PointSav ecosystem, this includes sensors and other devices used to monitor and control building systems.",IoT Devices,prose
 IoT Device Providers,,,,
@@ -265,6 +265,6 @@ Mark Up Language,,,,
 Information Technology,Information Technology,Required for robust operations.,Information Technology,prose
 Property Management,Administración de Propiedades,Function of proprietary software.,Property Management,prose
 Book-Entry,Anotación en Cuenta,Electronic registration.,Book-Entry,prose
-PropertyArchive,PropertyArchive,"A ToteboxOS archive for a physical property. Anchored to a Land Title PIN or legal address. Contains permits, lifecycle records, BIM drawings, IoT data, lease register, and maintenance history. Replaces legacy term RealPropertyArchive.",Property Archive,prose
+PropertyArchive,PropertyArchive,"A Totebox OS archive for a physical property. Anchored to a Land Title PIN or legal address. Contains permits, lifecycle records, BIM drawings, IoT data, lease register, and maintenance history. Replaces legacy term RealPropertyArchive.",Property Archive,prose
 service-extraction,service-extraction,The deterministic parser service. Strips proprietary formatting from inbound payloads and routes structured data to deterministic services and unstructured text to service-slm. Assigns transaction IDs for chain-of-custody tracing. Canonical long-term name replacing the legacy working name service-parser.,service-extraction,code
 service-search,service-search,The inverted index service. Provides rapid full-text retrieval across all files in a Totebox Archive using Tantivy. Operates without a running database engine — the index is static and binary and can be searched on an air-gapped machine. Satisfies DARP compliance: data must be searchable without proprietary software.,service-search,code

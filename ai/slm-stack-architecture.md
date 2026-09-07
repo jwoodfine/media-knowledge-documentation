@@ -19,7 +19,7 @@ paired_with: slm-stack-architecture.es.md
 
 [[service-slm|`service-slm`]] ships as a Rust cargo workspace of five crates (`slm-core`, `slm-doorman`, `slm-doorman-server`, `adapter-hub`, `slm-mcp-server`) with two `[[bin]]` targets (`slm-doorman-server`, `slm-mcp-server`) — a flat architecture per binary, not a single statically-linked binary for the entire system.
 
-The choice of Rust is not a language preference. It is an engineering constraint imposed by the intended deployment target — [[totebox-os|ToteboxOS]] appliance hardware, where a CPython interpreter plus a large ML framework does not fit in the available memory envelope, and where cold-start predictability and the absence of a garbage collector are operational requirements rather than optional improvements.
+The choice of Rust is not a language preference. It is an engineering constraint imposed by the intended deployment target — [[totebox-os|Totebox OS]] appliance hardware, where a CPython interpreter plus a large ML framework does not fit in the available memory envelope, and where cold-start predictability and the absence of a garbage collector are operational requirements rather than optional improvements.
 
 ## The "We Own It" framework
 
@@ -51,16 +51,16 @@ None of these are part of the stack today: no PDF/DOCX ingestion libraries, no j
 
 `cargo-deny` runs in CI. The allowed-license list is `MIT`, `Apache-2.0`, `Apache-2.0 WITH LLVM-exception`, `BSD-2-Clause`, `BSD-3-Clause`, `CC0-1.0`, `ISC`, `MPL-2.0` (file-level), `Unicode-DFS-2016`, `Unicode-3.0`, and `Zlib`.
 
-## ToteboxOS integration
+## Totebox OS integration
 
-The binary architecture is motivated in part by ToteboxOS deployment constraints. A CPython stack plus a GPU inference framework does not fit in the memory envelope available on constrained appliance hardware. A Rust binary with a quantised inference runtime operating in CPU mode does.
+The binary architecture is motivated in part by Totebox OS deployment constraints. A CPython stack plus a GPU inference framework does not fit in the memory envelope available on constrained appliance hardware. A Rust binary with a quantised inference runtime operating in CPU mode does.
 
 **The binding constraint on Laptop-A hosts is a 4 GB RAM envelope.**
 
 - Static binary per `[[bin]]` target, no interpreter warmup — seconds, not minutes to first inference
 - No garbage collector, no interpreter heap
 - True parallelism across cores without a global interpreter lock
-- Cross-compilation via `cargo build --target aarch64-unknown-linux-gnu` for ARM ToteboxOS targets
+- Cross-compilation via `cargo build --target aarch64-unknown-linux-gnu` for ARM Totebox OS targets
 
 ## Two external non-Rust services
 

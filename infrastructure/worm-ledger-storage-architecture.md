@@ -46,7 +46,7 @@ The storage engine is engineered to satisfy strict regulatory requirements:
 
 ## 4. Portability and sovereignty
 
-The tile-based logs are portable, open-standard, and self-verifying across any hardware — from a virtual machine running as a Linux daemon today to an seL4-hardened ToteboxOS appliance in a future deployment. No proprietary hardware and no specific cloud vendor is required to verify or restore the ledger.
+The tile-based logs are portable, open-standard, and self-verifying across any hardware — from a virtual machine running as a Linux daemon today to an seL4-hardened Totebox OS appliance in a future deployment. No proprietary hardware and no specific cloud vendor is required to verify or restore the ledger.
 
 ## See also
 

@@ -77,7 +77,7 @@ An auditor inspecting one tenant's ledger therefore need not trust that the vend
 
 ## Dual anchoring and customer sovereignty
 
-A customer's ToteboxOS deployment runs its own ledger instances with its own signing keys. The customer is the subject of its own records and holds the signing key that attests them. The vendor workspace independently anchors the same tile checkpoints, giving redundant verifiability; the customer can remove the vendor from the anchoring arrangement at any time, and the integrity guarantee does not depend on vendor participation.
+A customer's Totebox OS deployment runs its own ledger instances with its own signing keys. The customer is the subject of its own records and holds the signing key that attests them. The vendor workspace independently anchors the same tile checkpoints, giving redundant verifiability; the customer can remove the vendor from the anchoring arrangement at any time, and the integrity guarantee does not depend on vendor participation.
 
 This property — customer key sovereignty with optional vendor redundancy — is not something a managed cloud service can offer. A managed cloud service is architecturally the custodian of both the data and the signing key.
 

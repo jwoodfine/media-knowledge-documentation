@@ -47,7 +47,7 @@ convierte en Apache-2.0 tras su período de espera. La familia `app-orchestratio
 — el núcleo comercial de enrutamiento de inferencia y federación — es totalmente
 propietaria y nunca se convierte a ninguna de las dos licencias abiertas.
 
-**Community** es el nivel gratuito: un archivo [[totebox-os|ToteboxOS]] y una
+**Community** es el nivel gratuito: un archivo [[totebox-os|Totebox OS]] y una
 terminal [[os-console|ConsoleOS]], ambos bajo AGPL, con inferencia local de modelos
 como componente opcional. Community es el embudo de adopción — genera contribuidores
 y expone casos límite — y [[pointsav-overview|PointSav]] no obtiene ingresos de él.

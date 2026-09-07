@@ -24,7 +24,7 @@ The co-location methodology is a planned structured approach for scoring and ran
 
 Co-location, in the PointSav deployment model, refers to placing customer-owned hardware in a third-party data centre facility rather than on a customer's own premises. The customer retains ownership of the hardware, the software stack, and the data; the facility provides power, cooling, physical security, and network transit.
 
-The methodology addresses the site-selection step: given a deployment requirement — a [[totebox-os|ToteboxOS]] node, a [[os-mediakit|MediaKit-class]] workload, or a GPU-capable inference tier — which facilities across which development regions best satisfy the combination of latency, jurisdiction, compliance posture, and cost constraints?
+The methodology addresses the site-selection step: given a deployment requirement — a [[totebox-os|Totebox OS]] node, a [[os-mediakit|MediaKit-class]] workload, or a GPU-capable inference tier — which facilities across which development regions best satisfy the combination of latency, jurisdiction, compliance posture, and cost constraints?
 
 ## Scoring dimensions
 
@@ -32,7 +32,7 @@ The methodology addresses the site-selection step: given a deployment requiremen
 
 **Network transit characteristics.** Latency to the customer's primary users and to the [[pointsav-overview|PointSav]] workspace endpoint is measured at candidate selection time. Facilities are scored on round-trip time, transit provider diversity, and the availability of a WireGuard-compatible BGP peering path to the customer's existing nodes.
 
-**Infrastructure compatibility.** The physical power and cooling envelope of the facility is matched against the node class being placed. [[totebox-os|ToteboxOS]] nodes require modest, always-on power profiles; GPU-capable inference tiers require higher burst power and active cooling. Facilities that cannot accommodate the target node class are excluded.
+**Infrastructure compatibility.** The physical power and cooling envelope of the facility is matched against the node class being placed. [[totebox-os|Totebox OS]] nodes require modest, always-on power profiles; GPU-capable inference tiers require higher burst power and active cooling. Facilities that cannot accommodate the target node class are excluded.
 
 **Cost structure.** Monthly colocation fees, cross-connect charges, and bandwidth commitments are normalized to a total cost of ownership over a 36-month horizon. The methodology does not optimize cost in isolation; it minimizes cost within the constraint set defined by the preceding dimensions.
 

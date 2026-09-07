@@ -30,7 +30,7 @@ A security officer can verify that AI has not touched the authoritative record w
 
 The platform enforces tenant isolation at three layers:
 
-**Kernel-level at Ring 1.** Each tenant's Ring 1 boundary services run as separate processes with separate storage roots. There is no code path from one tenant's Ring 1 data to another's. The [[totebox-os|ToteboxOS]] enforces this at the kernel level: capability-based security means no component can reach another's resources without holding a cryptographic capability token that was explicitly granted at provisioning time.
+**Kernel-level at Ring 1.** Each tenant's Ring 1 boundary services run as separate processes with separate storage roots. There is no code path from one tenant's Ring 1 data to another's. The [[totebox-os|Totebox OS]] enforces this at the kernel level: capability-based security means no component can reach another's resources without holding a cryptographic capability token that was explicitly granted at provisioning time.
 
 **Namespace isolation at Ring 2.** Ring 2 services are multi-tenant via `moduleId`. One process handles requests for all tenants, but each tenant's knowledge graph and search index are isolated behind their `moduleId` namespace at every read and write path. A query for tenant A cannot return records for tenant B.
 

@@ -193,7 +193,7 @@ Modelo virtual diseñado para reflejar con precisión un objeto físico. En el c
 - **Aviso legal**
 
 ### Red distribuida
-Una red distribuida distribuye el cómputo y el almacenamiento entre muchos nodos, cada uno capaz de operar de forma independiente; la flota de PointSav lo implementa a través de [[os-orchestration]] coordinando múltiples archivos ToteboxOS.
+Una red distribuida distribuye el cómputo y el almacenamiento entre muchos nodos, cada uno capaz de operar de forma independiente; la flota de PointSav lo implementa a través de [[os-orchestration]] coordinando múltiples archivos Totebox OS.
 
 ### Docker
 *Docker*
@@ -225,7 +225,7 @@ Un sistema de archivos organiza y almacena archivos en un medio de almacenamient
 - **Comunidad financiera**
 
 ### Datos de primera parte
-Los datos de primera parte son información recopilada directamente de los usuarios por la organización que la utilizará; en PointSav, entran a través de los endpoints de ingesta autenticados de service-content y se almacenan en el archivo ToteboxOS.
+Los datos de primera parte son información recopilada directamente de los usuarios por la organización que la utilizará; en PointSav, entran a través de los endpoints de ingesta autenticados de service-content y se almacenan en el archivo Totebox OS.
 
 - **Computación en la niebla (fog computing)**
 - **Bifurcación (fork)**
@@ -367,7 +367,7 @@ Software que soporta las funciones básicas de un ordenador, como la planificaci
 ### SO de orquestación
 *OrchestrationOS*
 
-Capa lógica y de cómputo sin estado. No almacena datos. Conecta terminales ConsoleOS con uno o más archivos ToteboxOS y proporciona capacidad de cómputo ampliada para renderización BIM, análisis espacial GIS, inferencia SLM y operaciones de almacén de datos. Necesario para casos de uso multi-archivo — el límite de monetización entre los niveles gratuito y de pago.
+Capa lógica y de cómputo sin estado. No almacena datos. Conecta terminales ConsoleOS con uno o más archivos Totebox OS y proporciona capacidad de cómputo ampliada para renderización BIM, análisis espacial GIS, inferencia SLM y operaciones de almacén de datos. Necesario para casos de uso multi-archivo — el límite de monetización entre los niveles gratuito y de pago.
 
 ### SO de orquestación — Servidor BIM
 *OrchestrationOS – BIM Server*
@@ -438,7 +438,7 @@ Una red privada restringe el acceso a usuarios y dispositivos autorizados; en Po
 ### PropertyArchive
 *PropertyArchive*
 
-Archivo ToteboxOS para un inmueble físico. Anclado a un PIN de título de propiedad o dirección legal. Contiene permisos, registros del ciclo de vida, planos BIM, datos IoT, registro de arrendamientos e historial de mantenimiento. Reemplaza el término heredado RealPropertyArchive.
+Archivo Totebox OS para un inmueble físico. Anclado a un PIN de título de propiedad o dirección legal. Contiene permisos, registros del ciclo de vida, planos BIM, datos IoT, registro de arrendamientos e historial de mantenimiento. Reemplaza el término heredado RealPropertyArchive.
 
 ### Administración de propiedades
 *Property Management*
@@ -584,7 +584,7 @@ Sistema operativo que se ejecuta dentro de un archivo Totebox, proporcionando un
 - **SO Totebox — FTP**
 
 ### SO Totebox — Datos IoT
-El manejo de datos IoT de ToteboxOS recibe flujos de telemetría de dispositivos físicos conectados y los escribe en el archivo protegido por WORM, disponibles para clasificación de gravedad de service-content y generación de informes de os-mediakit.
+El manejo de datos IoT de Totebox OS recibe flujos de telemetría de dispositivos físicos conectados y los escribe en el archivo protegido por WORM, disponibles para clasificación de gravedad de service-content y generación de informes de os-mediakit.
 
 - **SO Totebox — Biblioteca de dispositivos IoT**
 - **SO Totebox — Biblioteca de sensores IoT**

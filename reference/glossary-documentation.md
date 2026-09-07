@@ -138,7 +138,7 @@ The process of using digital technologies to create new — or modify existing �
 A virtual model designed to accurately reflect a physical object. In the context of PointSav, it refers to a digital replica of a building or other physical asset.
 
 ### Distributed Network
-A distributed network spreads computation and storage across many nodes, each capable of independent operation; PointSav's fleet implements this through [[os-orchestration|os-orchestration]] coordinating multiple ToteboxOS archives.
+A distributed network spreads computation and storage across many nodes, each capable of independent operation; PointSav's fleet implements this through [[os-orchestration|os-orchestration]] coordinating multiple Totebox OS archives.
 
 ### Docker
 *Docker*
@@ -157,7 +157,7 @@ A set of platform as a service (PaaS) products that use OS-level virtualization 
 A file system organizes and stores files on a storage medium; in PointSav, the file system is managed by os-totebox under WORM-ledger constraints, with os-mediakit providing the public-facing document store.
 
 ### First-party Data
-First-party data is information collected directly from users by the organization that will use it; in PointSav, it enters through service-content's authenticated ingestion endpoints and is stored in the ToteboxOS archive.
+First-party data is information collected directly from users by the organization that will use it; in PointSav, it enters through service-content's authenticated ingestion endpoints and is stored in the Totebox OS archive.
 
 
 ## G
@@ -249,7 +249,7 @@ The software that supports a computer's basic functions, such as scheduling task
 ### OrchestrationOS
 *SO de Orquestación*
 
-The stateless logic and compute layer. Holds no data. Connects ConsoleOS terminals to one or more ToteboxOS archives and provides extended compute capacity for BIM rendering, GIS spatial analysis, SLM inference, and data warehouse operations. Required for multi-archive use cases — the monetisation boundary between free and proprietary tiers.
+The stateless logic and compute layer. Holds no data. Connects ConsoleOS terminals to one or more Totebox OS archives and provides extended compute capacity for BIM rendering, GIS spatial analysis, SLM inference, and data warehouse operations. Required for multi-archive use cases — the monetisation boundary between free and proprietary tiers.
 
 ### OrchestrationOS – BIM Server
 *Servidor BIM de OrchestrationOS*
@@ -298,7 +298,7 @@ A private network restricts access to authorized users and devices; in PointSav,
 ### PropertyArchive
 *PropertyArchive*
 
-A ToteboxOS archive for a physical property. Anchored to a Land Title PIN or legal address. Contains permits, lifecycle records, BIM drawings, IoT data, lease register, and maintenance history. Replaces legacy term RealPropertyArchive.
+A Totebox OS archive for a physical property. Anchored to a Land Title PIN or legal address. Contains permits, lifecycle records, BIM drawings, IoT data, lease register, and maintenance history. Replaces legacy term RealPropertyArchive.
 
 ### Property Management
 *Administración de Propiedades*
@@ -391,7 +391,7 @@ A self-contained, portable, and encrypted repository for data and applications, 
 The operating system that runs within a Totebox Archive, providing a secure environment for applications and services. It is designed to be lightweight and portable.
 
 ### Totebox OS – IoT Data
-ToteboxOS IoT data handling receives telemetry streams from connected physical devices and writes them to the WORM-secured archive, available for service-content gravity classification and os-mediakit report generation.
+Totebox OS IoT data handling receives telemetry streams from connected physical devices and writes them to the WORM-secured archive, available for service-content gravity classification and os-mediakit report generation.
 
 ### Totebox Services
 *Servicios Totebox*

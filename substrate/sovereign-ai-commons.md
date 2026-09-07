@@ -60,7 +60,7 @@ The platform's design incorporates five properties that are, taken together, str
 
 PointSav operates as a steward, not a gatekeeper. The distinction is operational:
 
-What PointSav does: operates the protocol stack under a governance structure designed to be transferred to a constitutional convention; curates the base model through planned continued pretraining; operates the federation infrastructure for the LoRA marketplace and KV pool; sells ToteboxOS appliances, integration, and support; and maintains the reference deployment.
+What PointSav does: operates the protocol stack under a governance structure designed to be transferred to a constitutional convention; curates the base model through planned continued pretraining; operates the federation infrastructure for the LoRA marketplace and KV pool; sells Totebox OS appliances, integration, and support; and maintains the reference deployment.
 
 What PointSav does not do: lock customers into PointSav infrastructure; hold customer data under a managed-service arrangement; charge for AI compute as the primary revenue source; compete with large-scale cloud providers on volume cloud AI.
 

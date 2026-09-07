@@ -71,7 +71,7 @@ La **conservación cualificada bajo eIDAS** exige preservación a largo plazo in
 
 ## Anclaje dual y soberanía del cliente
 
-El despliegue ToteboxOS de un cliente opera sus propias instancias de libro de registros con sus propias claves de firma. El cliente es el sujeto de sus propios registros y posee la clave de firma que los atestigua. El espacio de trabajo del proveedor ancla independientemente los mismos puntos de control, dando verificabilidad redundante; el cliente puede excluir al proveedor del arreglo de anclaje en cualquier momento, y la garantía de integridad no depende de la participación del proveedor.
+El despliegue Totebox OS de un cliente opera sus propias instancias de libro de registros con sus propias claves de firma. El cliente es el sujeto de sus propios registros y posee la clave de firma que los atestigua. El espacio de trabajo del proveedor ancla independientemente los mismos puntos de control, dando verificabilidad redundante; el cliente puede excluir al proveedor del arreglo de anclaje en cualquier momento, y la garantía de integridad no depende de la participación del proveedor.
 
 Esta propiedad — soberanía de claves del cliente con redundancia opcional del proveedor — no está disponible en un servicio en la nube administrado, que es arquitectónicamente el custodio tanto de los datos como de la clave de firma.
 

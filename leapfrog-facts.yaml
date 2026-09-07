@@ -15,7 +15,7 @@
 # that no longer exists. The other seven resolve unchanged.
 
 facts:
-  - text: "ToteboxOS is built on seL4 — the only widely-deployed operating-system kernel with a complete machine-checked formal proof of functional correctness, auditable by any customer."
+  - text: "Totebox OS is built on seL4 — the only widely-deployed operating-system kernel with a complete machine-checked formal proof of functional correctness, auditable by any customer."
     link_slug: substrate/sel4-microkernel-substrate
 
   - text: "The inner two rings of the three-ring architecture carry full production load with no AI inference active — a regulated buyer can operate a fully air-gapped deployment with the complete data and extraction pipeline intact."

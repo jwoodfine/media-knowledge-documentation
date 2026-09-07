@@ -18,7 +18,7 @@
 # pero la configuración nombraba una ruta inexistente. Las otras siete no cambian.
 
 facts:
-  - text: "ToteboxOS está construido sobre seL4, el único núcleo de sistema operativo desplegado ampliamente que cuenta con una demostración matemática completa y verificada en máquina de su corrección funcional — auditable por cualquier cliente."
+  - text: "Totebox OS está construido sobre seL4, el único núcleo de sistema operativo desplegado ampliamente que cuenta con una demostración matemática completa y verificada en máquina de su corrección funcional — auditable por cualquier cliente."
     link_slug: substrate/sel4-microkernel-substrate
 
   - text: "Los dos anillos interiores de la arquitectura de tres anillos soportan carga de producción completa sin inferencia de inteligencia artificial activa: un comprador bajo regulación puede operar un despliegue totalmente aislado de red con el flujo completo de datos y extracción intacto."

@@ -31,7 +31,7 @@ Un responsable de seguridad puede verificar que la IA no ha tocado el registro a
 
 La plataforma aplica el aislamiento de inquilinos en tres capas:
 
-**Aislamiento a nivel de kernel en el Anillo 1.** Los servicios de límite del Anillo 1 de cada inquilino se ejecutan como procesos separados con raíces de almacenamiento separadas. No existe ninguna ruta de código de los datos del Anillo 1 de un inquilino a los de otro. [[totebox-os|ToteboxOS]] aplica esto a nivel de kernel: la seguridad basada en capacidades significa que ningún componente puede acceder a los recursos de otro sin tener un token de capacidad criptográfico concedido explícitamente en el aprovisionamiento.
+**Aislamiento a nivel de kernel en el Anillo 1.** Los servicios de límite del Anillo 1 de cada inquilino se ejecutan como procesos separados con raíces de almacenamiento separadas. No existe ninguna ruta de código de los datos del Anillo 1 de un inquilino a los de otro. [[totebox-os|Totebox OS]] aplica esto a nivel de kernel: la seguridad basada en capacidades significa que ningún componente puede acceder a los recursos de otro sin tener un token de capacidad criptográfico concedido explícitamente en el aprovisionamiento.
 
 **Aislamiento de espacio de nombres en el Anillo 2.** Los servicios del Anillo 2 son multiinquilino mediante `moduleId`. El grafo de conocimiento y el índice de búsqueda de cada inquilino están aislados detrás de su espacio de nombres `moduleId` en cada ruta de lectura y escritura. Una consulta para el inquilino A no puede devolver registros del inquilino B.
 

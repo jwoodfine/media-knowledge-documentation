@@ -21,7 +21,7 @@ paired_with: slm-stack-architecture.md
 
 ## Por qué importa la elección de Rust
 
-La elección no es una preferencia de lenguaje. Es una restricción de ingeniería impuesta por el destino de despliegue previsto: hardware [[totebox-os|ToteboxOS]], donde un intérprete CPython más un marco de ML de gran tamaño no caben en el presupuesto de memoria disponible. La ausencia de recolector de basura, el arranque predecible y el paralelismo real sobre múltiples núcleos sin bloqueo global de intérprete son requisitos operativos, no mejoras opcionales.
+La elección no es una preferencia de lenguaje. Es una restricción de ingeniería impuesta por el destino de despliegue previsto: hardware [[totebox-os|Totebox OS]], donde un intérprete CPython más un marco de ML de gran tamaño no caben en el presupuesto de memoria disponible. La ausencia de recolector de basura, el arranque predecible y el paralelismo real sobre múltiples núcleos sin bloqueo global de intérprete son requisitos operativos, no mejoras opcionales.
 
 ## El marco "We Own It"
 
@@ -43,16 +43,16 @@ El modelo base de producción es la familia **OLMo 3**, cuya totalidad — pesos
 
 **Higiene de licencias.** `cargo-deny` se ejecuta en CI. La lista de licencias permitidas es `MIT`, `Apache-2.0`, `Apache-2.0 WITH LLVM-exception`, `BSD-2-Clause`, `BSD-3-Clause`, `CC0-1.0`, `ISC`, `MPL-2.0` (a nivel de archivo), `Unicode-DFS-2016`, `Unicode-3.0`, y `Zlib`.
 
-## Integración con ToteboxOS
+## Integración con Totebox OS
 
-La arquitectura está motivada en parte por las restricciones de despliegue de ToteboxOS. Un stack CPython más un marco de inferencia GPU no cabe en el presupuesto de memoria disponible en hardware de appliance restringido. Un binario Rust con un runtime de inferencia cuantizado operando en modo CPU sí cabe.
+La arquitectura está motivada en parte por las restricciones de despliegue de Totebox OS. Un stack CPython más un marco de inferencia GPU no cabe en el presupuesto de memoria disponible en hardware de appliance restringido. Un binario Rust con un runtime de inferencia cuantizado operando en modo CPU sí cabe.
 
 **La restricción vinculante en los hosts Laptop-A es un presupuesto de 4 GB de RAM.**
 
 - Binario estático por cada objetivo `[[bin]]`, sin arranque de intérprete — segundos, no minutos, hasta la primera inferencia
 - Sin recolector de basura, sin heap de intérprete
 - Paralelismo real entre núcleos sin bloqueo global de intérprete
-- Compilación cruzada vía `cargo build --target aarch64-unknown-linux-gnu` para objetivos ARM de ToteboxOS
+- Compilación cruzada vía `cargo build --target aarch64-unknown-linux-gnu` para objetivos ARM de Totebox OS
 
 ## Dos servicios externos que no son Rust
 

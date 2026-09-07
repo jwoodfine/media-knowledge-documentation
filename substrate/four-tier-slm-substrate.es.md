@@ -36,7 +36,7 @@ Los servicios de los anillos 1 y 2 — todo el procesamiento determinista de con
 
 En el Nivel 1 el cliente ejecuta OLMo 3 7B Think localmente. El Doorman enruta la mayoría de las solicitudes al modelo local en la Capa A; las solicitudes más exigentes se dirigen a servicios externos de Capa C cuando están configurados, o al modelo de 32B alojado por el proveedor si el cliente ha suscrito el Nivel 2.
 
-El entrenamiento de [[adapter-composition|adaptadores LoRA]] por inquilino está disponible desde el Nivel 1. Un primer adaptador puede entrenarse con un corpus de aproximadamente 1,000 a 5,000 pares de preferencias de alta calidad extraídos del historial operativo propio del cliente. Ese adaptador permanece en la instancia [[totebox-archive|ToteboxOS]] del cliente y no sale de ella a menos que el cliente opte explícitamente por el [[sovereign-ai-commons|mercado federado]]. [^1]
+El entrenamiento de [[adapter-composition|adaptadores LoRA]] por inquilino está disponible desde el Nivel 1. Un primer adaptador puede entrenarse con un corpus de aproximadamente 1,000 a 5,000 pares de preferencias de alta calidad extraídos del historial operativo propio del cliente. Ese adaptador permanece en la instancia [[totebox-archive|Totebox OS]] del cliente y no sale de ella a menos que el cliente opte explícitamente por el [[sovereign-ai-commons|mercado federado]]. [^1]
 
 ## Nivel 2 — Modelo de 32B alojado por el proveedor (Yo-Yo)
 

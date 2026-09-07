@@ -68,7 +68,7 @@ El diseño de la plataforma incorpora cinco propiedades que, en conjunto, son es
 
 PointSav opera como administrador, no como guardián. La distinción es operativa:
 
-Lo que PointSav hace: opera la pila de protocolos bajo una estructura de gobernanza diseñada para ser transferida a una convención constitucional; cura el modelo base mediante preentrenamiento continuo planificado; opera la infraestructura de federación para el mercado de LoRA y el pool de KV; vende dispositivos ToteboxOS, integración y soporte; y mantiene el despliegue de referencia.
+Lo que PointSav hace: opera la pila de protocolos bajo una estructura de gobernanza diseñada para ser transferida a una convención constitucional; cura el modelo base mediante preentrenamiento continuo planificado; opera la infraestructura de federación para el mercado de LoRA y el pool de KV; vende dispositivos Totebox OS, integración y soporte; y mantiene el despliegue de referencia.
 
 Lo que PointSav no hace: encerrar a los clientes en la infraestructura de PointSav; custodiar datos de clientes bajo un acuerdo de servicio gestionado; cobrar el cómputo de IA como fuente principal de ingresos; competir con los grandes proveedores de nube en volumen de IA en la nube.
 

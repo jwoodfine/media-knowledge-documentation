@@ -31,7 +31,7 @@ The ladder is the operational form of the platform's designed-for-breakout princ
 
 At Tier 0 the [[compounding-doorman|Doorman]] operates as a pure API gateway. No language model runs locally. The Doorman holds the customer's keys for whichever Tier C external service they have configured, routes requests through a per-purpose allowlist, and logs every call to the [[worm-ledger-architecture|local audit ledger]].
 
-Tier 0 is available on any hardware that can run [[totebox-orchestration|ToteboxOS]]. It is appropriate for solo operators, community contributors, and customers evaluating the platform before committing to local hardware. The Ring 1 and Ring 2 services — all deterministic knowledge and processing — function fully without a language model at Ring 3. Intelligence is optional.
+Tier 0 is available on any hardware that can run [[totebox-orchestration|Totebox OS]]. It is appropriate for solo operators, community contributors, and customers evaluating the platform before committing to local hardware. The Ring 1 and Ring 2 services — all deterministic knowledge and processing — function fully without a language model at Ring 3. Intelligence is optional.
 
 ## Tier 1 — Local Edge Inference
 
@@ -39,7 +39,7 @@ At Tier 1 the customer runs OLMo 3 7B Think locally. A consumer GPU with 8 GB of
 
 Tier 1 is the baseline for SMB Customer deployments. It provides offline-capable narrow AI participation and selective access to larger inference capacity, without giving up data locality for routine operations.
 
-At Tier 1, the customer's per-tenant LoRA adapter training is available (see [[adapter-composition]]). A first adapter can be trained on a corpus of roughly 1,000 to 5,000 high-quality preference pairs from the customer's own operational history. That adapter lives on the customer's [[totebox-archive|ToteboxOS instance]] and does not leave it unless the customer explicitly opts into the [[sovereign-ai-commons|federated marketplace]]. [^1]
+At Tier 1, the customer's per-tenant LoRA adapter training is available (see [[adapter-composition]]). A first adapter can be trained on a corpus of roughly 1,000 to 5,000 high-quality preference pairs from the customer's own operational history. That adapter lives on the customer's [[totebox-archive|Totebox OS instance]] and does not leave it unless the customer explicitly opts into the [[sovereign-ai-commons|federated marketplace]]. [^1]
 
 ## Tier 2 — Vendor-Hosted Burst Compute
 
