@@ -251,16 +251,16 @@ console surface exists yet.
 
 `tool-accounting-core` — the shared money, period, and journal-line types, the CSV parser,
 and the chart, ledger, trial-balance, and consolidation logic — is built and has been
-verified against real historical annual data rather than synthetic fixtures, which
+verified against a real historical dataset rather than synthetic fixtures, which
 surfaced and fixed real data-entry defects in the process. `tool-typeset`, the
 zero-dependency PDF and HTML renderer this engine shares with the platform's sibling
 construction tool, is built and independently verified by extracting text back out of a
 rendered PDF and checking it against the source structure. Together they have already run
 one full fiscal year's complete pipeline — journals into a computed ledger, a trial
-balance folded from it, rendered statements, and rendered narrative. That run was entered
-and rendered end to end for a primary reporting entity and its general partner, and a
-second year is now in progress. Both crates carry passing unit-test suites, and the
-rendered statement packages were structured line for line against independently prepared
+balance folded from it, rendered statements, and rendered narrative — across a
+multi-entity structure, with a second year now in progress. Both crates carry passing
+unit-test suites, and the rendered statement packages were structured line for line
+against independently prepared
 professional drafts of the same record — an answer key, not data the reports merely
 reformat.
 

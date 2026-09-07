@@ -276,17 +276,16 @@ consola.
 
 `tool-accounting-core` reúne los tipos compartidos de dinero, período y línea de diario, el
 analizador de CSV, y la lógica del plan de cuentas, el libro mayor, el balance de
-comprobación y la consolidación. Está construido y ha sido verificado contra datos
-históricos anuales reales en lugar de datos de prueba sintéticos, lo cual sacó a la luz y
+comprobación y la consolidación. Está construido y ha sido verificado contra un conjunto de
+datos históricos reales en lugar de datos de prueba sintéticos, lo cual sacó a la luz y
 corrigió defectos reales de entrada de datos en el proceso. `tool-typeset`, el
 renderizador de PDF y HTML sin dependencias que este motor comparte con la herramienta
 hermana de construcción de la plataforma, está construido y verificado de forma
 independiente extrayendo texto de un PDF renderizado y comparándolo contra la estructura
 de origen. Juntos, ya han ejecutado el canal completo de un año fiscal entero — diarios
 hacia un libro mayor calculado, un balance de comprobación plegado a partir de él, estados
-financieros renderizados, y narrativa renderizada. Esa corrida se introdujo y renderizó de
-extremo a extremo para una entidad de reporte principal y su socio administrador, y un
-segundo año está actualmente en curso. Ambos crates cuentan con suites de pruebas
+financieros renderizados, y narrativa renderizada — a través de una estructura
+multi-entidad, con un segundo año ya en curso. Ambos crates cuentan con suites de pruebas
 unitarias que pasan, y los paquetes de estados renderizados se estructuraron línea por
 línea contra borradores profesionales preparados de forma independiente del mismo registro
 — una clave de respuestas, no datos que los informes simplemente reformatean.
