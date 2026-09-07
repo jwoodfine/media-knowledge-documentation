@@ -25,6 +25,18 @@ Infrastructure articles sit at the boundary between the abstract platform archit
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Twenty-two articles cover where the platform physically runs. These seven are its spine: the compute pool a business assembles from machines it already owns, the network that joins them, the edge the outside world reaches, and the storage layer everything writes through.
+
+- [[ppn-small-business-compute|Private Platform Network: pooled compute from hardware you already own]] — The plainest statement of the whole idea, and the right first read even for someone who will never touch a node.
+- [[ppn-architecture-overview|PPN architecture overview]] — The physical infrastructure plane: how a node enrols into a cryptographically authenticated mesh, and where the fleet's virtual machines live.
+- [[sovereign-mesh|Sovereign mesh]] — The WireGuard overlay carrying signed binary commands between fleet nodes, with no central message broker to fail or to trust.
+- [[edge-deployment|Edge deployment and boundary ingest]] — Why external connections terminate at Ring 1 services at the edge, and what is sanitised before anything reaches the core.
+- [[totebox-archive|Totebox archive]] — The sovereign data vault for a single entity: a freely transferable bootable image of WORM flat files, reached only through the Diode.
+- [[worm-ledger-architecture|WORM ledger substrate — four-layer architecture]] — The per-tenant immutable ledger every Ring 1 service writes through, hash-chained and anchored monthly to a public transparency log.
+- [[worm-ledger-design|WORM ledger design]] — The record format itself, and how it is designed to satisfy recordkeeping obligations by structure rather than by policy.
+
 ## Storage substrate
 
 The foundational persistence layer — the Write-Once-Read-Many ledger and the bookkeeping vault built on top of it.

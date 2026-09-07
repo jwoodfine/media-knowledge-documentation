@@ -26,6 +26,18 @@ Los artículos de infraestructura se sitúan en el límite entre la arquitectura
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Veintidós artículos cubren dónde se ejecuta físicamente la plataforma. Estos siete son su columna vertebral: el conjunto de cómputo que una empresa ensambla con máquinas que ya posee, la red que las une, el borde al que llega el exterior, y la capa de almacenamiento a través de la cual escribe todo.
+
+- [[ppn-small-business-compute|Red de Plataforma Privada: cómputo agrupado a partir del hardware que ya posee]] — La formulación más llana de toda la idea, y la primera lectura adecuada incluso para quien nunca tocará un nodo.
+- [[ppn-architecture-overview|Descripción general de la arquitectura PPN]] — El plano de infraestructura física: cómo un nodo se inscribe en una malla autenticada criptográficamente, y dónde residen las máquinas virtuales de la flota.
+- [[sovereign-mesh|Malla soberana]] — La superposición WireGuard que transporta órdenes binarias firmadas entre los nodos de la flota, sin intermediario central de mensajes que pueda fallar o en el que haya que confiar.
+- [[edge-deployment|Despliegue en el borde e ingesta en el perímetro]] — Por qué las conexiones externas terminan en servicios del Ring 1 en el borde, y qué se sanea antes de que algo alcance el núcleo.
+- [[totebox-archive|Archivo Totebox]] — La bóveda de datos soberana de una sola entidad: una imagen arrancable y libremente transferible de ficheros planos WORM, accesible únicamente a través del Diodo.
+- [[worm-ledger-architecture|Sustrato WORM — arquitectura de cuatro capas]] — El libro mayor inmutable por inquilino a través del cual escribe todo servicio del Ring 1, encadenado por hash y anclado mensualmente a un registro público de transparencia.
+- [[worm-ledger-design|Diseño del libro de registros WORM]] — El propio formato de registro, y cómo está diseñado para satisfacer las obligaciones de conservación por estructura y no por política.
+
 ## Sustrato de almacenamiento
 
 La capa de persistencia fundacional — el libro de Solo Escritura y Múltiple Lectura y el vault contable construido sobre él.

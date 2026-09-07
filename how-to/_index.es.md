@@ -28,6 +28,18 @@ Para los conceptos detrás de cada guía, comienza en [[architecture|Arquitectur
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Veintidós guías forman esta categoría. Estas siete son la secuencia que recorre realmente un operador nuevo — conjunto de herramientas, primera sesión, primer vistazo a la consola, primera llamada de inferencia — seguidas de las tres cosas que todo operador necesita a continuación.
+
+- [[install-toolchain|Cómo instalar el conjunto de herramientas de desarrollo]] — La cadena Rust fijada, una compilación y una ejecución de pruebas de referencia, y la clave de firma necesaria antes de tocar un archivo. Empiece aquí.
+- [[open-first-totebox-session|Abrir su primera sesión Totebox]] — Leer el manifiesto y el buzón, entender qué puede y qué no puede escribir una sesión, y completar el barrido de cierre antes de terminar.
+- [[explore-the-console|Explorar la consola por primera vez]] — Orientación sobre os-console: la barra de estado, el panel de inferencia F9 y el punto de control obligatorio F12 que escribe en el libro mayor.
+- [[run-first-slm-query|Ejecutar su primera consulta SLM]] — Enviar una solicitud de inferencia al Doorman por HTTP, que es la vía real, dado que la ranura F9 de la consola es un panel de monitorización sin interfaz de consulta.
+- [[verify-worm-ledger|Verificar una entrada del libro mayor WORM]] — Comprobar una entrada contra un checkpoint descargado con una cadena SHA-256 estándar; no existe ni hace falta herramienta propietaria alguna.
+- [[export-structured-data|Exportar datos estructurados de la plataforma]] — Las tres vías reales de exportación: registros del DataGraph vía MCP, el Markdown del wiki directamente desde git, y entradas paginadas del libro mayor por HTTP.
+- [[add-a-fleet-node|Añadir un nodo a una flota en funcionamiento]] — El segundo nodo usa el mismo mecanismo de inscripción que el primero, porque nada de la inscripción cambia una vez que existe una flota.
+
 ## Primeros pasos
 
 La base: instala el conjunto de herramientas y abre tu primera sesión.

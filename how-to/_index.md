@@ -28,6 +28,18 @@ For the concepts behind each guide, start in [[architecture]] or [[patterns-inde
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Twenty-two guides sit in this category. These seven are the ordered path a new operator actually walks — toolchain, first session, first look at the console, first inference call — followed by the three things every operator needs next.
+
+- [[install-toolchain|How to install the development toolchain]] — The pinned Rust toolchain, a baseline build and test run, and the signing key you need before touching an archive. Start here.
+- [[open-first-totebox-session|Open your first Totebox session]] — Reading the manifest and the inbox, understanding what a session may and may not write, and completing the shutdown sweep before closing.
+- [[explore-the-console|Explore the console for the first time]] — Orientation to os-console: the status bar, the F9 inference dashboard, and the mandatory F12 checkpoint that writes to the ledger.
+- [[run-first-slm-query|Run your first SLM query]] — Submitting an inference request to the Doorman over HTTP, which is the real path, since the console's F9 slot is a monitoring dashboard with no query interface.
+- [[verify-worm-ledger|Verify a WORM ledger entry]] — Checking an entry against a fetched checkpoint with a standard SHA-256 toolchain; no proprietary tooling exists or is required.
+- [[export-structured-data|Export structured data from the platform]] — The three real export paths: DataGraph records over MCP, wiki Markdown straight from git, and paginated ledger entries over HTTP.
+- [[add-a-fleet-node|Add a node to a running fleet]] — The second node uses the same enrolment mechanism as the first, because nothing about enrolment changes once a fleet exists.
+
 ## Getting started
 
 The foundation: install the toolchain and open your first session.

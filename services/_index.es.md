@@ -28,6 +28,19 @@ La plataforma funciona completamente a través de los Anillos 1 y 2 sin cómputo
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Aquí residen veintiocho artículos de servicio, uno por servicio. Estos ocho trazan el recorrido completo de un registro — entrada por el perímetro, procesamiento, paso por la puerta de IA y salida hacia un anclaje externo — y son los servicios que el resto de este wiki nombra con más frecuencia.
+
+- [[service-fs|service-fs — el núcleo del libro mayor WORM]] — El libro mayor inmutable por inquilino a través del cual escriben todos los demás servicios. Léalo primero; el resto lo da por supuesto.
+- [[service-email|Ingesta de correo]] — La ingesta perimetral en su forma más clara: el correo se extrae del buzón en la nube y se borra allí, de modo que la nube es un punto de tránsito y no una copia de registro.
+- [[service-people|service-people — el servicio de libro de identidades]] — El libro de identidades de solo anexado, respaldado por WORM, que hay detrás de la ranura F2 de la consola, con tres herramientas: anexar, consultar y escanear.
+- [[service-content|service-content — extracción de entidades y alojamiento del grafo de conocimiento]] — Donde las cargas útiles en bruto se convierten en entidades del grafo bajo un punto de revisión humana, junto a las taxonomías de referencia de la plataforma.
+- [[service-extraction|service-extraction — la canalización de ingesta del DataGraph]] — El vigilante que convierte las cargas JSON entrantes en registros del libro mayor y traslada ese mismo texto al grafo.
+- [[service-slm|Servicio de inferencia de IA]] — La puerta de inferencia: cada solicitud, local o remota, cruza el límite de auditoría del Doorman y uno de los tres niveles de cómputo antes de devolver una respuesta.
+- [[fs-anchor-emitter|Emisor de anclaje FS]] — El binario de un solo uso que publica un checkpoint firmado del libro mayor en un registro público de transparencia, haciendo verificable su estado desde fuera de la plataforma por completo.
+- [[service-vm-fleet|service-vm-fleet — el controlador de flota de VM de la PPN]] — Una visión global de la capacidad de los nodos en la malla, y las decisiones de ubicación detrás de cada arranque de máquina virtual.
+
 ## Anillo 1 — Ingesta en el límite
 
 Servicios de límite por inquilino. Cada uno se ejecuta como un proceso separado por inquilino y expone una interfaz de servidor de Protocolo de Contexto de Modelo.

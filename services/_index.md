@@ -27,6 +27,19 @@ The platform functions fully across Rings 1 and 2 without AI compute — a deplo
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Twenty-eight service articles sit here, one page per service. These eight trace a record's whole path — in at the boundary, through processing, past the AI gateway, and out to an external anchor — and are the services the rest of this wiki names most often.
+
+- [[service-fs|service-fs — the WORM ledger backbone]] — The per-tenant immutable ledger every other service writes through. Read this one first; the rest assume it.
+- [[service-email|Email ingest]] — Boundary ingest in its clearest form: mail is pulled out of the cloud mailbox and deleted there, so the cloud is a transit point rather than a copy of record.
+- [[service-people|service-people — the identity ledger service]] — The append-only, WORM-backed identity ledger behind the console's F2 slot, with three tools: append, lookup, and scan.
+- [[service-content|service-content — entity extraction and knowledge-graph host]] — Where raw payloads become graph entities under a human-review checkpoint, alongside the platform's reference taxonomies.
+- [[service-extraction|service-extraction — the DataGraph ingestion pipeline]] — The watcher that turns incoming JSON payloads into ledger records and bridges the same text into the graph.
+- [[service-slm|AI inference service]] — The inference gateway: every request, local or remote, crosses the Doorman's audit boundary and one of three compute tiers before a response returns.
+- [[fs-anchor-emitter|FS anchor emitter]] — The one-shot binary that publishes a signed ledger checkpoint to a public transparency log, making ledger state verifiable from outside the platform entirely.
+- [[service-vm-fleet|service-vm-fleet — the PPN VM fleet controller]] — A global view of node capacity across the mesh, and the placement decisions behind every virtual machine spawn.
+
 ## Ring 1 — Boundary ingest
 
 Per-tenant boundary services. Each runs as a separate process per tenant and exposes a Model Context Protocol server interface.
