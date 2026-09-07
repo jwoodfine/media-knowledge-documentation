@@ -4,6 +4,7 @@ title: "Cómo emitir un token de capacidad"
 slug: issue-capability-token
 short_description: "Emite desde service-content un token de emparejamiento firmado con Ed25519 sobre HTTP plano, lo registra en el par receptor y explica la cabecera X-Foundry-Capability, que es una credencial aparte."
 category: machine-authorization
+index_group: pairing-and-tokens
 content_type: how-to
 type: how-to
 quality: complete

@@ -4,6 +4,7 @@ title: "Cómo autenticar las descargas de binarios"
 slug: authenticate-binary-downloads
 short_description: "Autentica una versión de software.pointsav.com: confirmar el pedido en cadena, seguir el enlace de descarga que acuña un token Ed25519 y entender en qué punto ocurre realmente la verificación."
 category: machine-authorization
+index_group: software-distribution
 content_type: how-to
 type: how-to
 quality: complete

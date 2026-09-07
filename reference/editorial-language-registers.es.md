@@ -5,6 +5,7 @@ title: "Registros de lenguaje editorial"
 slug: editorial-language-registers
 short_description: "Tres registros de lenguaje que ajustan las wikis de PointSav a sus audiencias: prensa financiera, plataforma de desarrolladores y especificación regulatoria."
 category: reference
+index_group: editorial-and-publishing-standards
 status: stable
 bcsc_class: no-disclosure-implication
 last_edited: 2026-08-22

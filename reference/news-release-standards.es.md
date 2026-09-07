@@ -12,6 +12,7 @@ bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
 paired_with: news-release-standards.md
 category: reference
+index_group: editorial-and-publishing-standards
 ---
 
 

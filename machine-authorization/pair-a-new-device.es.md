@@ -4,6 +4,7 @@ title: "Cómo emparejar un dispositivo nuevo"
 slug: pair-a-new-device
 short_description: "Empareja un dispositivo os-console todavía sin emparejar con la malla PPN: leer el código de emparejamiento en la pantalla de arranque, conseguir que un administrador lo apruebe y confirmar la admisión en la red."
 category: machine-authorization
+index_group: pairing-and-tokens
 content_type: how-to
 type: how-to
 quality: complete

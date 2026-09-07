@@ -4,6 +4,7 @@ title: "Cómo rotar claves y tokens de capacidad"
 slug: rotate-keys
 short_description: "Sustituye una credencial de service-content dentro de los límites reales del sistema: los tokens caducan según un reloj fijo de 24 horas, el solapamiento es inevitable y ningún mecanismo acorta la vida de un token en vigor."
 category: machine-authorization
+index_group: pairing-and-tokens
 content_type: how-to
 type: how-to
 quality: complete

@@ -3,6 +3,7 @@ schema: foundry-doc-v1
 title: "Cómo está organizada esta base de conocimiento"
 slug: wiki-structure
 category: reference
+index_group: platform-orientation
 type: topic
 content_type: topic
 quality: complete

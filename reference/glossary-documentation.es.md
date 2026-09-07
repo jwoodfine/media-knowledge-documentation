@@ -4,6 +4,7 @@ title: "Enciclopedia PointSav — glosario y léxico"
 slug: glossary-documentation
 short_description: "Léxico A-Z canónico que conecta la terminología estándar del sector con los conceptos de la plataforma PointSav, proporcionando definiciones autorizadas en los dominios técnico, operacional y financiero."
 category: reference
+index_group: platform-orientation
 type: reference
 content_type: topic
 quality: complete

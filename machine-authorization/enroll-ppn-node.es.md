@@ -4,6 +4,7 @@ title: "Cómo inscribir un nodo PPN"
 slug: enroll-ppn-node
 short_description: "Inscribe una máquina en una flota de cómputo PPN estableciendo las tres variables de entorno obligatorias de service-vm-host, ejecutándolo bajo systemd y confirmando el nodo en el listado del controlador."
 category: machine-authorization
+index_group: fleet-enrollment
 content_type: how-to
 type: how-to
 quality: complete
