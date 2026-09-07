@@ -27,6 +27,14 @@ This is the front door for the platform's most distinctive architectural claim �
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Ten articles sit under this category. These three carry the argument end to end: what the boundary is, what the platform actually asks a model to do behind it, and where the compute ladder is headed. Everything else here is detail on one of the three.
+
+- [[doorman-protocol|Doorman protocol]] — The boundary itself: one gateway, every external credential, every call logged to an immutable ledger. Read this before anything else in the category.
+- [[tiered-entity-extraction-architecture|Tiered entity extraction architecture]] — What inference is actually used for — three extraction tiers per document — and where the deterministic path ends and a model begins.
+- [[pointsav-llm|PointSav-LLM]] — The planned top of the ladder: a vendor-tier specialist model, and the clearest statement of where the AI programme is going rather than where it is today.
+
 ## The Doorman boundary
 
 The single gateway every inference call routes through — no service holds its own AI credentials or makes a direct outbound call.

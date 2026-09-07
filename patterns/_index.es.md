@@ -27,6 +27,16 @@ Los patrones de esta colección se sitúan sobre el [[compounding-substrate|sust
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Aquí se documentan quince patrones con nombre, cada uno una sola vez y referenciado desde todas partes. Estos cinco son los que más se repiten en el resto de la base de conocimiento: al leerlos, la abreviatura de la mayoría de los demás artículos queda resuelta.
+
+- [[source-of-truth-inversion|Inversión de la fuente de verdad]] — Una capa canónica y firmada, otra derivada y reconstruible bajo demanda, otra efímera de sesión. La disciplina de almacenamiento que hay detrás tanto del libro mayor como del grafo de conocimiento.
+- [[pairing-as-permission|Emparejamiento como permiso]] — Un emparejamiento criptográfico es el permiso, y su ausencia significa que no existe vía alguna para solicitarlo. El principio de capacidades-objeto sobre el que se construye el modelo de admisión de nodos.
+- [[deployment-patterns|Patrones de despliegue]] — Las seis configuraciones canónicas en las que se despliega el sustrato, todas construidas a partir de las mismas cinco primitivas.
+- [[customer-first-ordering|Ordenamiento cliente-primero]] — Construir en el mismo orden en que instala el cliente, sobre el mismo sustrato. La regla que explica por qué el espacio de trabajo del propio proveedor ejecuta el producto que vende.
+- [[knowledge-wiki-leapfrog-architecture|Arquitectura Leapfrog del wiki de conocimiento]] — Cromo con forma de Wikipedia sobre Markdown plano en git, con un relato honesto de los dos elementos que todavía le faltan.
+
 ## Patrones de soberanía e infraestructura
 
 Los compromisos estructurales que definen qué es y qué no es un despliegue de PointSav.

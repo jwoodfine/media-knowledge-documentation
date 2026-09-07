@@ -27,6 +27,16 @@ General computing concepts — the field's own vocabulary, defined from first pr
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Thirteen pages sit here, and most readers want exactly one of them. These five are the ones reached for most often: the lexicon, two orientation maps, the guide index, and the register standard this wiki holds its own writing to.
+
+- [[glossary-documentation|Glossary and lexicon]] — The A-to-Z definition of every platform-specific term, and the page most other articles link to on first use.
+- [[wiki-structure|How this knowledge base is organized]] — The sixteen areas and what belongs in each; the map to read before browsing categories.
+- [[getting-started|Getting started with the PointSav platform]] — Orientation for a reader who has not picked a starting point yet: the main surfaces and how they fit together.
+- [[guide-catalog|Developer guide index]] — Every how-to guide grouped by task, for a reader who already knows what they need to do.
+- [[editorial-language-registers|Editorial language registers]] — The three registers the PointSav wikis are written in, and which reader each one serves.
+
 ## Platform orientation
 
 <!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: platform-orientation -->

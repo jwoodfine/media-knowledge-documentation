@@ -27,6 +27,14 @@ Esta es la puerta de entrada a la afirmación arquitectónica más distintiva de
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Diez artículos integran esta categoría. Estos tres sostienen el argumento de principio a fin: qué es el límite, qué se le pide realmente a un modelo detrás de él, y hacia dónde apunta la escalera de cómputo. Todo lo demás desarrolla uno de esos tres.
+
+- [[doorman-protocol|Protocolo Doorman]] — El límite en sí: una única puerta, todas las credenciales externas, cada llamada registrada en un libro mayor inmutable. Léalo antes que cualquier otro artículo de la categoría.
+- [[tiered-entity-extraction-architecture|Arquitectura de extracción de entidades por niveles]] — Para qué se usa realmente la inferencia — tres niveles de extracción por documento — y dónde termina la ruta determinista y empieza un modelo.
+- [[pointsav-llm|PointSav-LLM]] — El extremo superior planificado de la escalera: un modelo especialista de nivel proveedor, y la declaración más clara de hacia dónde va el programa de IA, más que de dónde está hoy.
+
 ## El límite del Doorman
 
 La única puerta por la que se enruta cada llamada de inferencia — ningún servicio posee sus propias credenciales de IA ni realiza una llamada saliente directa.

@@ -33,6 +33,16 @@ model the whole category is named for: components hold verified cryptographic to
 ambient privilege. One software layer implements it today; kernel-level enforcement is planned.
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Fourteen articles cover how the platform is protected and how its records are verified. These five are the load-bearing ones: the posture map, the identity model everything else assumes, the primitive underneath it, the one-way flow rule, and the path code takes to reach a customer.
+
+- [[security-overview|Security overview]] — The whole posture in one page: hardware isolation, the Diode command-flow rule, the AI boundary, and the WORM audit ledger.
+- [[machine-based-auth|Machine-based authorization]] — Access is granted to a device's key, not a person's password. The most-referenced article in this knowledge base.
+- [[capability-based-security|Capability-based security]] — The primitive under that model: an unforgeable, scoped token in place of ambient privilege, with an honest account of what one software layer enforces today versus what the kernel is planned to enforce.
+- [[diode-standard|Diode standard]] — Command and data flow one way only, from authority to subject — and a clear statement that several mechanisms follow it while no component yet enforces it as a named standard.
+- [[five-stage-supply-chain|Five-stage supply chain]] — How a contributor's commit reaches a customer deployment across three repository tiers, and what review does and does not exist along the way.
+
 ## Posture overview {#group-count-1}
 
 One article that crosses all five areas below, written for a reader evaluating the platform

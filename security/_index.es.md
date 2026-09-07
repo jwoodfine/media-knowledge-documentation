@@ -36,6 +36,16 @@ verificados en lugar de privilegio ambiental. Hoy existe una sola capa de softwa
 implementa; la aplicación a nivel de núcleo está planificada.
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Catorce artículos cubren cómo se protege la plataforma y cómo se verifican sus registros. Estos cinco sostienen el conjunto: el mapa de la postura, el modelo de identidad que todo lo demás asume, la primitiva que lo sustenta, la regla de flujo unidireccional, y el camino que recorre el código hasta llegar al cliente.
+
+- [[security-overview|Resumen de seguridad]] — Toda la postura en una página: aislamiento por hardware, la regla del Diodo sobre el flujo de mando, el límite de IA y el libro mayor de auditoría WORM.
+- [[machine-based-auth|Autorización basada en máquina]] — El acceso se concede a la clave de un dispositivo, no a la contraseña de una persona. El artículo más referenciado de esta base de conocimiento.
+- [[capability-based-security|Seguridad basada en capacidades]] — La primitiva que sustenta ese modelo: un token acotado e infalsificable en lugar del privilegio ambiental, con un relato honesto de qué impone hoy una capa de software frente a lo que está previsto que imponga el núcleo.
+- [[diode-standard|Estándar del diodo]] — El mando y los datos fluyen en una sola dirección, de la autoridad al sujeto — y una declaración clara de que varios mecanismos lo siguen mientras ningún componente lo impone todavía como estándar con nombre.
+- [[five-stage-supply-chain|Cadena de suministro de cinco etapas]] — Cómo el commit de un contribuyente llega a un despliegue de cliente a través de tres niveles de repositorio, y qué revisión existe — y cuál no — en ese camino.
+
 ## Panorama de la postura {#group-count-1}
 
 Un artículo que atraviesa las cinco áreas siguientes, escrito para quien evalúa la plataforma

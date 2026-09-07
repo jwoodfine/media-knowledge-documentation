@@ -32,6 +32,14 @@ precisely should go to the [[glossary-documentation|glossary]] instead.
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Ten articles define field vocabulary the rest of this knowledge base assumes. These three carry the most weight elsewhere: the appliance shape, the topology term, and the practice the platform's security articles are written against.
+
+- [[computer-appliance|Computer appliance]] — Hardware and software engineered as one sealed, single-purpose unit — the shape every PointSav appliance image descends from.
+- [[edge-computing|Edge computing]] — Why computation moves out to where data is produced. The boundary-ingest and fleet articles use the term without redefining it.
+- [[security-through-obscurity|Security through obscurity]] — Rejected in professional practice since Kerckhoffs in 1883, and worth reading first because the platform's security posture is argued in opposition to it.
+
 ## Appliances and minimal systems {#group-count-4}
 
 Purpose-built computing units and the stripped-down operating systems they run on.

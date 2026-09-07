@@ -27,6 +27,16 @@ Los conceptos generales de computación — el vocabulario propio del campo, def
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Trece páginas viven aquí, y la mayoría de los lectores busca exactamente una de ellas. Estas cinco son las más consultadas: el léxico, dos mapas de orientación, el índice de guías, y el estándar de registro al que este wiki somete su propia redacción.
+
+- [[glossary-documentation|Glosario y léxico]] — La definición de la A a la Z de cada término propio de la plataforma, y la página que la mayoría de los artículos enlaza en su primera mención.
+- [[wiki-structure|Cómo está organizada esta base de conocimiento]] — Las dieciséis áreas y qué corresponde a cada una; el mapa que conviene leer antes de recorrer las categorías.
+- [[getting-started|Comenzando con la plataforma PointSav]] — Orientación para quien aún no ha elegido por dónde empezar: las superficies principales y cómo encajan entre sí.
+- [[guide-catalog|Índice de guías para desarrolladores]] — Todas las guías prácticas agrupadas por tarea, para quien ya sabe qué necesita hacer.
+- [[editorial-language-registers|Registros de lenguaje editorial]] — Los tres registros en los que se escriben los wikis de PointSav, y a qué lector sirve cada uno.
+
 ## Orientación en la plataforma
 
 <!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: platform-orientation -->

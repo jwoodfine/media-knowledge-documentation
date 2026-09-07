@@ -32,6 +32,14 @@ término de la plataforma debe acudir al [[glossary-documentation|glosario]].
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Diez artículos definen el vocabulario del campo que el resto de esta base de conocimiento da por supuesto. Estos tres son los que más peso tienen en los demás artículos: la forma del appliance, el término topológico, y la práctica contra la que se escriben los artículos de seguridad de la plataforma.
+
+- [[computer-appliance|Appliance informático]] — Hardware y software diseñados como una unidad sellada de propósito único — la forma de la que desciende cada imagen de appliance de PointSav.
+- [[edge-computing|Computación en el borde]] — Por qué el cómputo se desplaza hasta donde se producen los datos. Los artículos de ingesta perimetral y de flota emplean el término sin volver a definirlo.
+- [[security-through-obscurity|Seguridad por oscuridad]] — Rechazada en la práctica profesional desde Kerckhoffs en 1883, y conviene leerla primero porque la postura de seguridad de la plataforma se argumenta en oposición a ella.
+
 ## Appliances y sistemas mínimos {#group-count-4}
 
 Unidades informáticas de propósito único y los sistemas operativos reducidos sobre los que corren.

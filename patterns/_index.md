@@ -27,6 +27,16 @@ Patterns in this collection sit on top of the [[compounding-substrate]] and the 
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Fifteen named patterns are written up here, each once and referenced everywhere else. These five recur most across the rest of the knowledge base; read them and most other articles' shorthand resolves.
+
+- [[source-of-truth-inversion|Source-of-truth inversion]] — One layer canonical and signed, one derived and rebuildable on demand, one session-ephemeral. The storage discipline behind the ledger and the knowledge graph alike.
+- [[pairing-as-permission|Pairing as permission]] — A cryptographic pairing is the permission, and its absence means no pathway exists to ask for one. The object-capability principle the node-admission model is built on.
+- [[deployment-patterns|Deployment patterns]] — The six canonical configurations the substrate is deployed in, all built from the same five primitives.
+- [[customer-first-ordering|Customer-first ordering]] — Build in the order the customer installs, on the same substrate. The rule that explains why the vendor's own workspace runs the product it sells.
+- [[knowledge-wiki-leapfrog-architecture|Knowledge wiki leapfrog architecture]] — Wikipedia-shaped chrome over flat Markdown in git, with an honest account of the two elements still missing from it.
+
 ## Sovereignty and infrastructure patterns
 
 The structural commitments that define what a PointSav deployment is and is not.
