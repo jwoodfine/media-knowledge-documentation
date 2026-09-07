@@ -23,7 +23,7 @@ Nominative use for the purpose of factually referring to PointSav or Woodfine so
 
 ## Copyright
 
-Copyright © 2026 Woodfine Capital Projects Inc. All rights reserved.
+Copyright © 2026 Woodfine Capital Projects Inc. Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); all rights not expressly granted by the license are reserved.
 
 Software source code in this repository is subject to the license terms specified in the `LICENSE` file at the repository root. Documentation files are subject to their own license terms as specified per file or per directory.
 

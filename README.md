@@ -118,7 +118,7 @@ This wiki is maintained by PointSav Digital Systems contributors. All additions 
 
 ---
 
-*© 2026 PointSav Digital Systems™. All rights reserved.*
+*© 2026 Woodfine Capital Projects Inc. Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); all rights not expressly granted by the license are reserved.*
 
 *→ Versión en español: [README.es.md](./README.es.md)*
 

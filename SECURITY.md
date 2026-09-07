@@ -11,7 +11,7 @@ editor: pointsav-engineering
 ---
 
 Version 1.0 — Effective 2026-04-20
-Copyright (c) 2026 Woodfine Capital Projects Inc. All rights reserved.
+Copyright (c) 2026 Woodfine Capital Projects Inc. Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0); all rights not expressly granted by the license are reserved.
 
 ## Preamble
 

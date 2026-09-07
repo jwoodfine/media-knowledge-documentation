@@ -67,6 +67,6 @@ Los ADR son compromisos formales con decisiones de diseño específicas. No son 
 
 ---
 
-*© 2026 PointSav Digital Systems™. Todos los derechos reservados.*
+*© 2026 Woodfine Capital Projects Inc. Licenciado bajo [Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); quedan reservados todos los derechos no otorgados expresamente por la licencia.*
 
 *→ English version: [README.md](./README.md)*
