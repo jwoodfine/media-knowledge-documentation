@@ -78,6 +78,7 @@ Los principios y mecanismos por los cuales los clientes son dueños plenos de su
 - [[mailbox-atomicity]] — Escritura exclusiva con flock e idempotencia por msg-id en buzones de archivo plano — cómo las sesiones concurrentes serializan escrituras sin perder mensajes en silencio.
 - [[multi-engine-session-coordination]] — Protocolo de bloqueos de sesión para motores de IA concurrentes en un mismo host — detección de bloqueos obsoletos por boot_id y protección del índice git compartido.
 - [[os-products-distribution-model]] — os-network-admin se distribuye hoy en software.pointsav.com a $0 USDC (beta); el modelo de distribución de os-infrastructure (metal desnudo/VM en la nube) está previsto pero aún no catalogado. Ambos se entregan como artefactos firmados, licenciados y entregados en cadena.
+- [[crypto-license-sales-architecture]] — La arquitectura de pagos y licencias de software.pointsav.com: un flujo sin custodia que va desde una transferencia USDC en cadena hasta un token de descarga firmado con Ed25519, sin cuentas de cliente ni intermediarios de pago.
 <!-- END AUTO-GENERATED -->
 
 ## Inteligencia de ubicación y dominio

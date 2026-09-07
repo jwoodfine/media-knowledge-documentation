@@ -85,6 +85,7 @@ Cómo se agrupan, aíslan y protegen las máquinas virtuales en los nodos PPN �
 - [[ppn-three-path-architecture|Arquitectura seL4 de tres caminos de la PPN]] — Tres opciones de arquitectura seL4 secuenciales para nodos de infraestructura PPN: la Opción B se implementa primero (hipervisor seL4 + invitado Linux), la Opción C añade WireGuard como dominio de protección seL4, y la Opción A apunta a un entorno seL4 puro sin máquinas virtuales.
 - [[ppn-architecture-overview]] — Plano de infraestructura física del stack PointSav, que incorpora nodos a una malla autenticada criptográficamente y aloja las máquinas virtuales de la flota.
 - [[spot-vm-lifecycle-kill-switch]] — Ciclo de vida de controlador único para la VM spot Yo-Yo — un solo temporizador posee arranque y parada, con interruptor centinela de archivo para control inmediato.
+- [[ppn-small-business-compute]] — Una Red de Plataforma Privada ensambla máquinas que una empresa ya posee en un único conjunto de cómputo cifrado. El aislamiento de red mediante WireGuard está operativo hoy; el aislamiento de anfitrión mediante seL4 está planificado.
 <!-- END AUTO-GENERATED -->
 
 ## Véase también

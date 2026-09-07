@@ -5,6 +5,7 @@ slug: crypto-license-sales-architecture
 aliases:
   - topic-crypto-license-sales-architecture
 category: architecture
+index_group: customer-ownership-and-deployment
 type: topic
 content_type: topic
 quality: complete

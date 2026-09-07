@@ -5,6 +5,7 @@ slug: ppn-small-business-compute
 aliases:
   - topic-ppn-small-business-compute
 category: infrastructure
+index_group: compute-and-vm-fabric
 type: topic
 content_type: topic
 quality: complete

@@ -75,6 +75,7 @@ The principles and mechanisms by which customers own their deployment outright.
 - [[foundry-services-slice-model]] — A systemd cgroup memory reservation that protects production services from being evicted by heavy build or research processes on the same host — single-node isolation without Kubernetes.
 - [[cargo-target-per-user-discipline]] — Per-user partitioning of the shared Cargo build cache — why a per-developer CARGO_TARGET_DIR eliminates cross-user lock races and permission errors.
 - [[mailbox-atomicity]] — flock-guarded prepend and msg-id idempotency for flat-file mailboxes — how concurrent sessions serialize writes instead of silently losing messages.
+- [[crypto-license-sales-architecture]] — The payment and license architecture behind software.pointsav.com — custodian-free, from on-chain USDC transfer to Ed25519-signed download token, no accounts.
 - [[multi-engine-session-coordination]] — Session-lock protocol for concurrent AI engines on one host — boot_id staleness detection and role locks that keep two sessions off the same .git/index.
 - [[os-products-distribution-model]] — os-network-admin distributes today at software.pointsav.com at $0 USDC (beta); os-infrastructure's bare-metal/cloud-VM distribution model is planned but not yet catalogued. Both ship as signed artifacts, licensed and delivered on-chain.
 <!-- END AUTO-GENERATED -->

@@ -84,6 +84,7 @@ How virtual machines are pooled, isolated, and secured across PPN nodes — from
 - [[ppn-three-path-architecture|PPN three-path seL4 architecture]] — Three sequential seL4 options for PPN infrastructure nodes: Option B ships first (hypervisor + Linux guest), Option C adds WireGuard as a protection domain.
 - [[ppn-architecture-overview]] — Physical infrastructure plane of the PointSav stack, enrolling nodes into a cryptographically authenticated mesh and hosting the fleet's virtual machines.
 - [[spot-vm-lifecycle-kill-switch]] — Single-controller lifecycle for the Yo-Yo spot VM — why one timer owns both start and stop, plus the sentinel-file kill switch for immediate operator override.
+- [[ppn-small-business-compute]] — A Private Platform Network assembles machines a business already owns into an encrypted compute pool. WireGuard isolation runs today; seL4 host isolation is planned.
 <!-- END AUTO-GENERATED -->
 
 ## See also
