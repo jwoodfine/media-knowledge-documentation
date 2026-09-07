@@ -8,6 +8,7 @@ content_type: page
 status: active
 last_edited: 2026-08-26
 editor: pointsav-engineering
+paired_with: pointsav-media-kit.es.md
 ---
 
 This media kit collects the material a journalist, analyst, or partner needs to write about PointSav accurately: how the company describes itself, which marks are trademarked and on what terms they may be used, where to direct press inquiries, and the licence that covers this wiki's content.

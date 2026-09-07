@@ -40,7 +40,7 @@ Trece páginas viven aquí, y la mayoría de los lectores busca exactamente una 
 ## Orientación en la plataforma
 
 <!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: platform-orientation -->
-- [[getting-started|Primeros pasos con la plataforma PointSav]] — Orientación a la plataforma de desarrollo PointSav: qué es, para quién es y por dónde empezar.
+- [[getting-started|Primeros pasos con la plataforma PointSav]] — Una orientación a la plataforma de desarrollo PointSav: qué es, para quién es, por dónde empezar y cómo encajan las piezas antes de la primera tarea.
 - [[glossary-documentation|Enciclopedia PointSav — glosario y léxico]] — Léxico A-Z canónico que conecta la terminología estándar del sector con los conceptos de la plataforma PointSav, proporcionando definiciones autorizadas en los dominios técnico, operacional y financiero.
 - [[wiki-structure|Cómo está organizada esta base de conocimiento]] — Un mapa para el lector de la base de conocimiento de la plataforma: dieciséis áreas que cubren qué construye PointSav, cómo está construida, por qué se puede confiar en ella y cómo la operan los clientes — escrito para que tanto ingenieros como lectores del ámbito financiero puedan navegarla.
 - [[guide-catalog|Índice de guías para desarrolladores]] — Índice de guías para desarrolladores de la plataforma PointSav — guías prácticas organizadas por tarea, desde la instalación de herramientas hasta el ciclo de sesión.
