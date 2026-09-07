@@ -11,7 +11,7 @@ status: active
 audience: vendor-public
 bcsc_class: forward-looking
 language_protocol: PROSE-TOPIC
-last_edited: 2026-09-04
+last_edited: 2026-09-07
 editor: pointsav-engineering
 paired_with: tool-payroll.es.md
 short_description: "A jurisdiction-aware payroll and statutory-remittance engine whose first real report — a division-level Payroll Register aggregating the construction pilot's budgeted labour hours under a cited single-jurisdiction wage-rules row — is built and running; gross-to-net pay, pay frequency, and remittance computation remain design-only."
@@ -189,20 +189,28 @@ constraint the engine enforces, not a preference it can override.
 
 ## Calendar days and working days are never the same clock
 
-The pilot jurisdiction's wage-payment clock counts calendar days. A separate set of clocks,
-already real and shipped in [[tool-construction]], counts *working* days
-instead — governing holdback release and prompt-payment timing between
-contracting parties. These are legally distinct regimes: one governs wages
-owed to an employee under employment-standards law, the other governs
-progress payments between contracting parties under contract law. The
-governing construction-payment statute states directly that its own clocks do
-not reduce or alter an employer's wage-payment obligations.
+The pilot jurisdiction's wage-payment clock counts calendar days. A separate statutory clock —
+cascading a due date for an owner's payment (the governing construction-payment statute's own
+s.32.2(1), 28 days), and then a general contractor's payment to its subcontractor (s.32.3(1),
+7 more days), from the date a proper invoice is received — is real and shipped in
+[[tool-accounting]]'s construction-industry reporting, and also counts calendar days rather
+than working days: neither section qualifies "days," and no business-day exclusion applies to
+either clock. These are legally distinct regimes regardless
+of which day-counting basis either uses: one governs wages owed to an employee under
+employment-standards law, the other governs progress payments between contracting parties
+under contract law. The governing construction-payment statute states directly that its own
+clocks do not reduce or alter an employer's wage-payment obligations.
 
-The design treats `day_counting` as its own field on the jurisdiction row —
-`calendar` for the pilot jurisdiction's wage clock — rather than a hardcoded constant shared
-with any working-day calendar tool-construction already maintains for its own
-purposes. A rule that quietly borrowed one clock's day-counting for the other
-would be treated as a real compliance defect, not a rounding difference.
+A real illustration of exactly this section's own point sits in the same statutory scheme: the
+construction-payment statute's companion regulation defines "calendar day" for its own,
+different clocks as a day that is *not* a Saturday or statutory holiday — the opposite of the
+plain-English meaning the payment clocks above actually use. Two sections of the same law, two
+different meanings of the same phrase.
+
+The design treats `day_counting` as its own field on the jurisdiction row — `calendar` for
+the pilot jurisdiction's wage clock — rather than a hardcoded constant shared with any other clock elsewhere
+in the platform. A rule that quietly borrowed one clock's day-counting for the other would be
+treated as a real compliance defect, not a rounding difference.
 
 **Why it matters:** two different legal deadlines can look like the same kind
 of countdown and are not — mixing them up is exactly the class of bug this

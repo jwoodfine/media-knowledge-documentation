@@ -214,23 +214,31 @@ como una preferencia que pueda anular.
 
 ## Los días calendario y los días laborables nunca son el mismo reloj
 
-El reloj de pago salarial de la jurisdicción piloto cuenta días calendario.
-Un conjunto distinto de relojes, ya real y en operación dentro de
-[[tool-construction]]
-— que rigen la liberación de retenciones y la sincronización de pago
-pronto entre partes contratantes — cuenta en cambio días *laborables*. Se
-trata de regímenes legalmente distintos: uno rige los salarios que se le
-deben a un empleado bajo la ley de normas de empleo; el otro rige los pagos
-de avance entre partes contratantes bajo el derecho contractual. El propio
-estatuto de pago pronto de la construcción establece directamente que sus
-relojes no reducen ni alteran las obligaciones de pago salarial de un
-empleador.
+El reloj de pago salarial de la jurisdicción piloto cuenta días calendario. Un reloj
+estatutario distinto — que hace cascada de una fecha de vencimiento para el pago del
+propietario (el propio s.32.2(1) del estatuto de pago pronto de la construcción, 28 días), y
+luego el pago del contratista general a su subcontratista (s.32.3(1), 7 días más),
+a partir de la fecha en que se recibe una factura adecuada — es real y está en operación dentro
+del reporte de la industria de la construcción de [[tool-accounting]], y también cuenta días
+calendario en lugar de días laborables: ninguna de las dos secciones califica los "días", y
+ninguna exclusión de días laborables aplica a ninguno de los dos relojes. Se trata de regímenes
+legalmente distintos independientemente de la base de conteo de días que use cada uno: uno rige
+los salarios que se le deben a un empleado bajo la ley de normas de empleo; el otro rige los
+pagos de avance entre partes contratantes bajo el derecho contractual. El propio estatuto de
+pago pronto de la construcción establece directamente que sus relojes no reducen ni alteran las
+obligaciones de pago salarial de un empleador.
+
+Una ilustración real de exactamente este punto de la sección aparece en el mismo esquema
+estatutario: el reglamento que acompaña al estatuto de pago pronto de la construcción define
+"día calendario" para sus propios relojes, distintos, como un día que *no* es sábado ni feriado
+estatutario — lo opuesto al significado en lenguaje corriente que efectivamente usan los relojes
+de pago descritos arriba. Dos secciones de la misma ley, dos significados distintos de la misma
+frase.
 
 El diseño trata `day_counting` como su propio campo en la fila de
 jurisdicción — `calendar` para el reloj salarial de la jurisdicción piloto —
 en lugar de
-una constante fija compartida con cualquier calendario de días laborables
-que tool-construction ya mantiene para sus propios fines. Una regla que
+una constante fija compartida con cualquier otro reloj de la plataforma. Una regla que
 tomara prestado en silencio el conteo de días de un reloj para el otro se
 trataría como un defecto real de cumplimiento, no como una diferencia de
 redondeo.

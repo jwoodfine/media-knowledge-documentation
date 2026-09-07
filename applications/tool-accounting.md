@@ -11,10 +11,10 @@ status: active
 audience: vendor-public
 bcsc_class: forward-looking
 language_protocol: PROSE-TOPIC
-last_edited: 2026-09-01
+last_edited: 2026-09-07
 editor: pointsav-engineering
 paired_with: tool-accounting.es.md
-short_description: "A flat-file, owner-held double-entry accounting engine producing audit-ready financial statements from plain-text journals; its core engine and PDF/HTML renderer are built, verified against real historical multi-entity data, and driven by a real CLI toolchain of statement, ledger, narrative, and timeline report binaries — CLI-only, with no console surface yet."
+short_description: "A flat-file, owner-held double-entry accounting engine producing audit-ready financial statements from plain-text journals; its core engine and PDF/HTML renderer are built, verified against real historical multi-entity data, and driven by a real CLI toolchain of statement, ledger, narrative, and timeline report binaries, plus a construction-industry draw-workbook extension — CLI-only, with no console surface yet."
 cites: []
 ---
 
@@ -244,6 +244,18 @@ with the deliverable.
 a folder of files — producing a complete, consolidated statement package requires no
 server, no login, and no vendor in the room. The toolchain is CLI-only: no terminal or
 console surface exists yet.
+
+---
+
+## The construction-industry extension: draw workbooks and statutory compliance
+
+A second pilot toolchain, `tool-accounting-tco-26`, builds on the same `tool-accounting-core` money type and entity/account/consolidation registry to produce the reporting a construction lender or an equity investor's independent directors actually need during an active build: a real-time view of what has been drawn, what remains, and whether the statutory holdback and payment-timing rules a construction contract runs under are being honored.
+
+Five reports make up this workbook, each rendering through the same `tool-typeset` renderer the core toolchain uses. A **capital call request** and its companion **capital call schedule** — reframed from the industry-standard lender "draw request" language specifically because the reference deployment behind this extension is financed entirely by equity, with no lender in the structure at all, so the request goes to the entity's independent directors rather than a bank. A **statutory declaration**, the sworn attestation of lien and holdback compliance the underlying construction-lien statute requires. A **checks issued** register, an accounts-payable/cash-disbursement record keyed off the ledger's own cash account. And a **cash-flow calendar** that cascades a real due date for the owner's payment, and then the general contractor's payment to its subcontractor, from the date a proper invoice is received — the actual statutory clock the sibling construction engine's own retainage-tracking model refers to but deliberately does not compute itself (see [[tool-construction]]).
+
+Every dollar figure in this extension comes from a genuine double-entry money ledger shared with the construction engine, fed only by real payroll, invoice, and payment postings — never a derived hours-times-rate estimate. On the reference deployment today, every balance in that ledger is a real, computed zero: no payroll, invoice, or payment has ever been posted, so the workbook correctly reports nothing rather than an estimate, the same reporting discipline the rest of this family follows.
+
+**Why it matters:** the reports a lender or an investor's own counsel actually reads during construction — draws, statutory compliance, and payment-timing exposure — are produced from the same audited ledger discipline as year-end statements, not from a separate spreadsheet someone reconciles by hand once a month.
 
 ---
 

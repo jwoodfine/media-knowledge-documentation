@@ -11,7 +11,7 @@ status: active
 audience: vendor-public
 bcsc_class: forward-looking
 language_protocol: PROSE-TOPIC
-last_edited: 2026-09-04
+last_edited: 2026-09-07
 editor: pointsav-engineering
 paired_with: financial-and-construction-tools-overview.md
 short_description: "Cómo se relacionan tool-accounting, tool-construction y tool-payroll como una sola familia de productos — un diseño compartido de partida doble, alimentaciones de datos unidireccionales entre ellos y un límite compartido de arquitectura gratuita/pagada."
@@ -50,17 +50,28 @@ de red, sin la obligación de copyleft.
 
 | Herramienta | Estado real hoy |
 |---|---|
-| `tool-accounting` | La más avanzada: `tool-accounting-core` y `tool-typeset` son reales, están construidos y verificados de extremo a extremo contra un año fiscal histórico real — asientos, libro mayor, balance de comprobación y estados financieros renderizados. El plegado de consolidación, los datos de diario de las entidades subsidiarias y el renderizado interino (trimestral) ya son reales; la consolidación sin propiedad total, la entrada o salida a mitad de año y los saldos de apertura siguen sin construirse. |
-| `tool-construction` | Un CLI piloto real (`tool-construction-tco-26`) renderiza cuatro informes reales — una estimación de costos, un cronograma de ruta crítica, un listado de materiales y un informe mensual de estado — contra los datos reales de paquetes de trabajo de un sitio piloto registrado. El libro de costos en dólares, el reporte de costos reales y el modelo de plazos estatutarios en días laborables siguen sin construirse. |
-| `tool-payroll` | Existe un informe real: un Registro de Nómina por división que agrega las horas laborales presupuestadas del piloto de construcción bajo una fila citada de reglas salariales de una sola jurisdicción (un alcance explícitamente piloto, no cobertura de plataforma). El cálculo bruto-a-neto, la frecuencia de pago y el cálculo de remesas siguen siendo solo diseño. |
+| `tool-accounting` | La más avanzada en su cadena de herramientas original: código real, construido y ejecutado contra datos históricos reales de principio a fin para la producción de estados financieros, con la consolidación ya integrada. Una segunda cadena de herramientas piloto, para la industria de la construcción, construida sobre la misma biblioteca central, produce reportes de cuaderno de disposiciones y cumplimiento estatutario para una obra activa. |
+| `tool-construction` | Código real, en ejecución contra un piloto activo: tanto el ledger completo del lado de cantidades como un ledger de costos genuinamente denominado en dinero están construidos, impulsando más de una docena de reportes reales a través de cadencias de arranque, seguimiento continuo y cierre de obra. Los datos de estimación y cronograma son reales; los datos de costo real, seguridad y cierre de obra están estructuralmente listos pero aún no poblados, porque el piloto todavía no ha llegado al punto en que esos datos existan. |
+| `tool-payroll` | Un reporte real construido y en funcionamiento — un registro de nómina a nivel de división que agrega horas de mano de obra presupuestadas bajo las reglas de tiempo salarial citadas de una jurisdicción. El cálculo de pago bruto a neto, la frecuencia de pago y el cálculo de remesas siguen siendo solo de diseño. |
 
 **Por qué importa:** las tres herramientas se discuten frecuentemente juntas por su diseño
-compartido, pero no están en la misma etapa de madurez — cada una tiene hoy al menos un
-informe real en funcionamiento, pero ninguna ofrece cobertura completa de plataforma, y
-nada en ninguna de las tres debe interpretarse como software listo para producción.
+compartido, pero no están en la misma etapa de madurez — lea el artículo propio de cada
+herramienta para el detalle detrás de este resumen antes de tratar a cualquiera de las
+tres como un producto terminado.
+
+## Consolidación multi-edificio y multi-proyecto
+
+Dos situaciones genuinamente distintas se llaman ambas "consolidación," y la plataforma las trata de forma diferente a propósito.
+
+**Varios edificios bajo una sola entidad legal** — una estructura inmobiliaria común, donde una entidad tiene el título de propiedad de más de un edificio — comparten el motor contable único de esa entidad, ya que las declaraciones estatutarias, los estados financieros y el reporte del cuaderno de disposiciones son obligaciones de la entidad, no de ningún edificio en particular. Pero cada edificio mantiene su propio motor de construcción, porque dos edificios en el mismo sitio pueden tener combinaciones de oficios, códigos de costo y cronogramas completamente diferentes aunque respondan a los mismos libros. `tool-construction` mismo produce la vista consolidada a través de los edificios de una entidad; ver su propio artículo para más detalle.
+
+**Un contratista o administrador de propiedades que opera varios desarrollos separados y legalmente distintos a la vez** es un caso completamente diferente, y no es algo que ninguna herramienta individual de esta familia construya por sí misma. Consultar o comparar datos entre archivos genuinamente separados — "qué socio comercial tiene una tasa de defectos en aumento en todo nuestro portafolio," "cuál de nuestros proyectos está atrasado respecto a los demás" — es una capacidad de toda la plataforma, vendida por separado de cualquier motor de dominio. Existen hoy dos componentes reales en este espacio, en etapas distintas: `app-orchestration-bim`, que realiza este tipo de consolidación para datos de modelos de información de construcción (BIM) entre propiedades, está construido pero aún no desplegado; una capa de consolidación comparable para los dominios contable y de construcción, referida bajo el nombre de trabajo `app-orchestration-accounting`, es solo un nombre y alcance propuestos — nada bajo ese nombre se ha construido todavía.
+
+**Por qué importa:** un propietario o inversionista que evalúa un edificio, o las propiedades de una sola entidad legal, obtiene esa vista directamente de las herramientas de esta familia. Un operador que gestiona muchos desarrollos separados a la vez debería esperar que la vista más completa entre portafolios provenga de un producto separado a nivel de plataforma, no de que un motor de dominio individual desarrolle esa capacidad internamente.
 
 ## Véase también
 
 - [[tool-accounting]]
 - [[tool-construction]]
 - [[tool-payroll]]
+- [[legal-and-ip-structure]] — la justificación completa de los niveles de licenciamiento corporativo que resume la sección de Licenciamiento de este artículo

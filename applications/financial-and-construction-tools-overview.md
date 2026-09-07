@@ -11,7 +11,7 @@ status: active
 audience: vendor-public
 bcsc_class: forward-looking
 language_protocol: PROSE-TOPIC
-last_edited: 2026-09-04
+last_edited: 2026-09-07
 editor: pointsav-engineering
 paired_with: financial-and-construction-tools-overview.es.md
 short_description: "How tool-accounting, tool-construction, and tool-payroll relate as one product family — a shared double-entry design, one-way data feeds between them, and a shared free/paid architecture boundary."
@@ -50,17 +50,28 @@ network service, without the copyleft obligation.
 
 | Tool | Real state today |
 |---|---|
-| `tool-accounting` | Furthest along: `tool-accounting-core` and `tool-typeset` are real, built, and verified end to end against a real historical fiscal year — journals, ledger, trial balance, and rendered statements. The consolidation fold, subsidiary journal data, and interim (quarterly) rendering are now real; non-wholly-owned consolidation, mid-year entry/exit, and opening balances remain unbuilt. |
-| `tool-construction` | A real pilot CLI (`tool-construction-tco-26`) renders four real reports — a cost estimate, a critical-path schedule, a materials listing, and a monthly status report — against a registered pilot site's real work-package data. The dollar-side cost ledger, actual-cost reporting, and the working-day statutory-clock model remain unbuilt. |
-| `tool-payroll` | One real report exists: a division-level Payroll Register aggregating the construction pilot's budgeted labour hours under a single, cited jurisdiction's wage-rules row (an explicit pilot scope, not platform coverage). Gross-to-net pay, pay frequency, and remittance computation remain design-only. |
+| `tool-accounting` | Furthest along on its original toolchain: real code, built and run against real historical data end-to-end for statement production, with consolidation now wired. A second, construction-industry pilot toolchain built on the same core library produces draw-workbook and statutory-compliance reporting for an active build. |
+| `tool-construction` | Real code, running against a live pilot: the full quantity-side ledger and a genuine money-denominated cost ledger are both built, driving more than a dozen real reports across kick-off, ongoing-monitoring, and job-completion cadences. Estimate and schedule data are real; actual-cost, safety, and job-completion data are structurally ready but not yet populated, because the pilot has not yet reached the point where that data exists. |
+| `tool-payroll` | One real report built and running — a division-level payroll register aggregating budgeted labour hours under a cited jurisdiction's wage-timing rules. Gross-to-net pay, pay frequency, and remittance computation remain design-only. |
 
 **Why it matters:** the three tools are frequently discussed together because of their
-shared design, but they are not at the same stage of readiness — each has at least one
-real, running report today, but none is complete platform coverage, and nothing in any of
-the three should be read as production-ready software.
+shared design, but they are not at the same stage of readiness — read each tool's own
+article for the detail behind this summary before treating any of the three as
+describing a finished product.
+
+## Multi-building and multi-project aggregation
+
+Two genuinely different situations both get called "aggregation," and the platform treats them differently on purpose.
+
+**Several buildings under one legal entity** — a common real-estate structure, where one entity holds title to more than one building — share that entity's single accounting engine, since statutory declarations, financial statements, and draw-workbook reporting are obligations of the entity, not of any one building. But each building keeps its own construction engine, because two buildings on the same site can have completely different trade mixes, cost codes, and schedules even though they answer to the same books. `tool-construction` itself produces the roll-up view across an entity's buildings; see its own article for detail.
+
+**A contractor or property manager running several separate, legally distinct developments at once** is a different case entirely, and it is not something any individual tool in this family builds for itself. Querying or comparing data across genuinely separate archives — "which trade partner's defect rate is rising across our whole portfolio," "which of our projects is behind schedule relative to the others" — is a platform-wide capability, sold separately from any one domain engine. Two real components exist in this space today, at different stages: `app-orchestration-bim`, which performs this kind of aggregation for building-information-model data across properties, is built but not yet deployed; a comparable aggregation layer for the accounting and construction domains, referred to under the working name `app-orchestration-accounting`, is a proposed name and scope only — nothing under that name has been built yet.
+
+**Why it matters:** an owner or investor evaluating one building, or one legal entity's holdings, gets that view from the tools in this family directly. An operator running many separate developments at once should expect the fuller cross-portfolio view to come from a separate, platform-level product, not from any one domain engine growing that capability internally.
 
 ## See also
 
 - [[tool-accounting]]
 - [[tool-construction]]
 - [[tool-payroll]]
+- [[legal-and-ip-structure]] — the full corporate licensing-tier rationale this article's Licensing section summarizes

@@ -11,10 +11,10 @@ status: active
 audience: vendor-public
 bcsc_class: forward-looking
 language_protocol: TRANSLATE-ES
-last_edited: 2026-09-01
+last_edited: 2026-09-07
 editor: pointsav-engineering
 paired_with: tool-accounting.md
-short_description: "Motor de contabilidad de partida doble, en archivos planos y de propiedad del titular, que produce estados financieros auditables desde diarios en texto plano; su motor central y su renderizador PDF/HTML están construidos y verificados contra datos históricos reales multi-entidad, operados por binarios CLI de estados, libro mayor, narrativa y línea de tiempo — solo CLI, sin consola todavía."
+short_description: "Motor de contabilidad de partida doble, en archivos planos y de propiedad del titular, que produce estados financieros auditables desde diarios en texto plano; su motor central y su renderizador PDF/HTML están construidos y verificados contra datos históricos reales multi-entidad, operados por binarios CLI de estados, libro mayor, narrativa y línea de tiempo, más una extensión de cuadernos de trabajo de disposiciones para la industria de la construcción — solo CLI, sin consola todavía."
 cites: []
 ---
 
@@ -269,6 +269,18 @@ contra una carpeta de archivos — producir un paquete completo de estados conso
 requiere ningún servidor, ningún inicio de sesión, ni ningún proveedor presente. La cadena
 de herramientas es solo CLI: todavía no existe ninguna superficie de terminal ni de
 consola.
+
+---
+
+## La extensión para la industria de la construcción: cuadernos de trabajo de disposiciones (draw workbooks) y cumplimiento estatutario
+
+Una segunda cadena de herramientas piloto, `tool-accounting-tco-26`, se construye sobre el mismo tipo de dinero (`Money`) y el mismo registro de entidad/cuenta/consolidación de `tool-accounting-core`, para producir el reporte que un prestamista de construcción, o los directores independientes de un inversionista de capital, realmente necesitan durante una obra activa: una vista en tiempo real de lo que se ha dispuesto (drawn), lo que queda, y si se están cumpliendo las reglas estatutarias de retención y plazo de pago bajo las cuales opera un contrato de construcción.
+
+Cinco reportes conforman este cuaderno de trabajo, cada uno renderizado a través del mismo renderizador `tool-typeset` que usa la cadena de herramientas principal. Una **solicitud de llamado de capital** (capital call request) y su compañera, el **cronograma de llamado de capital** — replanteados desde el lenguaje estándar de la industria de "solicitud de disposición" (draw request) propio de un prestamista, específicamente porque el despliegue de referencia detrás de esta extensión se financia enteramente con capital propio, sin ningún prestamista en la estructura, por lo que la solicitud se dirige a los directores independientes de la entidad en lugar de a un banco. Una **declaración estatutaria**, la atestación jurada de cumplimiento de gravamen (lien) y retención que exige la ley de gravámenes de construcción subyacente. Un registro de **cheques emitidos**, un registro de desembolsos de efectivo/cuentas por pagar vinculado a la propia cuenta de efectivo del ledger. Y un **calendario de flujo de caja** que hace cascada de una fecha de vencimiento real para el pago del propietario, y luego el pago del contratista general a su subcontratista, a partir de la fecha en que se recibe una factura adecuada — el plazo estatutario real al que se refiere el propio modelo de seguimiento de retención del motor de construcción hermano, pero que deliberadamente no calcula por sí mismo (ver [[tool-construction]]).
+
+Cada cifra en dólares en esta extensión proviene de un ledger de dinero genuino de partida doble, compartido con el motor de construcción, alimentado únicamente por asientos reales de nómina, factura y pago — nunca por una estimación derivada de horas por tarifa. En el despliegue de referencia de hoy, cada saldo en ese ledger es un cero real, calculado: no se ha registrado ninguna nómina, factura o pago, por lo que el cuaderno de trabajo correctamente reporta nada en lugar de una estimación, la misma disciplina de reporte que sigue el resto de esta familia.
+
+**Por qué importa:** los reportes que un prestamista o el propio abogado de un inversionista realmente leen durante la construcción — disposiciones, cumplimiento estatutario, y exposición al plazo de pago — se producen a partir de la misma disciplina de ledger auditado que los estados financieros de fin de año, no de una hoja de cálculo separada que alguien concilia a mano una vez al mes.
 
 ---
 
