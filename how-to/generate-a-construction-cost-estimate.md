@@ -10,7 +10,7 @@ type: how-to
 quality: complete
 status: active
 audience: "Engineers (hands on keyboard); customer operators"
-last_edited: 2026-09-01
+last_edited: 2026-09-07
 editor: pointsav-engineering
 paired_with: generate-a-construction-cost-estimate.es.md
 research_trail:
@@ -93,9 +93,21 @@ Wrote /data/construction/example-project/outputs/2026/schedule.pdf
 
 The absence of money and dates is deliberate, not an oversight. An early build printed reconciliation totals to the terminal; the behavior was changed so that stdout carries only counts, and anything substantive lands in a file. Do not add a print statement to "just check a number quickly" — write it to the output directory instead.
 
+### 5. Generate the correspondence register
+
+A fourth kick-off report — a correspondence and transmittal register — is also produced from this same data directory, as its own independent, no-services-needed binary:
+
+```bash
+cargo run --bin correspondence -p tool-construction-tco-26
+```
+
+This reads `correspondence.csv` from the same `TCO26_DATA_DIR` and writes `correspondence.html`/`.pdf` into the same output directory. Every entry is cited by the content hash of the real transmittal it refers to, never by copying the message body or any personal contact information into the report — the underlying document stays in the platform's own archive storage, and this report only proves which document is which.
+
+A fifth kick-off report, the materials/work-package listing, exists but is not a simple standalone command the way the reports above are — it's produced as part of the `calibrate` binary, which depends on the archive-resident `service-materials` daemon being reachable. That's a materially different, more involved task (see [[monitor-an-active-construction-project]] and "What this task does not do" below), covered separately rather than folded into this guide.
+
 ## Expected outcome
 
-Six files in `<data-dir>/outputs/<year>/`, which the run creates if it is absent:
+Six files in `<data-dir>/outputs/<year>/` from step 3, plus two more from step 5, which the run creates if absent:
 
 | File | What it is |
 |---|---|
@@ -103,6 +115,7 @@ Six files in `<data-dir>/outputs/<year>/`, which the run creates if it is absent
 | `schedule.html` / `.pdf` | The schedule report, including a Gantt timeline and per-phase pages |
 | `cost_estimate_reconciliation.log` | Whether every total in the source ties to the lines beneath it |
 | `schedule_validation.log` | Structural defects found in the task tree and task dates |
+| `correspondence.html` / `.pdf` | The correspondence and transmittal register, cited by content hash |
 
 ## Verification
 
@@ -120,6 +133,7 @@ Three checks, in this order. The third is not optional.
 - **It does not report earned value.** Independently observed installed quantity is the input every earned-value and cost-performance figure depends on, and no source for it exists in this data model today. Reports that would consume it are planned; none is produced by this command.
 - **It is not yet multi-project.** The reporting crate is per-deployment, and its name carries a deployment-specific suffix. A second deployment currently means a second bin crate rather than a project argument — which is the honest reason step 3 has no `--project` flag to document.
 - **It writes no ledger entries.** This command reads two files and renders documents. Posting to the ledger is `post_ledger`'s job.
+- **It does not generate the materials/work-package listing.** That fifth kick-off report depends on the archive-resident `service-materials` daemon and is produced by `calibrate`, not by any binary this guide covers.
 
 ## Edge cases
 
@@ -143,3 +157,5 @@ Nothing to undo in the source data: the run reads `cost_estimate.csv` and `sched
 - [[tool-construction]] — the ledger design, cost-code model, and earned-value approach these reports render
 - [[tool-accounting]] — the sibling accounting engine designed to receive cost from this ledger
 - [[financial-and-construction-tools-overview]] — where this tool sits among the financial and construction tools
+- [[monitor-an-active-construction-project]] — the recurring-cadence reports that follow this kick-off set
+- [[generate-a-construction-draw-workbook]] — the sibling accounting-side reports covering this project's statutory and payment-timing exposure

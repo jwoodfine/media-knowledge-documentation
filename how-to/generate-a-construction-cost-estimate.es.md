@@ -10,7 +10,7 @@ type: how-to
 quality: complete
 status: active
 audience: "Ingenieros (con las manos en el teclado); operadores del cliente"
-last_edited: 2026-09-01
+last_edited: 2026-09-07
 editor: pointsav-engineering
 language: es
 language_protocol: TRANSLATE-ES
@@ -92,9 +92,21 @@ Wrote /data/construction/proyecto-ejemplo/outputs/2026/schedule.pdf
 
 La ausencia de importes y fechas es deliberada, no un descuido. Una compilación temprana imprimía totales de conciliación en el terminal; se cambió el comportamiento para que la salida estándar lleve solo recuentos y todo lo sustantivo acabe en un fichero. No añada una sentencia de impresión para "comprobar rápidamente una cifra" — escríbala en el directorio de salida.
 
+### 5. Generar el registro de correspondencia
+
+Un cuarto informe de arranque — un registro de correspondencia y transmisiones — también se produce desde este mismo directorio de datos, como su propio binario independiente que no requiere servicios:
+
+```bash
+cargo run --bin correspondence -p tool-construction-tco-26
+```
+
+Este lee `correspondence.csv` desde el mismo `TCO26_DATA_DIR` y escribe `correspondence.html`/`.pdf` en el mismo directorio de salida. Cada entrada se cita por el hash de contenido de la transmisión real a la que se refiere, nunca copiando el cuerpo del mensaje ni ningún dato de contacto personal en el informe — el documento subyacente permanece en el propio almacén de archivo de la plataforma, y este informe solo demuestra qué documento es cuál.
+
+Un quinto informe de arranque, el listado de materiales/paquetes de trabajo, existe pero no es un comando independiente sencillo como los anteriores — se produce como parte del binario `calibrate`, que depende de que el daemon `service-materials`, residente en el archivo, esté accesible. Esa es una tarea materialmente distinta y más compleja (ver [[monitor-an-active-construction-project]] y "Lo que esta tarea no hace" más abajo), cubierta por separado en lugar de incluirse en esta guía.
+
 ## Resultado esperado
 
-Seis ficheros en `<directorio-de-datos>/outputs/<año>/`, que la ejecución crea si no existe:
+Seis ficheros en `<directorio-de-datos>/outputs/<año>/` del paso 3, más dos del paso 5, que la ejecución crea si no existen:
 
 | Fichero | Qué es |
 |---|---|
@@ -102,6 +114,7 @@ Seis ficheros en `<directorio-de-datos>/outputs/<año>/`, que la ejecución crea
 | `schedule.html` / `.pdf` | El informe de cronograma, con diagrama de Gantt y páginas por fase |
 | `cost_estimate_reconciliation.log` | Si cada total del origen cuadra con las líneas que lo componen |
 | `schedule_validation.log` | Defectos estructurales hallados en el árbol de tareas y en sus fechas |
+| `correspondence.html` / `.pdf` | El registro de correspondencia y transmisiones, citado por hash de contenido |
 
 ## Verificación
 
@@ -119,6 +132,7 @@ Tres comprobaciones, en este orden. La tercera no es opcional.
 - **No informa del valor ganado.** La cantidad instalada, observada de forma independiente, es la entrada de la que depende toda cifra de valor ganado y de rendimiento de coste, y hoy no existe ninguna fuente para ella en este modelo de datos. Los informes que la consumirían están previstos; este comando no produce ninguno.
 - **Todavía no es multiproyecto.** El crate de informes es específico de un despliegue y su nombre lleva un sufijo propio de ese despliegue. Hoy, un segundo despliegue significa un segundo crate binario y no un argumento de proyecto — que es la razón honesta por la que el paso 3 no tiene una opción `--project` que documentar.
 - **No escribe asientos en el libro mayor.** Este comando lee dos ficheros y representa documentos. Registrar asientos es tarea de `post_ledger`.
+- **No genera el listado de materiales/paquetes de trabajo.** Ese quinto informe de arranque depende del daemon `service-materials` residente en el archivo y lo produce `calibrate`, no ningún binario que cubra esta guía.
 
 ## Casos límite
 
@@ -142,3 +156,5 @@ No hay nada que deshacer en los datos de origen: la ejecución lee `cost_estimat
 - [[tool-construction]] — el diseño del libro mayor, el modelo de códigos de coste y el enfoque de valor ganado que representan estos informes
 - [[tool-accounting]] — el motor contable hermano, diseñado para recibir el coste de este libro mayor
 - [[financial-and-construction-tools-overview]] — dónde encaja esta herramienta entre las herramientas financieras y de construcción
+- [[monitor-an-active-construction-project]] — los informes de cadencia recurrente que siguen a este conjunto de arranque
+- [[generate-a-construction-draw-workbook]] — los informes hermanos del lado contable que cubren la exposición estatutaria y de plazos de pago de este proyecto
