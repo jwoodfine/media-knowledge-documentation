@@ -70,6 +70,7 @@ The component vocabulary, typographic system, and dark-mode palette that compose
 - [[wiki-component-library]] — The shared chrome — header, off-canvas mobile nav, left sidebar, and footer — plus the page templates it wraps, that together render every page on the PointSav knowledge platform.
 - [[wiki-typography-system]] — The Inter and Source Serif 4 type stack, heading scale, and spacing tokens governing every wiki article page across the PointSav knowledge platform.
 - [[wiki-dark-mode]] — Light and dark colour schemes for the PointSav wiki, driven by semantic-token overrides on a data-theme attribute, with theme persistence via localStorage.
+- [[favicon-matrix]] — The wiki serves a single static SVG favicon — a navy document-page glyph, linked from a static file, the same mark on every tab regardless of tenant.
 <!-- END AUTO-GENERATED -->
 
 Additional planned articles — design-system tooling for BIM and AEC interface conventions — are not yet written.

@@ -70,6 +70,7 @@ El vocabulario de componentes, sistema tipográfico y paleta de modo oscuro que 
 - [[wiki-component-library|Biblioteca de componentes wiki]] — El armazón compartido — encabezado, navegación móvil fuera de lienzo, barra lateral izquierda y pie de página — más las plantillas de página que envuelve, que juntas renderizan cada página de la plataforma de conocimiento de PointSav.
 - [[wiki-typography-system|Sistema tipográfico wiki]] — Pila tipográfica Inter y Source Serif 4, escala de encabezados y tokens de espaciado para el wiki de PointSav.
 - [[wiki-dark-mode|Modo oscuro wiki]] — Esquemas de color claro y oscuro para el wiki de PointSav, controlados por anulaciones de tokens semánticos sobre un atributo data-theme, con persistencia de tema mediante localStorage.
+- [[favicon-matrix|Matriz de favicons e identidad de pestaña]] — El wiki sirve un único favicon SVG estático — un glifo de documento azul marino, enlazado desde un archivo estático, la misma marca en cada pestaña sin importar el inquilino.
 <!-- END AUTO-GENERATED -->
 
 Artículos adicionales planificados — herramientas del sistema de diseño para BIM y convenciones de interfaz AEC — aún no están escritos.

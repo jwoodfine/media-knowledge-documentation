@@ -599,3 +599,22 @@ redirects:
     to: /wiki/user-interface-design
   - from: /reference/virtual-appliance
     to: /wiki/virtual-appliance
+
+  # governance -> security / design-system, 2026-09-06 (same category-fit pass as the
+  # reference/background split above).
+  #
+  # security-overview: every section of it — tenant isolation, the Doorman AI boundary,
+  # the WORM ledger, the Diode standard, capability-based access control, supply-chain
+  # security — maps onto one of `security`'s own five index groups. It sat in
+  # `governance` under "institutional due diligence" alongside procurement-overview and
+  # compliance-and-continuous-disclosure, both of which are genuinely governance-facing;
+  # this one is not. Lands in security/ as its own posture-overview group, the
+  # cross-cutting article the category previously had no home for.
+  #
+  # favicon-matrix: the wiki's tab-identity mark — a design-system convention, not a
+  # governance discipline. Lands in design-system/ under wiki-surface-design alongside
+  # wiki-component-library, wiki-typography-system, and wiki-dark-mode.
+  - from: /governance/security-overview
+    to: /wiki/security-overview
+  - from: /governance/favicon-matrix
+    to: /wiki/favicon-matrix

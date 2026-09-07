@@ -33,7 +33,6 @@ Start here for procurement, security, and compliance evaluation.
 
 <!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: institutional-due-diligence -->
 - [[procurement-overview]] — What a regulated buyer acquires deploying PointSav: hardware the customer owns outright, data the vendor never holds, and compliance enforced by architecture.
-- [[security-overview]] — The platform's security posture: capability-based hardware isolation, the Diode command-flow standard, the Doorman AI boundary, and the WORM audit ledger.
 - [[compliance-and-continuous-disclosure]] — The regulatory frameworks the PointSav architecture addresses, and its structural approach to exposing audit evidence continuously, not via annual certification.
 <!-- END AUTO-GENERATED -->
 
@@ -66,7 +65,6 @@ Start here for procurement, security, and compliance evaluation.
 - [[ontological-governance]] — Four reference vocabulary ledgers kept deliberately narrow, plus a human-verification loop that reviews extracted identity fragments before they enter the verified ledger.
 - [[anti-homogenization-discipline]] — Anti-homogenization discipline resists AI writing assistants pulling contributors toward a single voice, by flagging potential issues rather than silently rewriting text.
 - [[api-key-boundary-discipline]] — The rule that all external LLM API credentials belong exclusively at the gateway service and never at inference engines.
-- [[favicon-matrix]] — The wiki serves a single static SVG favicon — a navy document-page glyph, linked from a static file, the same mark on every tab regardless of tenant.
 - [[doctrine-invention-7-rekor-anchoring]] — How Foundry's anchor-emitter binary posts a signed ledger checkpoint to Sigstore Rekor each month, providing independently verifiable, third-party evidence of workspace state.
 <!-- END AUTO-GENERATED -->
 
@@ -74,5 +72,7 @@ Start here for procurement, security, and compliance evaluation.
 
 - [Wiki home](/)
 - [Architecture](/architecture/)
+- [Security and Trust](/security/) — the platform's security posture, protection mechanisms, and record verification
 - [Infrastructure](/infrastructure/)
+- [Design System](/design-system/) — visual and brand surface conventions
 - [Reference](/reference/)

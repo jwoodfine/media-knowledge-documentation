@@ -2,17 +2,17 @@
 schema: foundry-doc-v1
 title: "Security overview"
 slug: security-overview
-category: governance
+category: security
 type: topic
 content_type: topic
 quality: complete
-index_group: institutional-due-diligence
+index_group: posture-overview
 short_description: "The platform's security posture: capability-based hardware isolation, the Diode command-flow standard, the Doorman AI boundary, and the WORM audit ledger."
 status: active
 audience: vendor-public
 bcsc_class: public-disclosure-safe
 language_protocol: PROSE-TOPIC
-last_edited: 2026-05-15
+last_edited: 2026-09-06
 editor: pointsav-engineering
 cites: []
 paired_with: security-overview.es.md

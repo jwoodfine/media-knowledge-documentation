@@ -2,17 +2,17 @@
 schema: foundry-doc-v1
 title: "Matriz de favicons e identidad de pestaña"
 slug: favicon-matrix
-category: governance
+category: design-system
 type: topic
 content_type: topic
 quality: complete
-index_group: platform-disciplines
+index_group: wiki-surface-design
 short_description: "El wiki sirve un único favicon SVG estático — un glifo de documento azul marino, enlazado desde un archivo estático, la misma marca en cada pestaña sin importar el inquilino."
 status: active
 audience: vendor-public
 bcsc_class: no-disclosure-implication
 language_protocol: PROSE-TOPIC
-last_edited: 2026-08-22
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: favicon-matrix.md
 ---

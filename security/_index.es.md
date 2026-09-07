@@ -36,6 +36,15 @@ verificados en lugar de privilegio ambiental. Hoy existe una sola capa de softwa
 implementa; la aplicación a nivel de núcleo está planificada.
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Panorama de la postura {#group-count-1}
+
+Un artículo que atraviesa las cinco áreas siguientes, escrito para quien evalúa la plataforma
+en conjunto y no para quien consulta un mecanismo concreto.
+
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: posture-overview -->
+- [[security-overview|Resumen de seguridad]] — La postura de seguridad de la plataforma: aislamiento de hardware basado en capacidades, el estándar unidireccional Diode de flujo de comandos, el límite de inteligencia artificial Doorman, el registro de auditoría WORM, y cómo cada propiedad se ejecuta por arquitectura en lugar de controles de política que pueden configurarse incorrectamente.
+<!-- END AUTO-GENERATED -->
+
 ## Identidad y permisos {#group-count-5}
 
 Quién es conocido por el sistema, cómo lo demuestra un dispositivo, y qué se le permite hacer.

@@ -2,17 +2,17 @@
 schema: foundry-doc-v1
 title: "Favicon matrix and tab identity"
 slug: favicon-matrix
-category: governance
+category: design-system
 type: topic
 content_type: topic
 quality: complete
-index_group: platform-disciplines
+index_group: wiki-surface-design
 short_description: "The wiki serves a single static SVG favicon — a navy document-page glyph, linked from a static file, the same mark on every tab regardless of tenant."
 status: active
 audience: vendor-public
 bcsc_class: no-disclosure-implication
 language_protocol: PROSE-TOPIC
-last_edited: 2026-08-22
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: favicon-matrix.es.md
 ---

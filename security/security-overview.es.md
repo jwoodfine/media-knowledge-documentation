@@ -4,16 +4,16 @@ title: "Resumen de seguridad"
 slug: security-overview
 short_description: "La postura de seguridad de la plataforma: aislamiento de hardware basado en capacidades, el estándar unidireccional Diode de flujo de comandos, el límite de inteligencia artificial Doorman, el registro de auditoría WORM, y cómo cada propiedad se ejecuta por arquitectura en lugar de controles de política que pueden configurarse incorrectamente."
 lang: es
-category: governance
+category: security
 type: topic
 content_type: topic
 quality: complete
-index_group: institutional-due-diligence
+index_group: posture-overview
 status: active
 audience: vendor-public
 bcsc_class: public-disclosure-safe
 language_protocol: PROSE-TOPIC
-last_edited: 2026-05-15
+last_edited: 2026-09-06
 editor: pointsav-engineering
 cites: []
 paired_with: security-overview.md

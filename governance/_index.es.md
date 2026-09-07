@@ -32,7 +32,6 @@ Punto de entrada para la evaluación de adquisición, seguridad y cumplimiento.
 
 <!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: institutional-due-diligence -->
 - [[procurement-overview]] — Lo que un comprador regulado adquiere al implementar PointSav: hardware que el cliente posee íntegramente, datos que el proveedor nunca posee, sin compromiso de gasto mínimo, y propiedades de cumplimiento ejecutadas por arquitectura en lugar de promesas contractuales.
-- [[security-overview]] — La postura de seguridad de la plataforma: aislamiento de hardware basado en capacidades, el estándar unidireccional Diode de flujo de comandos, el límite de inteligencia artificial Doorman, el registro de auditoría WORM, y cómo cada propiedad se ejecuta por arquitectura en lugar de controles de política que pueden configurarse incorrectamente.
 - [[compliance-and-continuous-disclosure]] — Cumplimiento y divulgación continua describe los marcos regulatorios que aborda la arquitectura PointSav y el enfoque estructural que adopta para exponer evidencia de auditoría de forma continua, en lugar de mediante ciclos anuales de certificación puntual.
 <!-- END AUTO-GENERATED -->
 
@@ -65,7 +64,6 @@ Punto de entrada para la evaluación de adquisición, seguridad y cumplimiento.
 - [[ontological-governance]] — Cuatro libros contables de vocabulario de referencia mantenidos deliberadamente acotados, más un bucle de verificación humana que revisa los fragmentos de identidad extraídos antes de comprometerlos al libro contable verificado.
 - [[anti-homogenization-discipline]] — La disciplina anti-homogenización es la postura arquitectónica que resiste que los asistentes de escritura con IA empujen a los colaboradores hacia una voz única, marcando posibles problemas por defecto en lugar de reescribir el texto silenciosamente.
 - [[api-key-boundary-discipline]] — La regla que establece que todas las credenciales externas de LLM pertenecen exclusivamente al servicio de pasarela y nunca a los motores de inferencia.
-- [[favicon-matrix]] — El wiki sirve un único favicon SVG estático — un glifo de documento azul marino, enlazado desde un archivo estático, la misma marca en cada pestaña sin importar el inquilino.
 - [[doctrine-invention-7-rekor-anchoring]] — Cómo el binario emisor-de-ancla de Foundry publica un punto de control firmado en Sigstore Rekor cada mes, proporcionando evidencia independiente y verificable del estado del espacio de trabajo.
 <!-- END AUTO-GENERATED -->
 
@@ -73,5 +71,7 @@ Punto de entrada para la evaluación de adquisición, seguridad y cumplimiento.
 
 - [Inicio del wiki](/)
 - [Arquitectura](/architecture/)
+- [Seguridad y Confianza](/security/) — la postura de seguridad de la plataforma, sus mecanismos de protección y la verificación de registros
 - [Infraestructura](/infrastructure/)
+- [Sistema de Diseño](/design-system/) — convenciones de superficie visual y de marca
 - [Referencia](/reference/)

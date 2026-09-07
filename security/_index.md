@@ -33,6 +33,15 @@ model the whole category is named for: components hold verified cryptographic to
 ambient privilege. One software layer implements it today; kernel-level enforcement is planned.
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Posture overview {#group-count-1}
+
+One article that crosses all five areas below, written for a reader evaluating the platform
+as a whole rather than looking up a single mechanism.
+
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: posture-overview -->
+- [[security-overview|Security overview]] — The platform's security posture: capability-based hardware isolation, the Diode command-flow standard, the Doorman AI boundary, and the WORM audit ledger.
+<!-- END AUTO-GENERATED -->
+
 ## Identity and permissions {#group-count-5}
 
 Who is known to the system, how a device proves it, and what it's allowed to do.
