@@ -10,7 +10,7 @@
 # Checked: 2026-09-06 by project-editorial (Track-B Phase 5 homepage sweep). Every
 # path-qualified slug re-verified against the working tree. One was stale:
 # `architecture/doorman-protocol` — the article now lives in the `ai` category
-# ("How AI Is Used and Contained"), so the path is `ai/doorman-protocol`. A redirect
+# ("AI and Inference"), so the path is `ai/doorman-protocol`. A redirect
 # covers the old URL, so the panel link was not broken, but the config named a path
 # that no longer exists. The other seven resolve unchanged.
 

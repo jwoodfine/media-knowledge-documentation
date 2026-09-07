@@ -5,7 +5,7 @@
 # Checked 2026-09-06 by project-editorial (Track-B Phase 5 homepage sweep): all 12
 # candidates and the live pin re-verified against the working tree. One candidate was
 # stale — `architecture/doorman-protocol`, now `ai/doorman-protocol` since the article
-# moved into the "How AI Is Used and Contained" category. Corrected below.
+# moved into the "AI and Inference" category. Corrected below.
 
 slug: architecture/economic-model
 since: 2026-05-17

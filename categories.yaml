@@ -162,7 +162,7 @@ categories:
       seL4 appliance images, deploying the wiki engine, configuring the
       inference gateway, and running local inference — the guides that
       cover setting up and operating a deployment end to end, as opposed
-      to day-to-day platform tasks (which stay in "How You Run It" for now).
+      to day-to-day operational work (which stays in "Platform Tasks" for now).
     audience: "Engineers (hands on keyboard); customer operators"
     order: 13
 
@@ -173,8 +173,8 @@ categories:
       Pairing devices and nodes onto the network, issuing and rotating
       service-to-service capability tokens, and authenticating binary
       downloads — the credential and admission mechanisms that gate who
-      and what can act on the platform, as opposed to day-to-day platform
-      tasks (which stay in "How You Run It" for now).
+      and what can act on the platform, as opposed to day-to-day operational
+      work (which stays in "Platform Tasks" for now).
     audience: "Engineers (hands on keyboard); network and service operators"
     order: 14
 

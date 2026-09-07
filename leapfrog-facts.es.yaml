@@ -13,7 +13,7 @@
 # Revisado: 2026-09-06 por project-editorial (barrido de portada, fase 5 de Track-B).
 # Se verificaron todas las rutas contra el árbol de trabajo. Una estaba obsoleta:
 # `architecture/doorman-protocol` — el artículo ahora reside en la categoría `ai`
-# ("Cómo se usa y se contiene la IA"), por lo que la ruta es `ai/doorman-protocol`.
+# ("IA e Inferencia"), por lo que la ruta es `ai/doorman-protocol`.
 # Una redirección cubría la URL antigua, así que el enlace del panel no estaba roto,
 # pero la configuración nombraba una ruta inexistente. Las otras siete no cambian.
 
