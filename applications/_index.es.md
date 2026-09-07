@@ -28,6 +28,17 @@ Cada aplicación aquí corresponde a un directorio `app-*` en el monorepo y here
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Aquí se documentan dieciocho aplicaciones, desde los sitios públicos de conocimiento hasta las consolas internas. Estas seis toman una aplicación de cada familia y son las que más referencian los demás artículos.
+
+- [[app-mediakit-knowledge|Aplicación MediaKit Knowledge]] — El motor wiki en Rust de un solo binario que sirve este sitio: los commits de git son lo canónico y el binario en ejecución es desechable.
+- [[app-console-keys|app-console-keys — chasis de la consola y marco de teclas de función]] — La base siempre instalada de os-console: el trait Cartridge, la tira de teclas de función y la barra de estado en la que encajan todos los demás cartuchos.
+- [[app-console-input|Aplicación de entrada de consola]] — La superficie F12: la compuerta obligatoria por la que pasa cada fichero externo antes de sellarse en el libro mayor verificado.
+- [[financial-and-construction-tools-overview|La familia de herramientas financieras y de construcción]] — Cómo tool-accounting, tool-construction y tool-payroll comparten un mismo diseño de partida doble y se conectan únicamente mediante alimentaciones unidireccionales.
+- [[tool-accounting|tool-accounting — libro mayor de partida doble y estados auditables]] — La más completa de las tres: un motor contable de ficheros planos, en manos del propietario, verificado contra datos históricos reales de múltiples entidades.
+- [[location-intelligence-platform|Plataforma de inteligencia de ubicación]] — La aplicación GIS de ficheros planos propiedad del cliente: una canalización de puntuación nocturna junto a una capa de renderizado interactivo.
+
 ## Conocimiento y editorial
 
 El motor wiki, la superficie de marketing y los artículos de intención de diseño que describen su cromo orientado al lector.

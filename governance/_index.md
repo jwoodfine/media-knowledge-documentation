@@ -27,6 +27,17 @@ The twelve binding [[architecture-decisions|architecture decisions]] are the mos
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Nineteen articles cover how engineering decisions are made, recorded, and licensed. These six are what a due-diligence reader should read in order: the binding decisions, the hardest one of them written up in full, the disclosure posture, what a buyer actually acquires, where the intellectual property sits, and who is permitted to contribute.
+
+- [[architecture-decisions|Architecture decisions]] — The twelve binding decisions that constrain every engineering choice on the platform.
+- [[adr-07-zero-ai-in-ring-1|SYS-ADR-07: zero AI in Ring 1]] — The hardest of those decisions in full: no AI inference anywhere on the authoritative write path.
+- [[compliance-and-continuous-disclosure|Compliance and continuous disclosure]] — The regulatory frameworks the architecture addresses, and why audit evidence is exposed continuously rather than certified once a year.
+- [[procurement-overview|Procurement overview]] — What a regulated buyer actually acquires: hardware they own outright, data the vendor never holds, compliance enforced by architecture.
+- [[legal-and-ip-structure|Legal and IP structure]] — The three-corporation topology, and the squash-and-merge event that transfers intellectual property from contributor to vendor to customer.
+- [[contributor-model|Three-tier contributor model]] — The Core, Paid, and Open contributor tiers and the mobility paths between them.
+
 ## Institutional due diligence
 
 Start here for procurement, security, and compliance evaluation.

@@ -25,6 +25,16 @@ PointSav builds a family of purpose-built operating systems that share a common 
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Sixteen articles cover the operating systems PointSav ships and the archive layer beneath them. These five come first: the family map, then the four systems the rest of the knowledge base refers to constantly.
+
+- [[os-family-overview|OS family — eight operating systems, one substrate]] — What each of the eight is for, what they share, and which parts of the shared substrate are roadmap rather than shipped.
+- [[os-console|os-console — the Command Ledger]] — The human-facing surface: a single-binary, keyboard-native console that hosts independent F-key cartridges through one chassis.
+- [[totebox-os|Sovereign vault and service host]] — The archive layer: one isolated vault per entity, holding inert flat files with no delete, exposed through the Diode only on command.
+- [[os-orchestration|Fleet aggregator]] — The commercial tier: one operator seeing, querying, and commanding many Totebox archives at once.
+- [[os-infrastructure-ppn-node|os-infrastructure — PPN node operating system]] — The node OS under a private compute fleet: WireGuard tunnels, guest VMs, and the operator control plane, and nothing else.
+
 ## The archive layer
 
 The core record-keeping systems at the foundation of every deployment — where the canonical record lives and how it is coordinated across a fleet.

@@ -26,6 +26,17 @@ Las doce [[architecture-decisions|decisiones de arquitectura vinculantes]] son l
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Diecinueve artículos cubren cómo se toman, se registran y se licencian las decisiones de ingeniería. Estos seis son los que un lector de diligencia debida debería leer en orden: las decisiones vinculantes, la más dura de ellas desarrollada por completo, la postura de divulgación, qué adquiere realmente un comprador, dónde reside la propiedad intelectual y quién puede contribuir.
+
+- [[architecture-decisions|Decisiones de arquitectura]] — Las doce decisiones vinculantes que restringen cada elección de ingeniería en la plataforma.
+- [[adr-07-zero-ai-in-ring-1|SYS-ADR-07: cero IA en el Ring 1]] — La más dura de esas decisiones, íntegra: ninguna inferencia de IA en la ruta de escritura autoritativa.
+- [[compliance-and-continuous-disclosure|Cumplimiento y divulgación continua]] — Los marcos regulatorios a los que responde la arquitectura, y por qué la evidencia de auditoría se expone de forma continua en lugar de certificarse una vez al año.
+- [[procurement-overview|Resumen de adquisición]] — Qué adquiere realmente un comprador regulado: hardware de su entera propiedad, datos que el proveedor nunca custodia, cumplimiento impuesto por la arquitectura.
+- [[legal-and-ip-structure|Estructura legal y de propiedad intelectual]] — La topología de tres sociedades y el evento de squash-and-merge que transfiere la propiedad intelectual del contribuyente al proveedor y de este al cliente.
+- [[contributor-model|Modelo de contribuyentes en tres niveles]] — Los niveles Core, Paid y Open, y las vías de movilidad entre ellos.
+
 ## Debida diligencia institucional
 
 Punto de entrada para la evaluación de adquisición, seguridad y cumplimiento.

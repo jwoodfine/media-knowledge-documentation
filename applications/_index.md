@@ -27,6 +27,17 @@ Each application here corresponds to an `app-*` directory in the monorepo and in
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Eighteen applications are documented here, from the public knowledge sites to the internal consoles. These six take one application from each family and are the ones other articles reference most.
+
+- [[app-mediakit-knowledge|MediaKit knowledge application]] — The single-binary Rust wiki engine serving this site: git commits are canonical and the running binary is disposable.
+- [[app-console-keys|app-console-keys — console chassis and F-key framework]] — The always-installed base of os-console: the Cartridge trait, the F-key strip, and the status bar every other cartridge plugs into.
+- [[app-console-input|Console input application]] — The F12 surface: the mandatory gate every external file passes through before it is sealed into the verified ledger.
+- [[financial-and-construction-tools-overview|The financial and construction tool family]] — How tool-accounting, tool-construction, and tool-payroll share one double-entry design and connect only by one-way feeds.
+- [[tool-accounting|tool-accounting — double-entry ledger and audit-ready statements]] — The most complete of the three: a flat-file, owner-held accounting engine verified against real multi-entity historical data.
+- [[location-intelligence-platform|Location intelligence platform]] — The customer-owned flat-file GIS application: a nightly scoring pipeline paired with an interactive rendering layer.
+
 ## Knowledge and editorial applications
 
 The wiki engine, the marketing surface, and the design-intent articles that describe their reader-facing chrome.

@@ -29,6 +29,16 @@ El sistema de diseño es en sí mismo uno de los sustratos portantes de la plata
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Quince artículos cubren cómo se ve y cómo habla la plataforma. Estos cinco son las puertas de entrada: la filosofía del sistema, la unidad a la que se resuelve todo lo demás, lo que un componente añade sobre esa unidad, el cromo con el que se renderiza este propio wiki, y el estándar tipográfico.
+
+- [[design-philosophy|Filosofía del sistema de diseño]] — Por qué el sistema de diseño se autoaloja y es propiedad del cliente, publicando la investigación de decisiones junto a los valores de token en formato DTCG en lugar de una galería de componentes.
+- [[what-is-a-design-token|Qué es un token de diseño]] — La definición de partida: el formato DTCG del W3C y los niveles primitivo, semántico y de componente que el resto de la categoría da por supuestos.
+- [[component-recipes-vs-raw-tokens|Recetas de componentes frente a tokens en bruto]] — Lo que el nivel de componente añade más allá de un valor: marcado, variantes, guía ARIA y objetivos WCAG en una única receta legible por máquina.
+- [[wiki-component-library|Biblioteca de componentes del wiki]] — La cabecera, la navegación lateral desplegable, la barra lateral y el pie que renderizan cada página de esta plataforma de conocimiento, incluida la que está leyendo.
+- [[brand-typography|Tipografía de marca y estándares de impresión]] — La pila autoalojada de Inter, Source Serif 4 y Playfair Display, con la advertencia honesta de que la matriz de impresión documentada todavía no tiene canalización de generación.
+
 ## Filosofía y vocabulario primitivo
 
 Las decisiones fundacionales: por qué existe el sustrato, qué preservó de la convención, qué reemplazó.

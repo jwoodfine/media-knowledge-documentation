@@ -26,6 +26,16 @@ PointSav construye una familia de sistemas operativos de propósito específico 
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Dieciséis artículos cubren los sistemas operativos que PointSav entrega y la capa de archivo que hay debajo. Estos cinco van primero: el mapa de la familia y, después, los cuatro sistemas a los que el resto de la base de conocimiento remite constantemente.
+
+- [[os-family-overview|Familia de SO — ocho sistemas operativos, un sustrato]] — Para qué sirve cada uno de los ocho, qué comparten, y qué partes del sustrato común son hoja de ruta y no producto entregado.
+- [[os-console|os-console — el Libro Mayor de Comandos]] — La superficie de cara al operador: una consola de un solo binario, nativa de teclado, que aloja cartuchos independientes por tecla de función sobre un mismo chasis.
+- [[totebox-os|Bóveda soberana y host de servicios]] — La capa de archivo: una bóveda aislada por entidad, con ficheros planos inertes y sin borrado, expuesta a través del Diodo solo bajo orden.
+- [[os-orchestration|El agregador de flota]] — El nivel comercial: un único operador que ve, consulta y gobierna muchos archivos Totebox a la vez.
+- [[os-infrastructure-ppn-node|os-infrastructure — sistema operativo de nodo PPN]] — El SO de nodo bajo una flota de cómputo privada: túneles WireGuard, VMs invitadas y el plano de control del operador, y nada más.
+
 ## La capa de archivo
 
 Los sistemas centrales de mantenimiento de registros en la base de cada despliegue — donde vive el registro canónico y cómo se coordina a través de una flota.

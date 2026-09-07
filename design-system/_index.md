@@ -29,6 +29,16 @@ The design system is itself one of the platform's load-bearing substrates — se
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Fifteen articles cover how the platform looks and speaks. These five are the entry points: the philosophy behind the system, the unit everything else resolves to, what a component adds on top of that unit, the chrome this wiki itself renders in, and the type standard.
+
+- [[design-philosophy|Design system philosophy]] — Why the design system is self-hosted and customer-owned, publishing decision research alongside DTCG token values rather than a component gallery.
+- [[what-is-a-design-token|What a design token is]] — The entry-level definition: the W3C DTCG format and the primitive, semantic, and component tiers the rest of this category assumes.
+- [[component-recipes-vs-raw-tokens|Component recipes vs. raw tokens]] — What the component tier adds beyond a value: markup, variants, ARIA guidance, and WCAG targets in one machine-readable recipe.
+- [[wiki-component-library|Wiki component library]] — The header, off-canvas nav, sidebar, and footer that render every page on this knowledge platform, including the one you are reading.
+- [[brand-typography|Brand typography and print standards]] — The self-hosted Inter, Source Serif 4, and Playfair Display stack, and an honest note that the documented print matrix has no generation pipeline yet.
+
 ## Philosophy and primitive vocabulary
 
 The foundational decisions: why the substrate exists, what it preserved from convention, what it replaced.
