@@ -9,7 +9,7 @@ category: reference
 index_group: platform-orientation
 status: complete
 bcsc_class: public-disclosure-safe
-last_edited: 2026-08-22
+last_edited: 2026-09-07
 editor: pointsav-engineering
 csv_source: glossary-documentation.csv
 ---
@@ -34,6 +34,16 @@ In PointSav, system administration is performed through the os-console command l
 *Comunidad AEC*
 
 Architecture, Engineering, and Construction community, a key target audience for PointSav's digital twin and building management technologies.
+
+### app-orchestration-accounting
+*app-orchestration-accounting*
+
+A proposed, not-yet-ratified `app-orchestration-*` aggregation layer intended to compute cross-archive/multi-entity accounting consolidation math for `tool-accounting`. No code built.
+
+### app-orchestration-payroll
+*app-orchestration-payroll*
+
+A name considered and explicitly not adopted for `tool-payroll`. The platform's real pattern is one `app-orchestration-*` per genuine heavy-compute need (see `app-orchestration-bim`, `app-orchestration-accounting`); `tool-payroll` has no heavy-compute need of its own. Its cross-property dollar rollups ride the separately proposed `app-orchestration-accounting`; its non-dollar rollups (hours, remittance totals, WCB assessable earnings) use generic `os-orchestration` directly.
 
 ### Artificial Intelligence or AI
 *Inteligencia Artificial (IA)*
@@ -367,13 +377,13 @@ A term describing structural dependency on platform providers who control access
 Third-party data is collected by an entity with no direct relationship to the end user and sold commercially; PointSav evaluates all third-party data through SYS-ADR-07 and ingests approved datasets via the service-content deterministic pipeline.
 
 ### tool-accounting
-A flat-file, owner-held domain engine providing double-entry accounting — journals, ledgers, financial statements, and multi-entity consolidation — computed deterministically from plain-text records with no hosted database and git as the audit trail. The platform's original domain engine, and the design pattern sibling `tool-*` engines (including `tool-construction`) are modeled against. Licensed under FSL-1.1-ALv2. See [[tool-accounting|tool-accounting]] for the full article.
+A flat-file, owner-held domain engine providing double-entry accounting — journals, ledgers, financial statements, and multi-entity consolidation — computed deterministically from plain-text records with no hosted database and git as the audit trail. The platform's original domain engine, and the design pattern sibling `tool-*` engines (including `tool-construction`) are modeled against. Its `tool-accounting-tco-26` extension produces construction-industry draw-workbook and statutory-compliance reporting for an active build. Licensed under AGPL-3.0-or-later. See [[tool-accounting|tool-accounting]] for the full article.
 
 ### tool-construction
-A flat-file, owner-held domain engine providing construction cost, schedule, and quality accountability, built on the same double-entry design discipline as `tool-accounting`. Its central mechanism: installed material quantity, reported once from the field, both earns a labour-hours budget and draws down a material balance in the same transaction — making the relationship between materials and labour structural to the ledger rather than a convention applied on top of it. Licensed under FSL-1.1-ALv2. See [[tool-construction|tool-construction]] for the full article.
+A flat-file, owner-held domain engine providing construction cost, schedule, and quality accountability, built on the same double-entry design discipline as `tool-accounting`. Both its quantity-side production ledger and its money-denominated cost ledger are built and running against a real pilot, rendering more than a dozen reports across kick-off, ongoing-monitoring, and job-completion cadences. Its central mechanism: installed material quantity, reported once from the field, both earns a labour-hours budget and draws down a material balance in the same transaction — making the relationship between materials and labour structural to the ledger rather than a convention applied on top of it. Licensed under AGPL-3.0-or-later. See [[tool-construction|tool-construction]] for the full article.
 
 ### tool-payroll
-A proposed, jurisdiction-aware domain engine for gross-to-net pay and statutory remittance timing, designed as a sibling product to `tool-accounting` and fed one-way by `tool-construction` timecards. 100% design as of this writing — no code written, no crate scaffolded. Licensed under FSL-1.1-ALv2. See [[tool-payroll|tool-payroll]] for the full article.
+A jurisdiction-aware domain engine for gross-to-net pay and statutory remittance timing, designed as a sibling product to `tool-accounting` and fed one-way by `tool-construction` timecards. One real report is built and running — a division-level Payroll Register aggregating budgeted labour hours under a cited, single-jurisdiction wage-rules row; gross-to-net pay, pay frequency, and remittance computation remain design-only. Licensed under AGPL-3.0-or-later. See [[tool-payroll|tool-payroll]] for the full article.
 
 ### `tool-*` distribution governance
 *(Cross-reference note, not a full entry)*

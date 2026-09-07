@@ -11,7 +11,7 @@ quality: complete
 status: active
 bcsc_class: public-disclosure-safe
 language_protocol: PROSE-TOPIC
-last_edited: 2026-08-26
+last_edited: 2026-09-07
 editor: pointsav-engineering
 paired_with: glossary-documentation.md
 ---
@@ -36,6 +36,16 @@ En PointSav, la administración del sistema se realiza a través del libro de co
 *AEC Community*
 
 Comunidad de Arquitectura, Ingeniería y Construcción, público destinatario clave de las tecnologías de gemelo digital y gestión de edificios de PointSav.
+
+### app-orchestration-accounting
+*app-orchestration-accounting*
+
+Una capa de consolidación `app-orchestration-*` propuesta, aún no ratificada, pensada para calcular la matemática de consolidación contable entre archivos/multi-entidad para `tool-accounting`. Sin código construido.
+
+### app-orchestration-payroll
+*app-orchestration-payroll*
+
+Un nombre considerado y explícitamente no adoptado para `tool-payroll`. El patrón real de la plataforma es un `app-orchestration-*` por cada necesidad genuina de cómputo intensivo (ver `app-orchestration-bim`, `app-orchestration-accounting`); `tool-payroll` no tiene una necesidad propia de cómputo intensivo. Sus consolidaciones de dólares entre propiedades se apoyan en el `app-orchestration-accounting` propuesto por separado; sus consolidaciones no monetarias (horas, totales de remesas, ingresos evaluables para WCB) usan directamente el `os-orchestration` genérico.
 
 - **Bots de IA**
 - **Alfred P. Sloan**
@@ -546,13 +556,13 @@ Los datos de terceros son recopilados por una entidad sin relación directa con 
 - **Plantillas de temas**
 
 ### tool-accounting
-Un motor de dominio de archivos planos, bajo control del propietario, que ofrece contabilidad de partida doble — diarios, libros contables, estados financieros y consolidación multi-entidad — calculada de forma determinista a partir de registros de texto plano, sin base de datos alojada y con git como rastro de auditoría. El motor de dominio original de la plataforma, y el patrón de diseño sobre el que se modelan los motores `tool-*` hermanos (incluido `tool-construction`). Licenciado bajo FSL-1.1-ALv2. Véase [[tool-accounting]] para el artículo completo.
+Un motor de dominio de archivos planos, bajo control del propietario, que ofrece contabilidad de partida doble — diarios, libros contables, estados financieros y consolidación multi-entidad — calculada de forma determinista a partir de registros de texto plano, sin base de datos alojada y con git como rastro de auditoría. El motor de dominio original de la plataforma, y el patrón de diseño sobre el que se modelan los motores `tool-*` hermanos (incluido `tool-construction`). Su extensión `tool-accounting-tco-26` produce reportes de cuaderno de disposiciones y cumplimiento estatutario para la industria de la construcción durante una obra activa. Licenciado bajo AGPL-3.0-or-later. Véase [[tool-accounting]] para el artículo completo.
 
 ### tool-construction
-Un motor de dominio de archivos planos, bajo control del propietario, que ofrece responsabilidad de costo, cronograma y calidad de construcción, construido sobre la misma disciplina de diseño de partida doble que `tool-accounting`. Su mecanismo central: la cantidad de material instalado, reportada una sola vez desde el campo, consume simultáneamente un presupuesto de horas de mano de obra y reduce un saldo de material en la misma transacción — lo que hace que la relación entre materiales y mano de obra sea estructural al libro contable en lugar de una convención aplicada por encima de él. Licenciado bajo FSL-1.1-ALv2. Véase [[tool-construction]] para el artículo completo.
+Un motor de dominio de archivos planos, bajo control del propietario, que ofrece responsabilidad de costo, cronograma y calidad de construcción, construido sobre la misma disciplina de diseño de partida doble que `tool-accounting`. Tanto su ledger de producción del lado de cantidades como su ledger de costos denominado en dinero están construidos y en funcionamiento contra un piloto real, generando más de una docena de reportes en cadencias de arranque, seguimiento continuo y cierre de obra. Su mecanismo central: la cantidad de material instalado, reportada una sola vez desde el campo, consume simultáneamente un presupuesto de horas de mano de obra y reduce un saldo de material en la misma transacción — lo que hace que la relación entre materiales y mano de obra sea estructural al libro contable en lugar de una convención aplicada por encima de él. Licenciado bajo AGPL-3.0-or-later. Véase [[tool-construction]] para el artículo completo.
 
 ### tool-payroll
-Un motor de dominio propuesto, sensible a la jurisdicción, para el cálculo de pago bruto a neto y la temporización de remesas estatutarias, diseñado como producto hermano de `tool-accounting` y alimentado en un solo sentido por las tarjetas de tiempo de `tool-construction`. 100% de diseño al momento de esta redacción — sin código escrito, sin crate creado. Licenciado bajo FSL-1.1-ALv2. Véase [[tool-payroll]] para el artículo completo.
+Un motor de dominio sensible a la jurisdicción, para el cálculo de pago bruto a neto y la temporización de remesas estatutarias, diseñado como producto hermano de `tool-accounting` y alimentado en un solo sentido por las tarjetas de tiempo de `tool-construction`. Un reporte real está construido y en funcionamiento — un Registro de Nómina a nivel de división que agrega horas de mano de obra presupuestadas bajo una fila citada de reglas salariales de una sola jurisdicción; el cálculo bruto a neto, la frecuencia de pago y el cálculo de remesas siguen siendo solo diseño. Licenciado bajo AGPL-3.0-or-later. Véase [[tool-payroll]] para el artículo completo.
 
 ### Gobernanza de distribución de `tool-*`
 *(Nota de referencia cruzada, no una entrada completa)*
