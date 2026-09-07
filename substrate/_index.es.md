@@ -49,7 +49,7 @@ Los nueve sustratos nombrados: cada uno designa una propiedad estructural de la 
 
 ## El Doorman compuesto y la frontera de IA
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: compounding-doorman-and-ai-boundary -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: the-compounding-doorman-and-ai-boundary -->
 - [[compounding-doorman]] — El patrón operativo en el corazón de sustratos de IA soberana: un único servicio que media cada llamada de cómputo externa, registra cada evento en un libro mayor de auditoría y acumula señal de capacitación que compone el sustrato a lo largo del tiempo.
 - [[mcp-substrate-protocol]] — Cada servicio del Anillo 1 y Anillo 2 expone una interfaz de servidor MCP como su contrato externo primario, con el Portero actuando como la puerta de enlace MCP.
 - [[adapter-composition]] — La metáfora del sistema operativo para la IA en PointSav — el Doorman como kernel, los adaptadores como procesos, service-content como sistema de archivos — y el álgebra que ensambla inteligencia por solicitud a partir de capas de adaptadores LoRA.

@@ -53,7 +53,7 @@ Usa la interfaz de terminal de la plataforma y sus Cartuchos integrados.
 
 Trabaja con el libro mayor de auditoría WORM y los datos de entidades.
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: records-and-storage -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: records-storage -->
 - [[read-write-totebox-archives|Leer y escribir en archivos Totebox]] — Lee el estado de un archivo Totebox al inicio de sesión — bandeja de entrada, contexto de sesión, git status, NEXT.md — y registra cambios mediante el flujo de commit de nivel staging.
 - [[verify-worm-ledger|Verificar una entrada del libro mayor WORM]] — Verifica entradas del libro mayor WORM contra un punto de control obtenido a través de la API HTTP real de service-fs, usando un conjunto de herramientas SHA-256 estándar — no existe ni se necesita ninguna CLI ni herramienta propietaria.
 - [[query-the-datagraph|Consultar el DataGraph]] — Consulta el DataGraph para obtener el estado actual de entidades con las herramientas MCP reales query_datagraph y get_entity_context, y maneja la indisponibilidad del DataGraph como su propia señal, separada de los niveles de inferencia de Doorman.
@@ -74,7 +74,7 @@ Gestiona múltiples tenants, usuarios y nodos de flota.
 
 Conecta tuberías de datos externas y crea aplicaciones de inteligencia de ubicación.
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: integration-and-data -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: integration-data -->
 - [[build-a-colocation-map|Construir un mapa de co-ubicación]] — Renderiza marcadores de clúster de co-ubicación coloreados por nivel en MapLibre GL cargando un archivo PMTiles directamente — la arquitectura real de archivo plano, ya que no existe ninguna API REST de clústeres con token bearer.
 - [[connect-osm-data-pipeline|Conectarse al pipeline de datos OSM]] — Ingiere una nueva cadena minorista o de servicios desde OpenStreetMap usando el script real ingest-osm.py y los diccionarios CATEGORIES/BRAND_FILL de taxonomy.py, y luego reconstruye los tiles de clúster servibles.
 - [[federate-archives-via-content-mounts|Federar archivos mediante montajes de contenido]] — Federa los artículos de una segunda instancia de conocimiento en una instancia en ejecución mediante una entrada [[mount]] en knowledge.toml — un espacio de nombres plano y combinado sin aislamiento, no un esquema de federación con prefijo de URL.

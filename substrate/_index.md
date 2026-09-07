@@ -51,7 +51,7 @@ The nine named substrates: each names a structural property the platform depends
 
 The single AI gateway that enforces the Ring 3 boundary, routes inference, and accumulates training signal.
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: compounding-doorman-and-ai-boundary -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: the-compounding-doorman-and-ai-boundary -->
 - [[compounding-doorman]] — The operational pattern at the heart of sovereign AI substrates: a single service mediating every external compute call, logging events, accumulating training signal.
 - [[mcp-substrate-protocol]] — Every Ring 1 and Ring 2 service exposes a Model Context Protocol server interface as its primary external contract, with the Doorman as the MCP gateway.
 - [[adapter-composition]] — The operating-system metaphor for AI in PointSav — the Doorman as kernel, adapters as processes — and the algebra assembling intelligence from LoRA layers.

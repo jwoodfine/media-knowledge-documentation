@@ -40,7 +40,7 @@ General computing concepts — the field's own vocabulary, defined from first pr
 
 ## Editorial and publishing standards
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: editorial-standards -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: editorial-and-publishing-standards -->
 - [[editorial-language-registers|Editorial language registers]] — Three distinct language registers matching the PointSav wikis to their audiences: financial-press, developer-platform, and regulatory-specification prose.
 - [[editorial-philosophy|Editorial philosophy]] — Every article is a learning resource that teaches understanding rather than retrieving facts, structured with encyclopedic leads and internal linking for readers.
 - [[news-release-standards|News release typography and layout standards]] — Strict formatting rules for corporate news syndication: left alignment, title case discipline, geographic precision, and standardized header and dateline structures.

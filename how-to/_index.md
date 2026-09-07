@@ -53,7 +53,7 @@ Use the platform's terminal interface and its built-in Cartridges.
 
 Work with the WORM audit ledger and entity data.
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: records-and-storage -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: records-storage -->
 - [[read-write-totebox-archives|Read and write Totebox archives]] — Reads a Totebox archive's state at session start — inbox, session context, git status, NEXT.md — and writes changes through the staging-tier commit flow.
 - [[verify-worm-ledger|Verify a WORM ledger entry]] — Verifies WORM ledger entries against a fetched checkpoint over service-fs's real HTTP API, using a standard SHA-256 toolchain — no CLI or proprietary tooling exists or is required.
 - [[query-the-datagraph|Query the DataGraph]] — Queries the DataGraph for current entity state with the real query_datagraph and get_entity_context MCP tools, and handles DataGraph unavailability as its own signal, separate from Doorman's inference tiers.
@@ -74,7 +74,7 @@ Manage multiple tenants, users, and fleet nodes.
 
 Connect external data pipelines and build location-intelligence applications.
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: integration-and-data -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: integration-data -->
 - [[build-a-colocation-map|Build a co-location map]] — Renders tier-coloured co-location cluster markers in MapLibre GL by loading a PMTiles archive directly — the real flat-file architecture, since no bearer-token REST cluster API exists.
 - [[connect-osm-data-pipeline|Connect to the OSM data pipeline]] — Ingests a new retail or service chain from OpenStreetMap using the real ingest-osm.py script and taxonomy.py's CATEGORIES/BRAND_FILL dicts, then rebuilds the servable cluster tiles.
 - [[federate-archives-via-content-mounts|Federate archives via content mounts]] — Federates a second knowledge instance's articles into a running instance through a knowledge.toml [[mount]] entry — a flat, merged namespace with no isolation, not a URL-prefixed federation scheme.

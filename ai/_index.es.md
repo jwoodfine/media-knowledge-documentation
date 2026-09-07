@@ -51,7 +51,7 @@ Dónde se ejecuta realmente la inferencia, y el modelo especializado de proveedo
 
 Cómo la plataforma convierte el uso en señal de entrenamiento — el mecanismo detrás de "la plataforma aprende de cómo se usa."
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: entity-extraction-and-training-loop -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: entity-extraction-and-the-training-loop -->
 - [[tiered-entity-extraction-architecture|Arquitectura de extracción de entidades por niveles]] — La plataforma PointSav ejecuta tres niveles de extracción en secuencia sobre cada documento: el Nivel 0 proporciona detección extractiva rápida vía GLiNER; el Nivel A ofrece una alternativa generativa vía OLMo en CPU; el Nivel B aplica enriquecimiento en GPU y registra las mejoras como señal de entrenamiento.
 - [[elastic-compute-lora-training-pipeline|Canalización nocturna de entrenamiento LoRA de Elastic Compute #1]] — Pipeline nocturno de dos fases en Elastic Compute #1 que reconstruye el DataGraph del despliegue y entrena pesos adaptadores LoRA para el modelo de lenguaje local.
 - [[learning-datagraph-architecture|DataGraph de aprendizaje]] — Ciclo de entrenamiento que convierte interacciones del operador en señal de entrenamiento — captura de trayectorias, una cola de aprendizaje y un canal de destilación GLiNER→OLMo que genera pares DPO de extracción de entidades.

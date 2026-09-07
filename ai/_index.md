@@ -51,7 +51,7 @@ Where inference actually runs, and the vendor-tier model this routes toward at t
 
 How the platform turns use into training signal — the mechanism behind "the platform learns from how it gets used."
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: entity-extraction-and-training-loop -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: entity-extraction-and-the-training-loop -->
 - [[tiered-entity-extraction-architecture|Tiered entity extraction architecture]] — The entity extraction pipeline runs three tiers per document: Tier 0 fast extractive detection via GLiNER, Tier A generative fallback via OLMo, Tier B GPU enrichment.
 - [[elastic-compute-lora-training-pipeline|Elastic Compute #1 nightly LoRA training pipeline]] — Nightly two-phase pipeline on Elastic Compute #1 that rebuilds the deployment DataGraph and trains LoRA adapter weights for the workspace language model.
 - [[learning-datagraph-architecture|Learning DataGraph]] — Training loop turning operator interactions into training signal — trajectory capture, an apprenticeship queue, and a GLiNER→OLMo distillation pipeline that generates entity-extraction DPO pairs.

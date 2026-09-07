@@ -27,14 +27,14 @@ paired_with: _index.es.md
 
 ## Getting the platform running
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: getting-running -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: getting-the-platform-running -->
 - [[self-host-a-deployment|Self-host a deployment]] — Builds the os-totebox and app-orchestration-slm seL4 appliance images from source and boots them under QEMU, with configuration baked in at build time via device-tree bootargs, and verifies both come up healthy.
 - [[deploy-knowledge-instance|Deploy a knowledge instance]] — Deploys an instance of app-mediakit-knowledge from a local content path: write a knowledge.toml [site] + [[mount]] configuration, build the binary, and start it with the serve subcommand.
 <!-- END AUTO-GENERATED -->
 
 ## Wiring up inference
 
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: wiring-inference -->
+<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: wiring-up-inference -->
 - [[configure-doorman|Configure the Doorman gateway]] — Configures a single-instance Doorman gateway via environment variables — Tier A local endpoint, optional Tier B Yo-Yo burst compute, optional Tier C external providers — and verifies tier state through /readyz.
 - [[run-local-slm-inference|Run local SLM inference]] — Starts the local Tier A SLM service, verifies Doorman readiness, and submits an inference request from the console or the API, with all prompt data staying on the deployment.
 <!-- END AUTO-GENERATED -->
