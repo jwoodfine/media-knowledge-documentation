@@ -27,6 +27,20 @@ The three-ring model is the load-bearing frame: Ring 1 handles per-tenant bounda
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Twenty-nine articles describe the structural decisions behind the platform. These nine are the frame: the composition model everything else assumes, who builds it, what the customer owns, how code reaches them, and the one domain architecture that sits outside the software stack.
+
+- [[three-ring-architecture|Three-ring architecture]] — Three concentric rings with strict one-way dependencies, the AI ring structurally optional. Every other article in this category assumes it.
+- [[pointsav-overview|PointSav — company overview and three-organisation structure]] — Who builds this, and how the vendor, customer, and parent entities relate to one another.
+- [[customer-hostability|Customer hostability]] — The commitment that every artefact runs on the customer's own hardware and keys, which makes self-hosting the canonical pattern rather than an option.
+- [[three-layer-architecture|Three-layer architecture]] — The one-way supply chain from vendor monorepo to customer catalogue to private running instance, and why nothing flows back.
+- [[six-tier-sovereignty-matrix|Six-tier sovereignty matrix]] — Six directory prefixes that make the monorepo self-documenting and enforce dependency hygiene by convention rather than by tooling.
+- [[economic-model|Economic model — community and SMB customer tiers]] — A free Community tier as the adoption funnel, and a paid SMB tier aimed at regulated businesses hyperscale billing cannot serve.
+- [[software-distribution-substrate|PointSav software distribution substrate]] — Release server, storefront, and payment watcher: compiled binaries delivered against on-chain payment, with no accounts and no subscriptions.
+- [[totebox-session|Totebox session]] — The standard unit of contributor work: one session, one archive, declared repositories only.
+- [[asset-anchored-bim-vault|Asset-anchored BIM vault]] — A building's authoritative record as git-versioned flat files that travel with the property deed — the domain architecture the BIM work is built on.
+
 ## Platform structure
 
 The foundational structural articles — the patterns that compose every PointSav deployment.

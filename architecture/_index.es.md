@@ -28,6 +28,20 @@ El modelo de tres anillos es el marco de carga: el Anillo 1 gestiona la ingesta 
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Veintinueve artículos describen las decisiones estructurales que hay detrás de la plataforma. Estos nueve son el marco: el modelo de composición que todo lo demás asume, quién lo construye, qué posee el cliente, cómo le llega el código, y la única arquitectura de dominio que queda fuera de la pila de software.
+
+- [[three-ring-architecture|Arquitectura de tres anillos]] — Tres anillos concéntricos con dependencias estrictamente unidireccionales y el anillo de IA estructuralmente opcional. Todos los demás artículos de esta categoría lo dan por supuesto.
+- [[pointsav-overview|PointSav — visión general de la empresa y estructura de tres organizaciones]] — Quién construye esto, y cómo se relacionan entre sí las entidades proveedora, cliente y matriz.
+- [[customer-hostability|Hospedaje por el cliente]] — El compromiso de que cada artefacto se ejecute sobre el hardware y las claves del propio cliente, lo que convierte el autoalojamiento en el patrón canónico y no en una opción.
+- [[three-layer-architecture|Arquitectura de tres capas]] — La cadena de suministro unidireccional desde el monorepo del proveedor hasta el catálogo del cliente y de ahí a la instancia privada en ejecución, y por qué nada fluye de vuelta.
+- [[six-tier-sovereignty-matrix|Matriz de seis niveles de soberanía]] — Seis prefijos de directorio que hacen el monorepo autodocumentado e imponen higiene de dependencias por convención y no por herramientas.
+- [[economic-model|Modelo económico — niveles community y cliente PYME]] — Un nivel Community gratuito como embudo de adopción, y un nivel PYME de pago dirigido a empresas reguladas a las que la facturación hiperescalar no puede servir.
+- [[software-distribution-substrate|Sustrato de distribución de software de PointSav]] — Servidor de versiones, escaparate y vigilante de pagos: binarios compilados entregados contra pago en cadena, sin cuentas y sin suscripciones.
+- [[totebox-session|Sesión Totebox]] — La unidad estándar del trabajo de un contribuyente: una sesión, un archivo, únicamente los repositorios declarados.
+- [[asset-anchored-bim-vault|Bóveda BIM anclada al activo]] — El registro autoritativo de un edificio como ficheros planos versionados en git que viajan con la escritura de la propiedad — la arquitectura de dominio sobre la que se construye el trabajo BIM.
+
 ## Estructura de la plataforma
 
 Los artículos estructurales fundacionales — los patrones que componen cada despliegue PointSav.

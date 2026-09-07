@@ -27,6 +27,24 @@ The category answers questions like: *what makes the platform improve continuous
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Where to start
+
+Forty-three articles define the reusable mechanisms the rest of the platform names without redefining. These thirteen cover every group in the category and are the ones other articles cite most; read them and the vocabulary of the whole knowledge base resolves.
+
+- [[compounding-substrate|Compounding substrate]] — Open code, a deterministic AI-free data layer, and an optional intelligence layer whose use compounds as training signal. The most-cited article in this knowledge base.
+- [[apprenticeship-substrate|Apprenticeship substrate]] — Work routed through a local model first, with signed senior verdicts captured as preference pairs for continued pretraining.
+- [[disclosure-substrate|Disclosure substrate]] — How a version-controlled Markdown wiki becomes the primary continuous-disclosure record, with signed authorship chains and content hashes.
+- [[citation-substrate|Citation substrate]] — The YAML citation registry with drift detection that makes provenance machine-auditable, from source instrument to published claim.
+- [[language-protocol-substrate|Language-protocol substrate]] — The frontmatter field, routing table, and mailbox convention that carry a draft's declared register and destination between archives.
+- [[sel4-microkernel-substrate|seL4 microkernel substrate]] — The formally verified kernel named as the planned shared substrate, with a clear note that it is not yet the running kernel for every member of the OS family.
+- [[capability-ledger-substrate|Capability ledger substrate]] — Every access-control decision as a cryptographically auditable event, anchored to a log the customer controls.
+- [[merkle-proofs-as-substrate-primitive|Merkle proofs as a substrate primitive]] — The mechanism that lets any third party check that a record belongs to an append-only log which has not been rewritten.
+- [[compounding-doorman|Compounding Doorman]] — One service mediating every external compute call, logging each event and accumulating training signal as it goes.
+- [[single-boundary-compute-discipline|Single-boundary compute discipline]] — Every inference request routes through the Doorman, with bypass prevented structurally rather than by policy.
+- [[four-tier-slm-substrate|Four-tier SLM substrate ladder]] — Four customer tiers, from a lightweight gateway up to a domain specialist, each adding capability without regressing the tier below.
+- [[substrate-without-inference-base-case|Substrate without inference — the base case]] — The archive stays fully operational and freely transferable with no AI tier at all. This is the article the AI-optionality claim rests on.
+- [[code-for-machines-first|Code for machines first]] — Every contract, audit record, and configuration is machine-readable as its primary surface; human interfaces are skins over that.
+
 ## Core named substrates
 
 The nine named substrates: each names a structural property the platform depends on.

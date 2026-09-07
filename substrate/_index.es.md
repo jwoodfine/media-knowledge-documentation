@@ -27,6 +27,24 @@ La categoría responde a preguntas como: *¿qué hace que la plataforma mejore c
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
+## Por dónde empezar
+
+Cuarenta y tres artículos definen los mecanismos reutilizables que el resto de la plataforma nombra sin volver a definir. Estos trece cubren todos los grupos de la categoría y son los que más citan los demás artículos: al leerlos, se resuelve el vocabulario de toda la base de conocimiento.
+
+- [[compounding-substrate|Sustrato compuesto]] — Código abierto, una capa de datos determinista y libre de IA, y una capa de inteligencia opcional cuyo uso se acumula como señal de entrenamiento. El artículo más citado de esta base de conocimiento.
+- [[apprenticeship-substrate|Sustrato de aprendizaje]] — El trabajo se enruta primero a un modelo local, y los veredictos firmados de un revisor sénior se capturan como pares de preferencia para el preentrenamiento continuado.
+- [[disclosure-substrate|Sustrato de divulgación]] — Cómo un wiki Markdown bajo control de versiones se convierte en el registro primario de divulgación continua, con cadenas de autoría firmadas y hashes de contenido.
+- [[citation-substrate|Sustrato de citas]] — El registro de citas en YAML con detección de deriva que hace auditable por máquina la procedencia, del instrumento normativo a la afirmación publicada.
+- [[language-protocol-substrate|Sustrato de protocolo de lenguaje]] — El campo de frontmatter, la tabla de enrutamiento y la convención de buzón que trasladan el registro declarado y el destino de un borrador entre archivos.
+- [[sel4-microkernel-substrate|Sustrato del micronúcleo seL4]] — El núcleo verificado formalmente designado como sustrato compartido planificado, con la advertencia clara de que todavía no es el núcleo en ejecución de todos los miembros de la familia de SO.
+- [[capability-ledger-substrate|Sustrato del libro de capacidades]] — Cada decisión de control de acceso como un evento criptográficamente auditable, anclado a un registro que controla el cliente.
+- [[merkle-proofs-as-substrate-primitive|Las pruebas de Merkle como primitiva del sustrato]] — El mecanismo que permite a cualquier tercero comprobar que un registro pertenece a un log de solo anexado que no ha sido reescrito.
+- [[compounding-doorman|Doorman compuesto]] — Un único servicio que media cada llamada de cómputo externa, registrando cada evento y acumulando señal de entrenamiento a su paso.
+- [[single-boundary-compute-discipline|Disciplina de cómputo de límite único]] — Toda solicitud de inferencia se enruta a través del Doorman, con la elusión impedida de forma estructural y no por política.
+- [[four-tier-slm-substrate|Escalera de cuatro niveles del sustrato SLM]] — Cuatro niveles de cliente, desde una puerta ligera hasta un especialista de dominio, cada uno añadiendo capacidad sin hacer retroceder al nivel inferior.
+- [[substrate-without-inference-base-case|Sustrato sin inferencia — el caso base]] — El archivo sigue plenamente operativo y libremente transferible sin ningún nivel de IA. Es el artículo sobre el que descansa la afirmación de opcionalidad de la IA.
+- [[code-for-machines-first|Código para máquinas primero]] — Cada contrato, registro de auditoría y configuración es legible por máquina como superficie primaria; las interfaces humanas son capas sobre eso.
+
 ## Sustratos nombrados principales
 
 Los nueve sustratos nombrados: cada uno designa una propiedad estructural de la que depende la plataforma.
