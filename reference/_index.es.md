@@ -8,7 +8,7 @@ content_type: topic
 index_type: thematic
 index_scope: reference
 quality: complete
-short_description: "El léxico y el material de consulta de la plataforma: orientación para un lector nuevo, términos de computación general definidos con claridad, el glosario completo y las normas a las que este wiki somete su propia escritura."
+short_description: "El léxico y el material de consulta de la plataforma: el glosario completo, orientación para un lector nuevo, los catálogos a los que apuntan otros artículos y las normas a las que este wiki somete su propia escritura."
 status: active
 bcsc_class: public-disclosure-safe
 last_edited: 2026-09-06
@@ -16,7 +16,9 @@ editor: pointsav-engineering
 paired_with: _index.md
 ---
 
-**El material de referencia** en esta plataforma cubre dos necesidades distintas: un lector que busca una definición precisa de un término, y un lector que quiere entender el vocabulario lo suficiente como para leer el resto de este wiki sin tropiezos. Ambas necesidades se atienden aquí — conceptos de computación general definidos en lenguaje llano, el glosario completo de la plataforma, orientación para un lector que aún no ha elegido un punto de partida, y las normas a las que este propio wiki somete su escritura.
+**El material de referencia** en esta plataforma se consulta, no se hojea. El lector llega con una pregunta concreta — qué significa este término, qué guía cubre esta tarea, qué hardware está soportado, a qué norma responde este artículo — y se va en cuanto la responde. Eso es lo que contiene esta categoría: el glosario completo de la plataforma, los catálogos a los que apuntan otros artículos, orientación para quien aún no ha elegido un punto de partida, y las normas editoriales a las que este propio wiki somete su escritura.
+
+Los conceptos generales de computación — el vocabulario propio del campo, definido desde sus principios — pasaron a [Conceptos Generales](/category/background) el 2026-09-06. Aquellos artículos están escritos para leerse de principio a fin; el material de aquí no.
 
 <!-- START-HERE-HIGHLIGHT: el motor lee este bloque para la tarjeta "empezar aquí"
      (reutiliza el componente cluster-card--start-here existente). No añadir más de una. -->
@@ -30,25 +32,10 @@ paired_with: _index.md
 <!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: platform-orientation -->
 - [[getting-started|Primeros pasos con la plataforma PointSav]] — Orientación a la plataforma de desarrollo PointSav: qué es, para quién es y por dónde empezar.
 - [[glossary-documentation|Enciclopedia PointSav — glosario y léxico]] — Léxico A-Z canónico que conecta la terminología estándar del sector con los conceptos de la plataforma PointSav, proporcionando definiciones autorizadas en los dominios técnico, operacional y financiero.
-- [[wiki-structure|Cómo está organizada esta base de conocimiento]] — Un mapa para el lector de la base de conocimiento de la plataforma: quince áreas que cubren qué construye PointSav, cómo está construida, por qué se puede confiar en ella y cómo la operan los clientes — escrito para que tanto ingenieros como lectores del ámbito financiero puedan navegarla.
+- [[wiki-structure|Cómo está organizada esta base de conocimiento]] — Un mapa para el lector de la base de conocimiento de la plataforma: dieciséis áreas que cubren qué construye PointSav, cómo está construida, por qué se puede confiar en ella y cómo la operan los clientes — escrito para que tanto ingenieros como lectores del ámbito financiero puedan navegarla.
 - [[guide-catalog|Índice de guías para desarrolladores]] — Índice de guías para desarrolladores de la plataforma PointSav — guías prácticas organizadas por tarea, desde la instalación de herramientas hasta el ciclo de sesión.
 - [[hardware-reference|Referencia de hardware]] — Perfiles de hardware de referencia para estaciones de trabajo de desarrolladores y dispositivos de flota, especificando requisitos de arquitectura de CPU incluyendo soporte x86_64 generación Haswell y fsgsbase, y definiendo tres patrones de implementación de infraestructura desde local hasta nube.
 - [[service-slm-operationalization-plan|Plan de operacionalización de SLM]] — El plan estratégico y operativo para hacer la transición desde llamadas a modelos de lenguaje externos hacia un sustrato de modelo de lenguaje pequeño por inquilino que se mejora mediante un bucle de retroalimentación compuesto.
-<!-- END AUTO-GENERATED -->
-
-## Conceptos generales de computación
-
-<!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: general-computing-concepts -->
-- [[application-programming-interface|Interfaz de programación de aplicaciones]] — Interfaz definida que permite la comunicación entre sistemas de software especificando las llamadas disponibles, cómo realizarlas y los formatos de datos intercambiados.
-- [[computer-appliance|Electrodoméstico informático]] — Dispositivo informático que combina hardware y software para una única función bien definida, implementado como unidad sellada no reutilizable para computación general.
-- [[edge-computing|Computación de borde]] — Paradigma de computación distribuida que acerca cómputo y almacenamiento a las fuentes de datos, reduciendo latencia y ancho de banda frente a la nube centralizada.
-- [[fog-computing|Computación de niebla]] — Arquitectura distribuida que sitúa cómputo, almacenamiento y servicios de red entre dispositivos de borde y la nube, definida por Cisco en 2012 y estandarizada en IEEE 1934-2018.
-- [[just-enough-operating-system|Sistema operativo justo lo necesario]] — Filosofía de sistemas operativos que reduce el SO a los componentes mínimos que necesita una aplicación, recortando superficie de ataque, memoria y mantenimiento.
-- [[lightweight-linux-distribution|Distribución Linux ligera]] — Distribución Linux diseñada para usar mucha menos RAM y capacidad de procesador que las distribuciones completas, apta para hardware limitado, embebido o heredado.
-- [[virtual-appliance|Electrodoméstico virtual]] — Imagen de máquina virtual preconfigurada que combina un sistema operativo mínimo con una aplicación específica, distribuida como unidad autónoma para hipervisores compatibles.
-- [[security-through-obscurity|Seguridad por oscuridad]] — Dependencia del secreto del diseño o la implementación como mecanismo principal de seguridad, rechazada en la práctica profesional desde el principio de Kerckhoffs de 1883.
-- [[user-experience-design|Diseño de experiencia de usuario]] — Práctica de diseño multidisciplinar que abarca toda la interacción del usuario con una empresa y sus productos, acuñada por Donald Norman en Apple a inicios de los años 1990.
-- [[user-interface-design|Diseño de interfaz de usuario]] — Disciplina de diseño de interfaces entre humanos y máquinas orientada a maximizar usabilidad y experiencia de usuario, regida por los principios de la norma ISO 9241.
 <!-- END AUTO-GENERATED -->
 
 ## Normas editoriales y de publicación
@@ -68,6 +55,7 @@ términos arquitectónicos se definen junto a su tema, no se enumeran aquí.
 
 ## Véase también
 
+- [Conceptos Generales](/category/background) — conceptos de computación general definidos desde sus principios, para leerse de principio a fin en lugar de consultarse
 - [Arquitectura](/category/architecture) — donde los términos arquitectónicos se definen en contexto, no solo se enumeran
 - [Conceptos Fundamentales](/category/substrate) — los mecanismos reutilizables que describe el vocabulario de este wiki
 - [Tareas de la Plataforma](/category/how-to) — guías procedimentales que asumen este vocabulario

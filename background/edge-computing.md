@@ -2,8 +2,8 @@
 schema: foundry-doc-v1
 title: "Edge computing"
 slug: edge-computing
-category: reference
-index_group: general-computing-concepts
+category: background
+index_group: where-computation-happens
 type: topic
 content_type: topic
 quality: complete
@@ -11,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: PROSE-TOPIC
-last_edited: 2026-07-11
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Distributed computing paradigm that places computation and storage near data sources, cutting latency and bandwidth versus centralized cloud data centers."
 paired_with: edge-computing.es.md

@@ -2,7 +2,8 @@
 schema: foundry-doc-v1
 title: "Seguridad por Oscuridad"
 slug: security-through-obscurity
-category: reference
+category: background
+index_group: security-practice
 type: topic
 content_type: topic
 quality: complete
@@ -10,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
-last_edited: 2026-07-31
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Dependencia del secreto del diseño o la implementación como mecanismo principal de seguridad, rechazada en la práctica profesional desde el principio de Kerckhoffs de 1883."
 paired_with: security-through-obscurity.md

@@ -2,7 +2,8 @@
 schema: foundry-doc-v1
 title: "Computación en el Borde"
 slug: edge-computing
-category: reference
+category: background
+index_group: where-computation-happens
 type: topic
 content_type: topic
 quality: complete
@@ -10,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
-last_edited: 2026-07-31
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Paradigma de computación distribuida que acerca cómputo y almacenamiento a las fuentes de datos, reduciendo latencia y ancho de banda frente a la nube centralizada."
 paired_with: edge-computing.md

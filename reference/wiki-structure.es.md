@@ -7,7 +7,7 @@ type: topic
 content_type: topic
 quality: complete
 short_description: "Un mapa para el lector de la base de conocimiento de
-  la plataforma: quince áreas que cubren qué construye PointSav, cómo
+  la plataforma: dieciséis áreas que cubren qué construye PointSav, cómo
   está construida, por qué se puede confiar en ella y cómo la operan los
   clientes — escrito para que tanto ingenieros como lectores del ámbito
   financiero puedan navegarla."
@@ -96,9 +96,17 @@ El nombre de cada área dice con claridad qué contiene.
   admisión que determinan quién y qué puede actuar en la plataforma:
   emparejar un dispositivo, emitir un token de capacidad
   servicio-a-servicio y autenticar una descarga de binario.
-- **Glosario y referencia** — cada término definido en palabras
-  sencillas, más los catálogos usados en toda la base de conocimiento.
-  La vía más rápida hacia un término desconocido.
+- **Glosario y referencia** — cada término de la plataforma definido en
+  palabras sencillas, más los catálogos y las normas editoriales usados
+  en toda la base de conocimiento. La vía más rápida hacia un término
+  desconocido.
+- **Conceptos generales** — las nociones de computación general que esta
+  base de conocimiento da por sabidas, definidas desde sus principios:
+  appliances y sistemas operativos mínimos, topología de borde y niebla,
+  diseño de interfaces y de experiencia. Ninguna describe algo que
+  PointSav haya construido. Se lee para adquirir el vocabulario del
+  campo antes de que los artículos de la plataforma lo usen — o se
+  omite: cada artículo se sostiene por sí solo.
 
 Los artículos de investigación JOURNAL se publican en la propia página `/research` de cada sitio de producto, no en esta base de conocimiento.
 

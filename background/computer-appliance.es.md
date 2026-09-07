@@ -2,7 +2,8 @@
 schema: foundry-doc-v1
 title: "Appliance Informático"
 slug: computer-appliance
-category: reference
+category: background
+index_group: appliances-and-minimal-systems
 type: topic
 content_type: topic
 quality: complete
@@ -10,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
-last_edited: 2026-06-30
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Dispositivo informático que combina hardware y software para una única función bien definida, implementado como unidad sellada no reutilizable para computación general."
 paired_with: computer-appliance.md

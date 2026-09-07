@@ -2,7 +2,8 @@
 schema: foundry-doc-v1
 title: "Interfaz de Programación de Aplicaciones"
 slug: application-programming-interface
-category: reference
+category: background
+index_group: interfaces-and-design-practice
 type: topic
 content_type: topic
 quality: complete
@@ -10,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
-last_edited: 2026-07-31
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Interfaz definida que permite la comunicación entre sistemas de software especificando las llamadas disponibles, cómo realizarlas y los formatos de datos intercambiados."
 paired_with: application-programming-interface.md

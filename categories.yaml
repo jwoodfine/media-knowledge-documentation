@@ -182,7 +182,22 @@ categories:
     name: "Glossary and Reference"
     kind: topic
     scope: >-
-      Every term defined in plain words, plus the catalogues and
-      standard definitions used across the knowledge base.
+      Every platform term defined in plain words, plus the catalogues,
+      orientation pages, and editorial standards used across the
+      knowledge base. General computing concepts moved out to
+      `background` on 2026-09-06 — see below.
     audience: "All readers — consulted, not browsed"
     order: 15
+
+  - id: background
+    name: "Background"
+    kind: topic
+    scope: >-
+      General computing concepts defined from first principles —
+      appliances and minimal operating systems, edge and fog topology,
+      interface and experience design, and the security practice the
+      platform rejects. None of it describes anything PointSav built;
+      it is the field's own vocabulary, so a reader can arrive at a
+      platform article already holding the terms it uses.
+    audience: "All readers — browsed, not consulted; no prior platform knowledge assumed"
+    order: 16

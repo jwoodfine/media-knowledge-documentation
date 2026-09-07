@@ -2,8 +2,8 @@
 schema: foundry-doc-v1
 title: "Virtual appliance"
 slug: virtual-appliance
-category: reference
-index_group: general-computing-concepts
+category: background
+index_group: appliances-and-minimal-systems
 type: topic
 content_type: topic
 quality: complete
@@ -11,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: PROSE-TOPIC
-last_edited: 2026-07-11
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Pre-configured virtual machine image combining a minimal operating system with a specific application, distributed as a self-contained unit for compatible hypervisors."
 paired_with: virtual-appliance.es.md

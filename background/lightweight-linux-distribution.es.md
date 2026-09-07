@@ -2,7 +2,8 @@
 schema: foundry-doc-v1
 title: "Distribución Linux Ligera"
 slug: lightweight-linux-distribution
-category: reference
+category: background
+index_group: appliances-and-minimal-systems
 type: topic
 content_type: topic
 quality: complete
@@ -10,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
-last_edited: 2026-07-31
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Distribución Linux diseñada para usar mucha menos RAM y capacidad de procesador que las distribuciones completas, apta para hardware limitado, embebido o heredado."
 paired_with: lightweight-linux-distribution.md

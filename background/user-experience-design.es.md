@@ -2,7 +2,8 @@
 schema: foundry-doc-v1
 title: "Diseño de Experiencia de Usuario"
 slug: user-experience-design
-category: reference
+category: background
+index_group: interfaces-and-design-practice
 type: topic
 content_type: topic
 quality: complete
@@ -10,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
-last_edited: 2026-07-31
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Práctica de diseño multidisciplinar que abarca toda la interacción del usuario con una empresa y sus productos, acuñada por Donald Norman en Apple a inicios de los años 1990."
 paired_with: user-experience-design.md

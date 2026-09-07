@@ -2,7 +2,8 @@
 schema: foundry-doc-v1
 title: "Computación en la Niebla"
 slug: fog-computing
-category: reference
+category: background
+index_group: where-computation-happens
 type: topic
 content_type: topic
 quality: complete
@@ -10,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
-last_edited: 2026-07-31
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Arquitectura distribuida que sitúa cómputo, almacenamiento y servicios de red entre dispositivos de borde y la nube, definida por Cisco en 2012 y estandarizada en IEEE 1934-2018."
 paired_with: fog-computing.md

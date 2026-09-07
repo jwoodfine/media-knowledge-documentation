@@ -7,7 +7,7 @@ index_group: platform-orientation
 type: topic
 content_type: topic
 quality: complete
-short_description: "A reader's map of the platform knowledge base: fifteen areas covering what PointSav builds, how it's built, and why it can be trusted, for every reader."
+short_description: "A reader's map of the platform knowledge base: sixteen areas covering what PointSav builds, how it's built, and why it can be trusted, for every reader."
 status: active
 bcsc_class: public-disclosure-safe
 language_protocol: PROSE-TOPIC
@@ -87,9 +87,15 @@ background. Each area name says plainly what it holds.
   that gate who and what can act on the platform: pairing a device,
   issuing a service-to-service capability token, and authenticating a
   binary download.
-- **Glossary and Reference** — every term defined in plain words, plus
-  the catalogues used across the knowledge base. The fastest route to
-  an unfamiliar term.
+- **Glossary and Reference** — every platform term defined in plain
+  words, plus the catalogues and editorial standards used across the
+  knowledge base. The fastest route to an unfamiliar term.
+- **Background** — the general computing concepts this knowledge base
+  takes for granted, defined from first principles: appliances and
+  minimal operating systems, edge and fog topology, interface and
+  experience design. None of it describes anything PointSav built. Read
+  it to pick up the field's vocabulary before the platform articles use
+  it — or skip it entirely; every article stands on its own.
 
 JOURNAL research papers publish to each product site's own `/research` page rather than to this knowledge base.
 

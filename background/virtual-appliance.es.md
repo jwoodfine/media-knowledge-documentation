@@ -2,7 +2,8 @@
 schema: foundry-doc-v1
 title: "Appliance Virtual"
 slug: virtual-appliance
-category: reference
+category: background
+index_group: appliances-and-minimal-systems
 type: topic
 content_type: topic
 quality: complete
@@ -10,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
-last_edited: 2026-06-30
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Imagen de máquina virtual preconfigurada que combina un sistema operativo mínimo con una aplicación específica, distribuida como unidad autónoma para hipervisores compatibles."
 paired_with: virtual-appliance.md

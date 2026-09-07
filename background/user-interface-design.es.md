@@ -2,7 +2,8 @@
 schema: foundry-doc-v1
 title: "Diseño de Interfaz de Usuario"
 slug: user-interface-design
-category: reference
+category: background
+index_group: interfaces-and-design-practice
 type: topic
 content_type: topic
 quality: complete
@@ -10,7 +11,7 @@ status: active
 audience: customer-woodfine
 bcsc_class: current-fact
 language_protocol: TRANSLATE-ES
-last_edited: 2026-06-30
+last_edited: 2026-09-06
 editor: woodfine-editorial
 short_description: "Disciplina de diseño de interfaces entre humanos y máquinas orientada a maximizar usabilidad y experiencia de usuario, regida por los principios de la norma ISO 9241."
 paired_with: user-interface-design.md

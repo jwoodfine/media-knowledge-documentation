@@ -569,3 +569,33 @@ redirects:
   # with (not merged into) the pre-existing markets/about-regional-markets-system.md.
   - from: /architecture/regional-market-definition
     to: https://projects.woodfinegroup.com/wiki/regional-market-definition
+
+  # reference -> background category split 2026-09-06. `reference`'s own audience note
+  # ("consulted, not browsed") was contradicted by ten general-computing explainer
+  # articles sitting alongside the genuine consulted material (glossary, catalogues,
+  # orientation, editorial standards). The explainers describe nothing PointSav built —
+  # they are the field's own vocabulary, written to be read through — so they moved to
+  # a new `background` category (categories.yaml order 16). Articles are canonically
+  # served at /wiki/<slug>, which does not move; these entries cover the secondary
+  # /wiki/<category>/<slug> path form, per the convention every prior category move in
+  # this file follows.
+  - from: /reference/application-programming-interface
+    to: /wiki/application-programming-interface
+  - from: /reference/computer-appliance
+    to: /wiki/computer-appliance
+  - from: /reference/edge-computing
+    to: /wiki/edge-computing
+  - from: /reference/fog-computing
+    to: /wiki/fog-computing
+  - from: /reference/just-enough-operating-system
+    to: /wiki/just-enough-operating-system
+  - from: /reference/lightweight-linux-distribution
+    to: /wiki/lightweight-linux-distribution
+  - from: /reference/security-through-obscurity
+    to: /wiki/security-through-obscurity
+  - from: /reference/user-experience-design
+    to: /wiki/user-experience-design
+  - from: /reference/user-interface-design
+    to: /wiki/user-interface-design
+  - from: /reference/virtual-appliance
+    to: /wiki/virtual-appliance
