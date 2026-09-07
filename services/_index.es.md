@@ -12,7 +12,7 @@ index_type: thematic
 index_scope: services
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -87,5 +87,5 @@ Servicios construidos para capacidades específicas de la plataforma.
 ## Véase también
 
 - [Sistemas Operativos](/systems/) — los sistemas operativos dentro de los cuales se ejecutan los servicios
-- [Cómo Está Construido](/architecture/) — el modelo de tres anillos y los invariantes que rigen la interacción entre anillos
-- [Dónde Se Ejecuta](/infrastructure/) — despliegue de flota y la capa física en la que se ejecutan los servicios
+- [Arquitectura](/architecture/) — el modelo de tres anillos y los invariantes que rigen la interacción entre anillos
+- [Infraestructura](/infrastructure/) — despliegue de flota y la capa física en la que se ejecutan los servicios

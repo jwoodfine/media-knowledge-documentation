@@ -11,7 +11,7 @@ quality: complete
 short_description: "Ejecutar la plataforma en infraestructura propia: iniciar las imágenes de aparato seL4, desplegar el motor wiki y conectar la inferencia local."
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -41,10 +41,10 @@ paired_with: _index.md
 
 Cada guía tiene sus propios prerrequisitos, pasos de verificación y procedimiento de
 reversión; esta página no los repite. La operación cotidiana de un despliegue en marcha
-está en [Cómo lo opera](/category/how-to).
+está en [Tareas de la Plataforma](/category/how-to).
 
 ## Véase también
 
-- [Cómo lo opera](/category/how-to) — las guías operativas cotidianas restantes
-- [Dónde se ejecuta](/category/infrastructure) — la arquitectura sobre la que se despliegan estas guías
+- [Tareas de la Plataforma](/category/how-to) — las guías operativas cotidianas restantes
+- [Infraestructura](/category/infrastructure) — la arquitectura sobre la que se despliegan estas guías
 - [Seguridad y confianza](/category/security) — el modelo de identidad y permisos en el que participan los despliegues autoalojados

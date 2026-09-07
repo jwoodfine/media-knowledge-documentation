@@ -1,6 +1,6 @@
 ---
 schema: foundry-doc-v1
-title: "How AI Is Used and Contained"
+title: "AI and Inference"
 slug: ai-index
 category: ai
 type: topic
@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: ai
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -23,7 +23,7 @@ This is the front door for the platform's most distinctive architectural claim �
 <!-- START-HERE-HIGHLIGHT: engine reads this block to render the single "start here" card
      (reuses the existing cluster-card--start-here component). Do not add more than one. -->
 
-**"The core runs fully without it"** is this category's own headline claim, and the article that argues it — [[substrate-without-inference-base-case]] — lives in [Building Blocks](/category/substrate), not here. Read it first if you're evaluating the containment claim itself; everything below assumes it.
+**"The core runs fully without it"** is this category's own headline claim, and the article that argues it — [[substrate-without-inference-base-case]] — lives in [Core Concepts](/category/substrate), not here. Read it first if you're evaluating the containment claim itself; everything below assumes it.
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
@@ -60,6 +60,6 @@ How the platform turns use into training signal — the mechanism behind "the pl
 
 ## See also
 
-- [How It's Built](/architecture/) — the three-ring build that makes this boundary structural
-- [Building Blocks](/substrate/) — AI-adjacent mechanism concepts, including the AI-optionality article above
+- [Architecture](/architecture/) — the three-ring build that makes this boundary structural
+- [Core Concepts](/substrate/) — AI-adjacent mechanism concepts, including the AI-optionality article above
 - [Platform Services](/services/) — the per-service pages, including the AI service itself

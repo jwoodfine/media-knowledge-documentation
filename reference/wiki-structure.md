@@ -26,13 +26,13 @@ background. Each area name says plainly what it holds.
 
 ## What it is and how it's built
 
-- **How It's Built** — how the platform is put together: a three-part
+- **Architecture** — how the platform is put together: a three-part
   build that separates what comes in, the record-keeping core, and
   optional AI — and the principle behind it: customers own their
   running instance outright, on their own hardware. Start here for the
   big picture, including how the business model follows from the
   architecture.
-- **Building Blocks** — the reusable pieces the platform is built from.
+- **Core Concepts** — the reusable pieces the platform is built from.
   If an article elsewhere names a mechanism you don't recognize, its
   definition lives here.
 - **Design Patterns** — the named, repeatable shapes the platform
@@ -46,7 +46,7 @@ background. Each area name says plainly what it holds.
   verification, isolation boundaries, how data is handled and kept
   private, and the supply-chain controls designed to keep code honest
   from contributor to production.
-- **How AI Is Used and Contained** — the platform's most distinctive
+- **AI and Inference** — the platform's most distinctive
   design choice, stated plainly: the core data pipeline runs entirely
   without AI, and where AI is used it cannot write to the authoritative
   record. These articles explain the boundary that enforces that, how
@@ -61,10 +61,10 @@ background. Each area name says plainly what it holds.
   article per service: what it does and what data it owns.
 - **Applications** — the applications people actually use, from the
   public knowledge sites to the internal consoles.
-- **Where It Runs** — where everything physically runs: customer
+- **Infrastructure** — where everything physically runs: customer
   hardware, deployment, storage, telemetry, and the shared compute
   network that pools hardware across sites.
-- **Design and Brand** — how the platform looks and speaks: design
+- **Design System** — how the platform looks and speaks: design
   philosophy, visual vocabulary, and brand surfaces.
 
 ## How decisions are made
@@ -76,7 +76,7 @@ background. Each area name says plainly what it holds.
 
 ## Working with the platform
 
-- **How You Run It** — step-by-step instructions for the hands-on work:
+- **Platform Tasks** — step-by-step instructions for the hands-on work:
   installing, configuring, deploying, operating. Customers run their
   own instance, so these are written for a reader at a keyboard.
 - **Self-Hosting** — running platform components on your own

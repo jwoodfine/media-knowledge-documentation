@@ -11,7 +11,7 @@ quality: complete
 short_description: "Emparejar dispositivos y nodos en la red, emitir y rotar tokens de capacidad servicio a servicio, y autenticar descargas de binarios."
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -47,10 +47,10 @@ paired_with: _index.md
 
 Cada guía tiene sus propios prerrequisitos, pasos de verificación y procedimiento de
 reversión; esta página no los repite. La operación cotidiana de un despliegue en marcha
-está en [Cómo lo opera](/category/how-to).
+está en [Tareas de la Plataforma](/category/how-to).
 
 ## Véase también
 
-- [Cómo lo opera](/category/how-to) — las guías operativas cotidianas restantes
+- [Tareas de la Plataforma](/category/how-to) — las guías operativas cotidianas restantes
 - [Seguridad y confianza](/category/security) — el modelo de identidad y permisos en el que participan estos mecanismos
 - [Autoalojamiento](/category/self-hosting) — desplegar los aparatos contra los que se autentican estas credenciales

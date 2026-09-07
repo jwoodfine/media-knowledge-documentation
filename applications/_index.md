@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: applications
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -86,5 +86,5 @@ A family of owner-held ledger tools sharing one double-entry design: accounting,
 
 - [Platform Services](/services/) — the service layer that applications build on
 - [Operating Systems](/systems/) — the operating systems that host applications
-- [How It's Built](/architecture/) — the three-ring model and the customer-ownership principles
-- [Design and Brand](/design-system/) — the token and component vocabulary the application chrome inherits
+- [Architecture](/architecture/) — the three-ring model and the customer-ownership principles
+- [Design System](/design-system/) — the token and component vocabulary the application chrome inherits

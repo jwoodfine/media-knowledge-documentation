@@ -11,7 +11,7 @@ quality: complete
 short_description: "Cómo se protege la plataforma y cómo se verifican sus registros: identidad y permisos, verificación criptográfica, límites de aislamiento, cómo se maneja y se mantiene privada la información, y los controles de la cadena de suministro diseñados para mantener el código honesto."
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -61,7 +61,7 @@ Cómo un lector comprueba de forma independiente que un registro no ha sido alte
 
 Qué contiene un compromiso una vez que ocurre. Delgado en relación con el alcance propio de la
 categoría — véanse los artículos de [[ppn-tenant-vm-isolation|aislamiento de inquilinos]] y
-[[service-vm-tenant|VM de inquilino]] en [Dónde se ejecuta](/category/infrastructure) para el caso
+[[service-vm-tenant|VM de inquilino]] en [Infraestructura](/category/infrastructure) para el caso
 comercialmente relevante, que aún no está referenciado desde aquí.
 
 <!-- AUTO-GENERATED MEMBERSHIP: DO NOT EDIT BELOW — regenerate from index_group: isolation-boundaries -->
@@ -93,6 +93,6 @@ de cumplimiento.
 
 ## Véase también
 
-- [Cómo Está Construido](/architecture/) — cómo está construida la plataforma
+- [Arquitectura](/architecture/) — cómo está construida la plataforma
 - [Gobernanza y estándares](/governance/) — qué se decidió y por qué es conforme
-- [Dónde se ejecuta](/infrastructure/) — la infraestructura de almacenamiento y registro desplegada que protegen estos mecanismos
+- [Infraestructura](/infrastructure/) — la infraestructura de almacenamiento y registro desplegada que protegen estos mecanismos

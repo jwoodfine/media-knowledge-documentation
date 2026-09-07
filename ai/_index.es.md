@@ -1,6 +1,6 @@
 ---
 schema: foundry-doc-v1
-title: "Cómo se usa y se contiene la IA"
+title: "IA e Inferencia"
 slug: ai-index
 category: ai
 type: topic
@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: ai
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -23,7 +23,7 @@ Esta es la puerta de entrada a la afirmación arquitectónica más distintiva de
 <!-- START-HERE-HIGHLIGHT: el motor lee este bloque para la tarjeta "empezar aquí"
      (reutiliza el componente cluster-card--start-here existente). No añadir más de una. -->
 
-**"El núcleo funciona completamente sin ella"** es la afirmación central de esta categoría, y el artículo que la sustenta — [[substrate-without-inference-base-case]] — vive en [Componentes básicos](/category/substrate), no aquí. Léalo primero si está evaluando la afirmación de contención en sí misma; todo lo demás la asume.
+**"El núcleo funciona completamente sin ella"** es la afirmación central de esta categoría, y el artículo que la sustenta — [[substrate-without-inference-base-case]] — vive en [Conceptos Fundamentales](/category/substrate), no aquí. Léalo primero si está evaluando la afirmación de contención en sí misma; todo lo demás la asume.
 
 <!-- END-START-HERE-HIGHLIGHT -->
 
@@ -60,6 +60,6 @@ Cómo la plataforma convierte el uso en señal de entrenamiento — el mecanismo
 
 ## Véase también
 
-- [Cómo Está Construido](/architecture/) — la construcción de tres anillos que hace estructural este límite
-- [Componentes básicos](/substrate/) — conceptos de mecanismo relacionados con la IA, incluyendo el artículo de opcionalidad de IA mencionado arriba
+- [Arquitectura](/architecture/) — la construcción de tres anillos que hace estructural este límite
+- [Conceptos Fundamentales](/substrate/) — conceptos de mecanismo relacionados con la IA, incluyendo el artículo de opcionalidad de IA mencionado arriba
 - [Servicios de la plataforma](/services/) — las páginas por servicio, incluyendo el propio servicio de IA

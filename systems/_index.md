@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: systems
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -70,7 +70,7 @@ The public-facing OS that hosts the company's marketing surface, internal wiki, 
 
 ## See also
 
-- [How It's Built](/architecture/) — cross-cutting platform architecture and the three-ring model
+- [Architecture](/architecture/) — cross-cutting platform architecture and the three-ring model
 - [Platform Services](/services/) — the autonomous services that run within and across operating systems
-- [Where It Runs](/infrastructure/) — fleet deployment topology and cloud operational runtime
-- [Building Blocks](/substrate/) — the substrate disciplines and microkernel primitives the OS family inherits
+- [Infrastructure](/infrastructure/) — fleet deployment topology and cloud operational runtime
+- [Core Concepts](/substrate/) — the substrate disciplines and microkernel primitives the OS family inherits

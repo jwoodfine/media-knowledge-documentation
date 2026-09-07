@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: patterns
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -72,7 +72,7 @@ Patrones que se repiten en el cromo orientado al operador — el wiki, la superf
 
 ## Véase también
 
-- [Bloques de Construcción](/substrate/) — mecanismos fundamentales sobre los que se construyen los patrones
-- [Cómo Está Construido](/architecture/) — arquitectura concreta de la plataforma
+- [Conceptos Fundamentales](/substrate/) — mecanismos fundamentales sobre los que se construyen los patrones
+- [Arquitectura](/architecture/) — arquitectura concreta de la plataforma
 - [Aplicaciones](/applications/) — aplicaciones orientadas al operador que componen estos patrones
 - [Sistemas Operativos](/systems/) — los sistemas operativos en los que se realizan los patrones

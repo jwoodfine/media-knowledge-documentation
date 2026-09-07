@@ -11,7 +11,7 @@ quality: complete
 short_description: "El léxico y el material de consulta de la plataforma: orientación para un lector nuevo, términos de computación general definidos con claridad, el glosario completo y las normas a las que este wiki somete su propia escritura."
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -68,6 +68,6 @@ términos arquitectónicos se definen junto a su tema, no se enumeran aquí.
 
 ## Véase también
 
-- [Cómo está construido](/category/architecture) — donde los términos arquitectónicos se definen en contexto, no solo se enumeran
-- [Bloques de construcción](/category/substrate) — los mecanismos reutilizables que describe el vocabulario de este wiki
-- [Cómo lo opera](/category/how-to) — guías procedimentales que asumen este vocabulario
+- [Arquitectura](/category/architecture) — donde los términos arquitectónicos se definen en contexto, no solo se enumeran
+- [Conceptos Fundamentales](/category/substrate) — los mecanismos reutilizables que describe el vocabulario de este wiki
+- [Tareas de la Plataforma](/category/how-to) — guías procedimentales que asumen este vocabulario

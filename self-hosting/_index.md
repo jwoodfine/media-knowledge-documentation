@@ -11,7 +11,7 @@ quality: complete
 short_description: "Running the platform on your own infrastructure: booting the seL4 appliance images, deploying the wiki engine, and wiring up local inference."
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -41,10 +41,10 @@ paired_with: _index.es.md
 
 Each guide carries its own prerequisites, verification steps, and rollback procedure; this
 page doesn't repeat them. Day-to-day operation of a running deployment is in
-[How You Run It](/category/how-to).
+[Platform Tasks](/category/how-to).
 
 ## See also
 
-- [How You Run It](/category/how-to) — the remaining day-to-day operational guides
-- [Where It Runs](/category/infrastructure) — the architecture these guides deploy against
+- [Platform Tasks](/category/how-to) — the remaining day-to-day operational guides
+- [Infrastructure](/category/infrastructure) — the architecture these guides deploy against
 - [Security and Trust](/category/security) — the identity and permissions model self-hosted deployments participate in

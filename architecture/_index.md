@@ -1,6 +1,6 @@
 ---
 schema: foundry-doc-v1
-title: "How It's Built"
+title: "Architecture"
 slug: architecture-index
 category: architecture
 type: topic
@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: architecture
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -80,7 +80,7 @@ An additional planned article for the location-intelligence and BIM/real-propert
 
 ## See also
 
-- [Building Blocks](/substrate/) — foundational mechanism concepts: the compounding, apprenticeship, citation, and disclosure substrates
+- [Core Concepts](/substrate/) — foundational mechanism concepts: the compounding, apprenticeship, citation, and disclosure substrates
 - [Design Patterns](/patterns/) — named design patterns realised across the platform
 - [Governance and Standards](/governance/) — the formal decision records, licensing posture, and compliance requirements
-- [Where It Runs](/infrastructure/) — fleet deployment topology, cloud runtime, and physical infrastructure
+- [Infrastructure](/infrastructure/) — fleet deployment topology, cloud runtime, and physical infrastructure

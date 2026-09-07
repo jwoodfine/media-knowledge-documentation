@@ -1,6 +1,6 @@
 ---
 schema: foundry-doc-v1
-title: "Design and Brand"
+title: "Design System"
 slug: design-system-index
 category: design-system
 type: reference
@@ -13,7 +13,7 @@ status: active
 audience: public
 bcsc_class: public-disclosure-safe
 language_protocol: PROSE-TOPIC
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -85,6 +85,6 @@ The four foundation-layer token families: colour, typography, spacing, and motio
 
 ## See also
 
-- [Building Blocks](/substrate/) — the design-system substrate framing alongside the other foundational mechanism substrates
+- [Core Concepts](/substrate/) — the design-system substrate framing alongside the other foundational mechanism substrates
 - [Design Patterns](/patterns/) — named design patterns that the design system encodes at the interface layer
 - [Applications](/applications/) — operator-facing applications that consume the design system through the token and component layers

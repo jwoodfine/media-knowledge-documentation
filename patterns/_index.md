@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: patterns
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -72,7 +72,7 @@ Patterns that recur in the operator-facing chrome — the wiki, the location-int
 
 ## See also
 
-- [Building Blocks](/substrate/) — foundational mechanisms patterns build on
-- [How It's Built](/architecture/) — concrete platform architecture
+- [Core Concepts](/substrate/) — foundational mechanisms patterns build on
+- [Architecture](/architecture/) — concrete platform architecture
 - [Applications](/applications/) — operator-facing applications that compose these patterns
 - [Operating Systems](/systems/) — the operating systems on which the patterns are realised

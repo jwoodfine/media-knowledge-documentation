@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: services
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -86,5 +86,5 @@ Services built for specific platform capabilities.
 ## See also
 
 - [Operating Systems](/systems/) — the operating systems that services run within
-- [How It's Built](/architecture/) — the three-ring model and the invariants that govern ring interaction
-- [Where It Runs](/infrastructure/) — fleet deployment and the physical layer services run on
+- [Architecture](/architecture/) — the three-ring model and the invariants that govern ring interaction
+- [Infrastructure](/infrastructure/) — fleet deployment and the physical layer services run on

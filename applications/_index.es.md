@@ -12,7 +12,7 @@ index_type: thematic
 index_scope: applications
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -87,5 +87,5 @@ Una familia de herramientas de libro contable bajo control del propietario que c
 
 - [Servicios de la Plataforma](/services/) — la capa de servicios sobre la que construyen las aplicaciones
 - [Sistemas Operativos](/systems/) — los sistemas operativos que alojan las aplicaciones
-- [Cómo Está Construido](/architecture/) — el modelo de tres anillos y los principios de propiedad del cliente
-- [Diseño y Marca](/design-system/) — el vocabulario de tokens y componentes que hereda el cromo de las aplicaciones
+- [Arquitectura](/architecture/) — el modelo de tres anillos y los principios de propiedad del cliente
+- [Sistema de Diseño](/design-system/) — el vocabulario de tokens y componentes que hereda el cromo de las aplicaciones

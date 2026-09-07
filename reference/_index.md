@@ -11,7 +11,7 @@ quality: complete
 short_description: "The platform's lexicon and lookup material: orientation for a new reader, general computing terms defined plainly, the full glossary, and the standards this wiki holds its own writing to."
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -68,6 +68,6 @@ terms are defined with their subject, not listed here.
 
 ## See also
 
-- [How It's Built](/category/architecture) — where architectural terms are defined in context, not just listed
-- [Building Blocks](/category/substrate) — the reusable mechanisms this wiki's vocabulary describes
-- [How You Run It](/category/how-to) — procedural guides that assume this vocabulary
+- [Architecture](/category/architecture) — where architectural terms are defined in context, not just listed
+- [Core Concepts](/category/substrate) — the reusable mechanisms this wiki's vocabulary describes
+- [Platform Tasks](/category/how-to) — procedural guides that assume this vocabulary

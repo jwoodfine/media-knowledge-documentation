@@ -12,7 +12,7 @@ index_type: thematic
 index_scope: systems
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -71,7 +71,7 @@ El SO orientado al público que aloja la superficie de marketing de la empresa, 
 
 ## Véase también
 
-- [Cómo Está Construido](/architecture/) — arquitectura transversal de la plataforma y el modelo de tres anillos
+- [Arquitectura](/architecture/) — arquitectura transversal de la plataforma y el modelo de tres anillos
 - [Servicios de la Plataforma](/services/) — los servicios autónomos que se ejecutan dentro y a través de los sistemas operativos
-- [Dónde Se Ejecuta](/infrastructure/) — topología de despliegue de flota y entorno operativo en la nube
-- [Bloques de Construcción](/substrate/) — las disciplinas de sustrato y las primitivas del microkernel que hereda la familia de SO
+- [Infraestructura](/infrastructure/) — topología de despliegue de flota y entorno operativo en la nube
+- [Conceptos Fundamentales](/substrate/) — las disciplinas de sustrato y las primitivas del microkernel que hereda la familia de SO

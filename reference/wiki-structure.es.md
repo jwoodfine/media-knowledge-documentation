@@ -31,13 +31,13 @@ El nombre de cada área dice con claridad qué contiene.
 
 ## Qué es y cómo está construido
 
-- **Cómo está construido** — cómo se compone la plataforma: una
+- **Arquitectura** — cómo se compone la plataforma: una
   construcción en tres partes que separa lo que entra, el núcleo de
   registro documental y la IA opcional — y el principio que la sostiene:
   el cliente es dueño de su instancia en ejecución por completo, sobre
   su propio hardware. Empiece aquí para la visión de conjunto, incluido
   cómo el modelo de negocio se deriva de la arquitectura.
-- **Los componentes** — las piezas reutilizables con las que está
+- **Conceptos Fundamentales** — las piezas reutilizables con las que está
   construida la plataforma. Si un artículo en otra parte nombra un
   mecanismo que no reconoce, su definición vive aquí.
 - **Patrones de diseño** — las formas nombradas y repetibles que la
@@ -52,7 +52,7 @@ El nombre de cada área dice con claridad qué contiene.
   privados los datos, y los controles de cadena de suministro diseñados
   para mantener el código honesto desde quien contribuye hasta
   producción.
-- **Cómo se usa y se contiene la IA** — la decisión de diseño más
+- **IA e Inferencia** — la decisión de diseño más
   distintiva de la plataforma, dicha con claridad: el flujo de datos
   central se ejecuta enteramente sin IA, y donde se usa IA esta no puede
   escribir en el registro autorizado. Estos artículos explican el límite
@@ -68,13 +68,12 @@ El nombre de cada área dice con claridad qué contiene.
   activos, un artículo por servicio: qué hace y qué datos posee.
 - **Aplicaciones** — las aplicaciones que la gente realmente usa, desde
   los sitios públicos de conocimiento hasta las consolas internas.
-- **Dónde se ejecuta** — dónde vive físicamente todo: hardware del
+- **Infraestructura** — dónde vive físicamente todo: hardware del
   cliente, despliegue, almacenamiento, telemetría y la red de cómputo
   compartida que agrupa hardware entre distintos sitios.
-- **Diseño y marca** — cómo se ve y cómo habla la plataforma: filosofía
-  de diseño, vocabulario visual y superficies de marca. (El "sistema de
-  diseño", *design system*, se documenta aquí como componente de la
-  plataforma.)
+- **Sistema de Diseño** — cómo se ve y cómo habla la plataforma: filosofía
+  de diseño, vocabulario visual y superficies de marca, documentado aquí
+  como componente de la plataforma.
 
 ## Cómo se toman las decisiones
 
@@ -85,7 +84,7 @@ El nombre de cada área dice con claridad qué contiene.
 
 ## Trabajar con la plataforma
 
-- **Cómo se opera** — instrucciones paso a paso para el trabajo
+- **Tareas de la Plataforma** — instrucciones paso a paso para el trabajo
   práctico: instalar, configurar, desplegar, operar. Los clientes operan
   su propia instancia, así que están escritas para un lector frente al
   teclado.

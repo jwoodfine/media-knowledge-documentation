@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: governance
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -73,6 +73,6 @@ Start here for procurement, security, and compliance evaluation.
 ## See also
 
 - [Wiki home](/)
-- [How It's Built](/architecture/)
-- [Where It Runs](/infrastructure/)
+- [Architecture](/architecture/)
+- [Infrastructure](/infrastructure/)
 - [Reference](/reference/)

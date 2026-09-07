@@ -1,6 +1,6 @@
 ---
 schema: foundry-doc-v1
-title: "Bloques de Construcción"
+title: "Conceptos Fundamentales"
 slug: substrate-index
 category: substrate
 type: topic
@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: substrate
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
@@ -104,5 +104,5 @@ Los nueve sustratos nombrados: cada uno designa una propiedad estructural de la 
 
 ## Véase también
 
-- [Cómo Está Construido](/architecture/) — arquitectura transversal de la plataforma
+- [Arquitectura](/architecture/) — arquitectura transversal de la plataforma
 - [Patrones de Diseño](/patterns/) — patrones de diseño nombrados realizados sobre sustratos

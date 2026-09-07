@@ -27,7 +27,7 @@ companion: >-
 
 categories:
   - id: architecture
-    name: "How It's Built"
+    name: "Architecture"
     kind: topic
     scope: >-
       How the platform is put together: the three-ring build that keeps
@@ -38,7 +38,7 @@ categories:
     order: 1
 
   - id: substrate
-    name: "Building Blocks"
+    name: "Core Concepts"
     kind: topic
     scope: >-
       The reusable pieces the platform is built from — the concepts,
@@ -69,7 +69,7 @@ categories:
     order: 4
 
   - id: ai
-    name: "How AI Is Used and Contained"
+    name: "AI and Inference"
     kind: topic
     scope: >-
       Where AI sits and where it is not allowed: the boundary that keeps
@@ -108,7 +108,7 @@ categories:
     order: 8
 
   - id: infrastructure
-    name: "Where It Runs"
+    name: "Infrastructure"
     kind: topic
     scope: >-
       Where the platform physically runs: customer hardware, deployment,
@@ -118,7 +118,7 @@ categories:
     order: 9
 
   - id: design-system
-    name: "Design and Brand"
+    name: "Design System"
     kind: topic
     scope: >-
       How the platform looks and speaks: design philosophy, visual
@@ -139,7 +139,7 @@ categories:
     order: 11
 
   - id: how-to
-    name: "How You Run It"
+    name: "Platform Tasks"
     kind: guide
     scope: >-
       Step-by-step instructions for the hands-on work: installing,

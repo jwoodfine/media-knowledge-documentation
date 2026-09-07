@@ -1,6 +1,6 @@
 ---
 schema: foundry-doc-v1
-title: "Building Blocks"
+title: "Core Concepts"
 slug: substrate-index
 category: substrate
 type: topic
@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: substrate
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -114,5 +114,5 @@ Cross-cutting principles that apply across all substrate implementations.
 
 ## See also
 
-- [How It's Built](/architecture/) — cross-cutting platform architecture
+- [Architecture](/architecture/) — cross-cutting platform architecture
 - [Design Patterns](/patterns/) — named design patterns realised on top of substrates

@@ -1,6 +1,6 @@
 ---
 schema: foundry-doc-v1
-title: "Where It Runs"
+title: "Infrastructure"
 slug: infrastructure-index
 category: infrastructure
 type: topic
@@ -11,7 +11,7 @@ index_type: thematic
 index_scope: infrastructure
 status: active
 bcsc_class: public-disclosure-safe
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.es.md
 ---
@@ -76,7 +76,7 @@ How virtual machines are pooled, isolated, and secured across PPN nodes — from
 
 ## See also
 
-- [How It's Built](/architecture/) — cross-cutting platform architecture and the three-ring model
+- [Architecture](/architecture/) — cross-cutting platform architecture and the three-ring model
 - [Operating Systems](/systems/) — the operating systems that run on this infrastructure
 - [Platform Services](/services/) — the services that depend on the storage and network substrate
-- [Building Blocks](/substrate/) — the foundational mechanism concepts the infrastructure realises
+- [Core Concepts](/substrate/) — the foundational mechanism concepts the infrastructure realises

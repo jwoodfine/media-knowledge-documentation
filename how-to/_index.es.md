@@ -1,6 +1,6 @@
 ---
 schema: foundry-doc-v1
-title: "Cómo Lo Operas"
+title: "Tareas de la Plataforma"
 slug: how-to
 category: how-to
 type: topic
@@ -12,7 +12,7 @@ bcsc_class: public-disclosure-safe
 language_protocol: TRANSLATE-ES
 index_type: thematic
 index_scope: how-to
-last_edited: 2026-09-04
+last_edited: 2026-09-06
 editor: pointsav-engineering
 paired_with: _index.md
 ---
