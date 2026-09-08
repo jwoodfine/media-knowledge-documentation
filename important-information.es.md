@@ -30,8 +30,8 @@ PointSav, junto con todos los productos, servicios y ofertas actuales y futuros 
 PointSav y Totebox — así como el software, el código fuente, la documentación, el sistema de
 diseño y todos los materiales relacionados — son propiedad de Woodfine y sus filiales, salvo
 los componentes identificados como de código abierto. No se otorga ningún derecho salvo el
-expresamente establecido en una licencia o acuerdo por escrito. Consulte `TRADEMARK.md` en
-este repositorio para conocer el aviso de marcas completo.
+expresamente establecido en una licencia o acuerdo por escrito. El aviso de marcas completo
+aparece en el pie de página de cada página de este sitio.
 
 **Componentes de código abierto.** Algunas partes de la plataforma se ofrecen bajo licencias
 de código abierto permisivas identificadas en el repositorio correspondiente. El uso de esos

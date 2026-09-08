@@ -27,8 +27,8 @@ solicitation to invest in any Woodfine partnership or direct-hold solution.
 all current and future PointSav- and Totebox-branded products, services, and offerings — and
 the software, source code, documentation, design system, and all related materials — are
 proprietary to Woodfine and its affiliates, except for components identified as open source.
-No rights are granted except as expressly set out in a written license or agreement. See
-`TRADEMARK.md` in this repository for the full trademark notice.
+No rights are granted except as expressly set out in a written license or agreement. The
+full trademark notice appears in the footer of every page on this site.
 
 **Open source components.** Portions of the platform are made available under permissive
 open-source licenses identified in the accompanying repository. Use of those components is
